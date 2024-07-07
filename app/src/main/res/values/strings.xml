@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Periodontal Chart</string>
+    <string name="periodontal_chart">Пародонтальная карта</string>
+    <string name="data">Дата</string>
+    <string name="familia">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="otchestvo">Отчество</string>
+    <string name="birth_data">Дата рождения</string>
+    <string name="first_see">Первичный осмотр</string>
+    <string name="control_see">Контрольное обследование</string>
+    <string name="doctor">Врач</string>
+    <string name="_18">18</string>
+    <string name="_17">17</string>
+    <string name="_16">16</string>
+    <string name="_15">15</string>
+    <string name="_14">14</string>
+    <string name="_13">13</string>
+    <string name="_12">12</string>
+    <string name="_11">11</string>
+    <string name="_0">0</string>
+    <string name="pupe">Пульпит/Периодонтит</string>
+    <string name="plomb">Промба</string>
+    <string name="kar">Кариес</string>
+    <string name="_5">5</string>
+    <string name="_2">2</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="desn_krai">Десневой край</string>
+    <string name="zonding">Глубина зондирования</string>
+    <string name="vestibul">Вестибулярно</string>
+</resources>
