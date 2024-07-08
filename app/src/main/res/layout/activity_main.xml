@@ -380,39 +380,53 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/podv18"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv18"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content">
-                                <EditText
-                                    android:id="@+id/podv17"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv17"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
@@ -420,39 +434,53 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/podv16"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv16"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content">
-                                <EditText
-                                    android:id="@+id/podv15"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv15"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
@@ -460,39 +488,53 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/podv14"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:padding="0dp"
-                                    android:layout_gravity="center"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv14"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content">
-                                <EditText
-                                    android:id="@+id/podv13"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv13"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
@@ -500,39 +542,53 @@
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/podv12"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:padding="0dp"
-                                    android:layout_gravity="center"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv12"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                             <FrameLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content">
-                                <EditText
-                                    android:id="@+id/podv11"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="40dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:layout_margin="2dp"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/podv11"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </FrameLayout>
 
                         </TableRow>
@@ -1875,7 +1931,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textSize="11sp"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="15dp"
                                         android:padding="0dp"
                                         android:text="@string/_3"
@@ -1889,7 +1945,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textSize="11sp"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="15dp"
                                         android:padding="0dp"
                                         android:text="@string/_3"
@@ -1908,11 +1964,11 @@
 
                                     <Button
                                         android:id="@+id/kar12_41"
-                                        android:layout_width="24dp"
+                                        android:layout_width="15dp"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="2dp"
                                         android:backgroundTint="#DCDCDC"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="20dp"
                                         android:padding="0dp"
                                         android:text="@string/_4"
@@ -1925,7 +1981,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textSize="11sp"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="20dp"
                                         android:padding="0dp"
                                         android:text="@string/_4"
@@ -1947,7 +2003,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textSize="11sp"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="20dp"
                                         android:padding="0dp"
                                         android:text="@string/_5"
@@ -1961,7 +2017,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:textSize="11sp"
-                                        android:minWidth="20dp"
+                                        android:minWidth="15dp"
                                         android:minHeight="20dp"
                                         android:padding="0dp"
                                         android:text="@string/_6"
@@ -2512,8 +2568,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="5dp"
+                                    android:minWidth="10dp"
+                                    android:minHeight="15dp"
                                     android:padding="0dp"
                                     android:textColor="@color/black"
                                     android:backgroundTint="#DCDCDC"
@@ -3688,391 +3744,577 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/desn18_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn18_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn18_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn18_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn18_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
+                                    android:layout_margin="2dp">
 
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-
-                                <EditText
-                                    android:id="@+id/desn17_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/desn17_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/desn17_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn18_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
-                                android:background="@drawable/border">
+                                android:gravity="center">
 
-                                <EditText
-                                    android:id="@+id/desn16_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn16_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn17_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn16_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn17_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn17_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/desn15_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn15_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn16_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn15_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn16_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn16_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
-                                android:background="@drawable/border">
+                                android:gravity="center">
 
-                                <EditText
-                                    android:id="@+id/desn14_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn14_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn15_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn14_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn15_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn15_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/desn13_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn13_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn14_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn13_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn14_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn14_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
-                                android:background="@drawable/border">
+                                android:gravity="center">
 
-                                <EditText
-                                    android:id="@+id/desn12_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn12_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn13_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn12_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn13_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn13_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/desn11_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/desn11_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn12_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/desn11_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn12_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn12_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn11_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn11_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/desn11_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                         </TableRow>
@@ -4093,49 +4335,433 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/zond18_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
 
-                                <EditText
-                                    android:id="@+id/zond18_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond18_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/zond18_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="5dp"
-                                    android:minHeight="15dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond18_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond18_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond17_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond17_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond17_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:background="@drawable/border">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond16_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond16_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_margin="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond16_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond15_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond15_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond15_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:background="@drawable/border">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond14_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond14_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond14_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond13_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond13_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond13_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
                             <LinearLayout
@@ -4144,349 +4770,149 @@
                                 android:orientation="horizontal"
                                 android:background="@drawable/border">
 
-                                <EditText
-                                    android:id="@+id/zond17_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                android:layout_width="15dp"
+                                android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                android:ems="10"
+                                android:inputType="number"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/zond17_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond17_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
-
-                                <EditText
-                                    android:id="@+id/zond16_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond16_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond16_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
-
-                                <EditText
-                                    android:id="@+id/zond15_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond15_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond15_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
-
-                                <EditText
-                                    android:id="@+id/zond14_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond14_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond14_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
-
-                                <EditText
-                                    android:id="@+id/zond13_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond13_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-
-                                <EditText
-                                    android:id="@+id/zond13_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
-
-                                <EditText
+                                <com.google.android.material.textfield.TextInputEditText
                                     android:id="@+id/zond12_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
                                     android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                    android:hint="@string/_0"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:padding="0dp"
+                                    android:minWidth="15dp"
+                                    android:maxLength="2" />
+                            </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/zond12_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
 
-                                <EditText
-                                    android:id="@+id/zond12_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond12_2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                                    android:layout_width="15dp"
+                                    android:layout_height="25dp"
+                                    android:hint="@string/_0"
+                                    android:ems="10"
                                     android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/zond12_3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textSize="11sp"
+                                        android:hint="@string/_0"
+                                        android:inputType="number"
+                                        android:padding="0dp"
+                                        android:minWidth="15dp"
+                                        android:maxLength="2" />
+                                </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/border">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
 
-                                <EditText
-                                    android:id="@+id/zond11_1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                            android:layout_width="15dp"
+                            android:layout_height="25dp"
+                            android:hint="@string/_0"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:layout_margin="2dp">
 
-                                <EditText
-                                    android:id="@+id/zond11_2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/zond11_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="11sp"
+                                android:hint="@string/_0"
+                                android:inputType="number"
+                                android:padding="0dp"
+                                android:minWidth="15dp"
+                                android:maxLength="2" />
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                                <EditText
-                                    android:id="@+id/zond11_3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="11sp"
-                                    android:minWidth="10dp"
-                                    android:minHeight="30dp"
-                                    android:layout_gravity="center"
-                                    android:padding="0dp"
-                                    android:textColor="@color/black"
-                                    android:inputType="number"
-                                    android:gravity="center"
-                                    android:hint="@string/_0"/>
-                            </LinearLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                            android:layout_width="15dp"
+                            android:layout_height="25dp"
+                            android:hint="@string/_0"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:layout_margin="2dp">
 
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/zond11_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="11sp"
+                                android:hint="@string/_0"
+                                android:inputType="number"
+                                android:padding="0dp"
+                                android:minWidth="15dp"
+                                android:maxLength="2" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                            android:layout_width="15dp"
+                            android:layout_height="25dp"
+                            android:hint="@string/_0"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:layout_margin="2dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/zond11_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="11sp"
+                                android:hint="@string/_0"
+                                android:inputType="number"
+                                android:padding="0dp"
+                                android:minWidth="15dp"
+                                android:maxLength="2" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
                         </TableRow>
 
                         <TableRow
                             android:id="@+id/thirteenthRow"
                             android:layout_width="fill_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -4497,60 +4923,41 @@
 
                             <ImageView
                                 android:id="@+id/t18"
-                                android:layout_width="60dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t18" />
 
                             <ImageView
                                 android:id="@+id/t17"
-                                android:layout_width="40dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t17" />
 
                             <ImageView
                                 android:id="@+id/t16"
-                                android:layout_width="40dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t16" />
 
                             <ImageView
                                 android:id="@+id/t15"
-                                android:layout_width="50dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t15" />
 
                             <ImageView
                                 android:id="@+id/t14"
-                                android:minWidth="40dp"
-                                android:layout_width="40dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t14" />
 
                             <ImageView
                                 android:id="@+id/t13"
-                                android:minWidth="40dp"
-                                android:layout_width="20dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t13" />
 
                             <ImageView
                                 android:id="@+id/t12"
-                                android:layout_width="40dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t12" />
 
                             <ImageView
                                 android:id="@+id/t11"
-                                android:minWidth="40dp"
-                                android:layout_width="40dp"
-                                android:layout_height="190dp"
                                 android:padding="0dp"
                                 app:srcCompat="@drawable/t11" />
 
