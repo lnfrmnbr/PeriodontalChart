@@ -1,6 +1,5 @@
 package com.example.periodontalchart
 
-import android.R.attr.entries
 import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -10,10 +9,64 @@ import androidx.core.view.WindowInsetsCompat
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
-import java.util.Map.entry
-
 
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        var zondChart1 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.8f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4f, 0f),
+            Entry(5f, 0f),
+            Entry(6f, 0f),
+            Entry(6.4f, 0f),
+            Entry(6.9f, 0f),
+            Entry(7.4f, 0f),
+            Entry(7.9f, 0f),
+            Entry(8.35f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.4f, 0f),
+            Entry(9.9f, 0f),
+            Entry(10.4f, 0f),
+            Entry(11f, 0f),
+            Entry(11.5f, 0f),
+            Entry(12f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var desnChart1 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.8f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4f, 0f),
+            Entry(5f, 0f),
+            Entry(6f, 0f),
+            Entry(6.4f, 0f),
+            Entry(6.9f, 0f),
+            Entry(7.4f, 0f),
+            Entry(7.9f, 0f),
+            Entry(8.35f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.4f, 0f),
+            Entry(9.9f, 0f),
+            Entry(10.4f, 0f),
+            Entry(11f, 0f),
+            Entry(11.5f, 0f),
+            Entry(12f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.7f, 0f)
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,31 +78,56 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        generateChart1()
+    }
+
+    private fun generateChart1(){
         val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
 
-
-
-        val zondChart1: ArrayList<Entry> = ArrayList()
-        zondChart1.add(Entry(1f, 0f))
-        zondChart1.add(Entry(2f, 1f))
-        zondChart1.add(Entry(13f, 2.5f))
-        zondChart1.add(Entry(14f, 4f))
-
-        val desnChart1: ArrayList<Entry> = ArrayList()
-        desnChart1.add(Entry(1f, 5f))
-        desnChart1.add(Entry(2f, 3f))
-        desnChart1.add(Entry(13f, 0f))
-        desnChart1.add(Entry(14f, 1f))
-
-        val lineDataSet = LineDataSet(zondChart1, "")
+        val zondDataSet = LineDataSet(zondChart1, "")
         val desnDataSet = LineDataSet(desnChart1, "")
 
-        lineDataSet.lineWidth = 2f
-        lineDataSet.setColor(Color.RED)
+        zondDataSet.lineWidth = 2f
+        desnDataSet.lineWidth = 2f
+        //zondDataSet.setDrawCircles(false)
+        //desnDataSet.setDrawCircles(false)
+        zondDataSet.setColor(Color.RED)
         desnDataSet.setColor(Color.BLUE)
+        desnDataSet.setDrawValues(false)
+        zondDataSet.setDrawValues(false)
+        zondDataSet.setCircleColor(Color.RED)
+        desnDataSet.setCircleColor(Color.BLUE)
 
-        val lineData = LineData(lineDataSet, desnDataSet)
-
+        val lineData = LineData(zondDataSet, desnDataSet)
         chart1.data = lineData
+
+        chart1.axisRight.setAxisMinimum(-9f)
+        chart1.axisRight.setAxisMaximum(17f)
+        chart1.axisLeft.setAxisMinimum(-9f)
+        chart1.axisLeft.setAxisMaximum(17f)
+        chart1.xAxis.setAxisMinValue(0f)
+        chart1.xAxis.setAxisMaxValue(14f)
+        chart1.setTouchEnabled(true)
+        chart1.setClickable(false)
+        chart1.setDoubleTapToZoomEnabled(false)
+        chart1.setDoubleTapToZoomEnabled(false)
+
+        chart1.setDrawBorders(false)
+        chart1.setDrawGridBackground(false)
+
+        chart1.getDescription().setEnabled(false)
+        chart1.getLegend().setEnabled(false)
+
+        chart1.getAxisLeft().setDrawLabels(false)
+        chart1.getAxisLeft().setLabelCount(25)
+
+
+        chart1.getXAxis().setDrawGridLines(false)
+        chart1.getXAxis().setDrawLabels(false)
+        chart1.getXAxis().setDrawAxisLine(false)
+
+        chart1.getAxisRight().setDrawGridLines(false)
+        chart1.getAxisRight().setDrawLabels(false)
+        chart1.getAxisRight().setDrawAxisLine(false)
     }
 }
