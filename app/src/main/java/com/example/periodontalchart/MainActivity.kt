@@ -95,10 +95,10 @@ class MainActivity : AppCompatActivity() {
         desnDataSet.setColor(Color.BLUE)
         desnDataSet.setDrawValues(false)
         zondDataSet.setDrawValues(false)
-        zondDataSet.setCircleColor(Color.RED)
         desnDataSet.setCircleColor(Color.BLUE)
+        zondDataSet.setCircleColor(Color.RED)
 
-        val lineData = LineData(zondDataSet, desnDataSet)
+        val lineData = LineData(desnDataSet, zondDataSet)
         chart1.data = lineData
 
         chart1.axisRight.setAxisMinimum(-9f)
