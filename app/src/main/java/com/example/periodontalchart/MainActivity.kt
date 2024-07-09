@@ -120,6 +120,59 @@ class MainActivity : AppCompatActivity() {
             Entry(13.1f, 0f),
             Entry(13.7f, 0f)
         )
+
+        var zondChart3 = mutableListOf(
+            Entry(0.2f, 0f),
+            Entry(0.85f, 0f),
+            Entry(1.5f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.75f, 0f),
+            Entry(3.4f, 0f),
+            Entry(4f, 0f),
+            Entry(4.8f, 0f),
+            Entry(5.6f, 0f),
+            Entry(6.4f, 0f),
+            Entry(6.9f, 0f),
+            Entry(7.4f, 0f),
+            Entry(8f, 0f),
+            Entry(8.4f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.5f, 0f),
+            Entry(10f, 0f),
+            Entry(10.5f, 0f),
+            Entry(11f, 0f),
+            Entry(11.45f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.6f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.6f, 0f)
+        )
+        var desnChart3 = mutableListOf(
+            Entry(0.2f, 0f),
+            Entry(0.85f, 0f),
+            Entry(1.5f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.75f, 0f),
+            Entry(3.4f, 0f),
+            Entry(4f, 0f),
+            Entry(4.8f, 0f),
+            Entry(5.6f, 0f),
+            Entry(6.4f, 0f),
+            Entry(6.9f, 0f),
+            Entry(7.4f, 0f),
+            Entry(8f, 0f),
+            Entry(8.4f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.5f, 0f),
+            Entry(10f, 0f),
+            Entry(10.5f, 0f),
+            Entry(11f, 0f),
+            Entry(11.45f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.6f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.6f, 0f)
+        )
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -134,15 +187,19 @@ class MainActivity : AppCompatActivity() {
 
         val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
         val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
+        val chart3 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart3)
+        val chart4 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart4)
 
 
 
-        generateChart(chart1, zondChart1, desnChart1)
-        generateChart(chart2, zondChart2, desnChart2)
+        generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+        generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
+        generateChart(chart3, zondChart3, desnChart3,9f, -16f)
+        generateChart(chart4, zondChart2, desnChart2,9f, -16f)
 
     }
 
-    private fun generateChart(chart: com.github.mikephil.charting.charts.LineChart, zondChart: MutableList<Entry>, desnChart: MutableList<Entry>){
+    private fun generateChart(chart: com.github.mikephil.charting.charts.LineChart, zondChart: MutableList<Entry>, desnChart: MutableList<Entry>, max: Float, min: Float){
         val zondDataSet = LineDataSet(zondChart, "")
         val desnDataSet = LineDataSet(desnChart, "")
         zondDataSet.lineWidth = 2f
@@ -158,10 +215,10 @@ class MainActivity : AppCompatActivity() {
 
         val lineData = LineData(desnDataSet, zondDataSet)
         chart.data = lineData
-        chart.axisRight.setAxisMinimum(-9f)
-        chart.axisRight.setAxisMaximum(17f)
-        chart.axisLeft.setAxisMinimum(-9f)
-        chart.axisLeft.setAxisMaximum(17f)
+        chart.axisRight.setAxisMinimum(min)
+        chart.axisRight.setAxisMaximum(max)
+        chart.axisLeft.setAxisMinimum(min)
+        chart.axisLeft.setAxisMaximum(max)
         chart.xAxis.setAxisMinValue(0f)
         chart.xAxis.setAxisMaxValue(14f)
         chart.setTouchEnabled(true)
@@ -176,7 +233,7 @@ class MainActivity : AppCompatActivity() {
         chart.getLegend().setEnabled(false)
 
         chart.getAxisLeft().setDrawLabels(false)
-        chart.getAxisLeft().setLabelCount(25)
+        chart.getAxisLeft().setLabelCount((max-min).toInt())
         chart.getXAxis().setDrawGridLines(false)
         chart.getXAxis().setDrawLabels(false)
         chart.getXAxis().setDrawAxisLine(false)

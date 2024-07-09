@@ -8950,7 +8950,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -16168,6 +16167,30 @@
 
                         </TableLayout>
                     </LinearLayout>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart3"
+                        android:layout_width="497dp"
+                        android:layout_height="222dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="184dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="579dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart4"
+                        android:layout_width="497dp"
+                        android:layout_height="222dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="737dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="25dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
 
                 </RelativeLayout>
 
