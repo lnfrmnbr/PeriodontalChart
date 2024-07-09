@@ -8938,6 +8938,18 @@
                         android:layout_marginEnd="570dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart2"
+                        android:layout_width="497dp"
+                        android:layout_height="232dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="730dp"
+                        android:layout_marginTop="435dp"
+                        android:layout_marginEnd="27dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
                 </RelativeLayout>
             </LinearLayout>
 

@@ -66,6 +66,60 @@ class MainActivity : AppCompatActivity() {
             Entry(13.1f, 0f),
             Entry(13.7f, 0f)
         )
+
+        var zondChart2 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2f, 0f),
+            Entry(2.5f, 0f),
+            Entry(3f, 0f),
+            Entry(3.6f, 0f),
+            Entry(4.1f, 0f),
+            Entry(4.6f, 0f),
+            Entry(5.2f, 0f),
+            Entry(5.65f, 0f),
+            Entry(6.1f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.1f, 0f),
+            Entry(7.6f, 0f),
+            Entry(8.2f, 0f),
+            Entry(9.1f, 0f),
+            Entry(10f, 0f),
+            Entry(10.5f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var desnChart2 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2f, 0f),
+            Entry(2.5f, 0f),
+            Entry(3f, 0f),
+            Entry(3.6f, 0f),
+            Entry(4.1f, 0f),
+            Entry(4.6f, 0f),
+            Entry(5.2f, 0f),
+            Entry(5.65f, 0f),
+            Entry(6.1f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.1f, 0f),
+            Entry(7.6f, 0f),
+            Entry(8.2f, 0f),
+            Entry(9.1f, 0f),
+            Entry(10f, 0f),
+            Entry(10.5f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.7f, 0f)
+        )
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,15 +132,19 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        generateChart1()
+        val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
+        val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
+
+
+
+        generateChart(chart1, zondChart1, desnChart1)
+        generateChart(chart2, zondChart2, desnChart2)
+
     }
 
-    private fun generateChart1(){
-        val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
-
-        val zondDataSet = LineDataSet(zondChart1, "")
-        val desnDataSet = LineDataSet(desnChart1, "")
-
+    private fun generateChart(chart: com.github.mikephil.charting.charts.LineChart, zondChart: MutableList<Entry>, desnChart: MutableList<Entry>){
+        val zondDataSet = LineDataSet(zondChart, "")
+        val desnDataSet = LineDataSet(desnChart, "")
         zondDataSet.lineWidth = 2f
         desnDataSet.lineWidth = 2f
         //zondDataSet.setDrawCircles(false)
@@ -99,35 +157,32 @@ class MainActivity : AppCompatActivity() {
         zondDataSet.setCircleColor(Color.RED)
 
         val lineData = LineData(desnDataSet, zondDataSet)
-        chart1.data = lineData
+        chart.data = lineData
+        chart.axisRight.setAxisMinimum(-9f)
+        chart.axisRight.setAxisMaximum(17f)
+        chart.axisLeft.setAxisMinimum(-9f)
+        chart.axisLeft.setAxisMaximum(17f)
+        chart.xAxis.setAxisMinValue(0f)
+        chart.xAxis.setAxisMaxValue(14f)
+        chart.setTouchEnabled(true)
+        chart.setClickable(false)
+        chart.setDoubleTapToZoomEnabled(false)
+        chart.setDoubleTapToZoomEnabled(false)
 
-        chart1.axisRight.setAxisMinimum(-9f)
-        chart1.axisRight.setAxisMaximum(17f)
-        chart1.axisLeft.setAxisMinimum(-9f)
-        chart1.axisLeft.setAxisMaximum(17f)
-        chart1.xAxis.setAxisMinValue(0f)
-        chart1.xAxis.setAxisMaxValue(14f)
-        chart1.setTouchEnabled(true)
-        chart1.setClickable(false)
-        chart1.setDoubleTapToZoomEnabled(false)
-        chart1.setDoubleTapToZoomEnabled(false)
+        chart.setDrawBorders(false)
+        chart.setDrawGridBackground(false)
 
-        chart1.setDrawBorders(false)
-        chart1.setDrawGridBackground(false)
+        chart.getDescription().setEnabled(false)
+        chart.getLegend().setEnabled(false)
 
-        chart1.getDescription().setEnabled(false)
-        chart1.getLegend().setEnabled(false)
+        chart.getAxisLeft().setDrawLabels(false)
+        chart.getAxisLeft().setLabelCount(25)
+        chart.getXAxis().setDrawGridLines(false)
+        chart.getXAxis().setDrawLabels(false)
+        chart.getXAxis().setDrawAxisLine(false)
 
-        chart1.getAxisLeft().setDrawLabels(false)
-        chart1.getAxisLeft().setLabelCount(25)
-
-
-        chart1.getXAxis().setDrawGridLines(false)
-        chart1.getXAxis().setDrawLabels(false)
-        chart1.getXAxis().setDrawAxisLine(false)
-
-        chart1.getAxisRight().setDrawGridLines(false)
-        chart1.getAxisRight().setDrawLabels(false)
-        chart1.getAxisRight().setDrawAxisLine(false)
+        chart.getAxisRight().setDrawGridLines(false)
+        chart.getAxisRight().setDrawLabels(false)
+        chart.getAxisRight().setDrawAxisLine(false)
     }
 }
