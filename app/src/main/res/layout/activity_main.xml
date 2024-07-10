@@ -178,31 +178,21 @@
                 </LinearLayout>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:padding="10dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     android:gravity="center">
 
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:stretchColumns="10"
-                        android:layout_marginEnd="50dp"
-                        android:layout_marginStart="30dp">
+                        android:padding="20dp">
 
                         <TableRow
                             android:background="@drawable/border"
@@ -4604,14 +4594,10 @@
                     </TableLayout>
 
                     <TableLayout
-                        android:id="@+id/tableLayoutId"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        android:stretchColumns="10">
+                        android:stretchColumns="10"
+                        android:padding="20dp">
 
                         <TableRow
                             android:id="@+id/firstRow"
@@ -8921,54 +8907,38 @@
 
                     <com.github.mikephil.charting.charts.LineChart
                         android:id="@+id/chart1"
-                        android:layout_width="497dp"
+                        android:layout_width="525dp"
                         android:layout_height="232dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="186dp"
-                        android:layout_marginTop="435dp"
-                        android:layout_marginEnd="570dp">
+                        android:layout_marginStart="215dp"
+                        android:layout_marginTop="447dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
 
                     <com.github.mikephil.charting.charts.LineChart
                         android:id="@+id/chart2"
-                        android:layout_width="497dp"
+                        android:layout_width="525dp"
                         android:layout_height="232dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="730dp"
-                        android:layout_marginTop="435dp"
-                        android:layout_marginEnd="27dp">
+                        android:layout_marginStart="750dp"
+                        android:layout_marginTop="447dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:padding="10dp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:gravity="center">
 
                         <TableLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintBottom_toBottomOf="parent"
                             android:stretchColumns="10"
-                            android:layout_marginEnd="35dp"
-                            android:layout_marginStart="30dp">
+                            android:padding="20dp">
 
                             <TableRow
                                 android:layout_width="fill_parent"
@@ -12595,13 +12565,8 @@
                         <TableLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintBottom_toBottomOf="parent"
                             android:stretchColumns="10"
-                            android:layout_marginEnd="20dp"
-                            android:layout_marginStart="30dp">
+                            android:padding="20dp">
 
                             <TableRow
                                 android:layout_width="fill_parent"
@@ -16168,56 +16133,40 @@
 
                     <com.github.mikephil.charting.charts.LineChart
                         android:id="@+id/chart3"
-                        android:layout_width="497dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="523dp"
                         android:layout_height="222dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="184dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_marginEnd="579dp">
+                        android:layout_marginStart="220dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
 
                     <com.github.mikephil.charting.charts.LineChart
                         android:id="@+id/chart4"
-                        android:layout_width="497dp"
+                        android:layout_width="523dp"
                         android:layout_height="222dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="737dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_marginEnd="25dp">
+                        android:layout_marginStart="750dp"
+                        android:layout_marginTop="10dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
 
                 </RelativeLayout>
 
             <RelativeLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height= "wrap_content">
 
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:padding="10dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     android:gravity="center">
 
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:stretchColumns="10"
-                        android:layout_marginEnd="60dp"
-                        android:layout_marginStart="30dp">
+                        android:padding="20dp">
 
                         <TableRow
                             android:background="@drawable/border"
@@ -19771,12 +19720,8 @@
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:stretchColumns="10"
-                        android:layout_marginEnd="0dp">
+                        android:padding="20dp">
                         <TableRow
                             android:background="@drawable/border"
                             android:layout_width="fill_parent"
@@ -23302,30 +23247,20 @@
             </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:padding="10dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     android:gravity="center">
 
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:stretchColumns="10"
-                        android:layout_marginEnd="35dp"
-                        android:layout_marginStart="30dp">
+                        android:padding="20dp">
 
                         <TableRow
                             android:layout_width="fill_parent"
@@ -27545,13 +27480,8 @@
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         android:stretchColumns="10"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginStart="30dp">
+                        android:padding="20dp">
 
                         <TableRow
                             android:layout_width="fill_parent"
