@@ -189,6 +189,8 @@ class MainActivity : AppCompatActivity() {
         val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
         val chart3 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart3)
         val chart4 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart4)
+        val chart5 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart5)
+        val chart6 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart6)
 
 
 
@@ -196,6 +198,9 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
         generateChart(chart3, zondChart3, desnChart3,9f, -16f)
         generateChart(chart4, zondChart2, desnChart2,9f, -16f)
+        generateChart(chart5, zondChart1, desnChart1, 17f, -9f)
+        generateChart(chart6, zondChart2, desnChart2, 17f, -9f)
+
 
     }
 
