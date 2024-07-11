@@ -183,6 +183,7 @@ class MainActivity : AppCompatActivity() {
         const val krColor = "#CD5C5C"
         const val otlColor = "#FFD700"
         const val implantColor = "#595B5D"
+        const val pupeColor = "#FF0000"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -198,6 +199,7 @@ class MainActivity : AppCompatActivity() {
         settingsForKr()
         settingsForOtl()
         settingsForImplants()
+        settingsForPupes()
 
         val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
         val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
@@ -212,8 +214,6 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart4, zondChart2, desnChart2,9f, -16f)
         generateChart(chart5, zondChart1, desnChart1, 17f, -9f)
         generateChart(chart6, zondChart2, desnChart2, 17f, -9f)
-
-
     }
 
     private fun changeColorButton(button: Button, color0: String, color1: String){
@@ -283,6 +283,57 @@ class MainActivity : AppCompatActivity() {
                 }
                 else{
                     implant.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    t.setImageResource(tsDrawable[i])
+                    t2.setImageResource(t2sDrawable[i])
+                }
+            }
+        }
+    }
+
+    private fun settingsForPupes(){
+        val pupesId = intArrayOf(R.id.pupe18, R.id.pupe17,R.id.pupe16,R.id.pupe15,R.id.pupe14,R.id.pupe13,R.id.pupe12,R.id.pupe11,R.id.pupe28,R.id.pupe27,R.id.pupe26,R.id.pupe25,
+            R.id.pupe24,R.id.pupe23,R.id.pupe22,R.id.pupe21,R.id.pupe38,R.id.pupe37,R.id.pupe36,R.id.pupe35,R.id.pupe34,R.id.pupe33,R.id.pupe32,R.id.pupe31,R.id.pupe48,R.id.pupe47,
+            R.id.pupe46,R.id.pupe45,R.id.pupe44,R.id.pupe43,R.id.pupe42,R.id.pupe41)
+
+        val tsId = intArrayOf(R.id.t18, R.id.t17,R.id.t16,R.id.t15,R.id.t14,R.id.t13,R.id.t12,R.id.t11,R.id.t28,R.id.t27,R.id.t26,R.id.t25,
+            R.id.t24,R.id.t23,R.id.t22,R.id.t21,R.id.t38,R.id.t37,R.id.t36,R.id.t35,R.id.t34,R.id.t33,R.id.t32,R.id.t31,R.id.t48,R.id.t47,
+            R.id.t46,R.id.t45,R.id.t44,R.id.t43,R.id.t42,R.id.t41)
+
+        val t2sId = intArrayOf(R.id.t182, R.id.t172,R.id.t162,R.id.t152,R.id.t142,R.id.t132,R.id.t122,R.id.t112,R.id.t282,R.id.t272,R.id.t262,R.id.t252,
+            R.id.t242,R.id.t232,R.id.t222,R.id.t212,R.id.t382,R.id.t372,R.id.t362,R.id.t352,R.id.t342,R.id.t332,R.id.t322,R.id.t312,R.id.t482,R.id.t472,
+            R.id.t462,R.id.t452,R.id.t442,R.id.t432,R.id.t422,R.id.t412)
+
+        val tsDrawable = intArrayOf(R.drawable.t18, R.drawable.t17,R.drawable.t16,R.drawable.t15,R.drawable.t14,R.drawable.t13,R.drawable.t12,R.drawable.t11,R.drawable.t28,R.drawable.t27,R.drawable.t26,R.drawable.t25,
+            R.drawable.t24,R.drawable.t23,R.drawable.t22,R.drawable.t21,R.drawable.t38,R.drawable.t37,R.drawable.t36,R.drawable.t35,R.drawable.t34,R.drawable.t33,R.drawable.t32,R.drawable.t31,R.drawable.t48,R.drawable.t47,
+            R.drawable.t46,R.drawable.t45,R.drawable.t44,R.drawable.t43,R.drawable.t42,R.drawable.t41)
+
+        val t2sDrawable = intArrayOf(R.drawable.t182, R.drawable.t172,R.drawable.t162,R.drawable.t152,R.drawable.t142,R.drawable.t132,R.drawable.t122,R.drawable.t112,R.drawable.t282,R.drawable.t272,R.drawable.t262,R.drawable.t252,
+            R.drawable.t242,R.drawable.t232,R.drawable.t222,R.drawable.t212,R.drawable.t382,R.drawable.t372,R.drawable.t362,R.drawable.t352,R.drawable.t342,R.drawable.t332,R.drawable.t322,R.drawable.t312,R.drawable.t482,R.drawable.t472,
+            R.drawable.t462,R.drawable.t452,R.drawable.t442,R.drawable.t432,R.drawable.t422,R.drawable.t412)
+
+        val trDrawable = intArrayOf(R.drawable.t18r, R.drawable.t17r,R.drawable.t16r,R.drawable.t15r,R.drawable.t14r,R.drawable.t13r,R.drawable.t12r,R.drawable.t11r,R.drawable.t28r,R.drawable.t27r,R.drawable.t26r,R.drawable.t25r,
+            R.drawable.t24r,R.drawable.t23r,R.drawable.t22r,R.drawable.t21r,R.drawable.t38r,R.drawable.t37r,R.drawable.t36r,R.drawable.t35r,R.drawable.t34r,R.drawable.t33r,R.drawable.t32r,R.drawable.t31r,R.drawable.t48r,R.drawable.t47r,
+            R.drawable.t46r,R.drawable.t45r,R.drawable.t44r,R.drawable.t43r,R.drawable.t42r,R.drawable.t41r)
+
+        val t2rDrawable = intArrayOf(R.drawable.t182r, R.drawable.t172r,R.drawable.t162r,R.drawable.t152r,R.drawable.t142r,R.drawable.t132r,R.drawable.t122r,R.drawable.t112r,R.drawable.t282r,R.drawable.t272r,R.drawable.t262r,R.drawable.t252r,
+            R.drawable.t242r,R.drawable.t232r,R.drawable.t222r,R.drawable.t212r,R.drawable.t382r,R.drawable.t372r,R.drawable.t362r,R.drawable.t352r,R.drawable.t342r,R.drawable.t332r,R.drawable.t322r,R.drawable.t312r,R.drawable.t482r,R.drawable.t472r,
+            R.drawable.t462r,R.drawable.t452r,R.drawable.t442r,R.drawable.t432r,R.drawable.t422r,R.drawable.t412r)
+
+        for(i in pupesId.indices){
+            val t = findViewById<ImageView>(tsId[i])
+            val t2 = findViewById<ImageView>(t2sId[i])
+            val pupe = findViewById<Button>(pupesId[i])
+            pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+            pupe.setOnClickListener {
+                val colorStateList = pupe.backgroundTintList
+                val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+                if (defaultColor == Color.parseColor(but0Color)) {
+                    pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(pupeColor)))
+                    t.setImageResource(trDrawable[i])
+                    t2.setImageResource(t2rDrawable[i])
+                }
+                else{
+                    pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                     t.setImageResource(tsDrawable[i])
                     t2.setImageResource(t2sDrawable[i])
                 }

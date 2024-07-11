@@ -26980,6 +26980,171 @@
                             android:layout_height="wrap_content">
 
                             <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:text="@string/pupe" />
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe48"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe47"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe46"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe45"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe44"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe43"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe42"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe41"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:text="@string/implant"
@@ -31122,6 +31287,165 @@
                                     android:minWidth="40dp"
                                     android:minHeight="25dp"
                                     android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe34"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe35"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe36"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/border">
+
+                                <Button
+                                    android:id="@+id/pupe37"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
+                                    android:padding="0dp"
+                                    android:textColor="@color/black"
+                                    android:backgroundTint="#DCDCDC"
+                                    android:layout_margin="2dp"
+                                    app:cornerRadius="0dp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp">
+                                <Button
+                                    android:id="@+id/pupe38"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="11sp"
+                                    android:minWidth="40dp"
+                                    android:minHeight="25dp"
                                     android:padding="0dp"
                                     android:textColor="@color/black"
                                     android:backgroundTint="#DCDCDC"
