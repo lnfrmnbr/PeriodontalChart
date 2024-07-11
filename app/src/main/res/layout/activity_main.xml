@@ -4550,10 +4550,9 @@
                                 android:textStyle="bold" />
 
                             <ImageView
-                                android:id="@+id/t18"
-                                android:padding="0dp"
-                                app:srcCompat="@drawable/t18"
-                                android:layout_height="wrap_content" />
+                                    android:id="@+id/t18"
+                                    android:padding="0dp"
+                                    app:srcCompat="@drawable/t18" />
 
 
                             <ImageView
@@ -8922,6 +8921,63 @@
                         android:layout_marginTop="447dp">
 
                     </com.github.mikephil.charting.charts.LineChart>
+
+                    <ImageView
+                        android:id="@+id/fi18"
+                        android:layout_marginStart="253dp"
+                        android:layout_marginTop="560dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi17"
+                        android:layout_marginStart="320dp"
+                        android:layout_marginTop="560dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi16"
+                        android:layout_marginStart="396dp"
+                        android:layout_marginTop="557dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi28"
+                        android:layout_marginTop="560dp"
+                        android:layout_marginEnd="94dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi27"
+                        android:layout_marginTop="560dp"
+                        android:layout_marginEnd="164dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi26"
+                        android:layout_marginTop="557dp"
+                        android:layout_marginEnd="238dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/f1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
                 </RelativeLayout>
 
                 <RelativeLayout
