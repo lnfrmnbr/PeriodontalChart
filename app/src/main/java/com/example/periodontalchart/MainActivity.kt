@@ -179,11 +179,12 @@ class MainActivity : AppCompatActivity() {
         )
 
         const val but0Color = "#DCDCDC"
-        const val plombColor = "#20B2AA"
+        const val plombColor = "#9C9C9C"
         const val krColor = "#CD5C5C"
         const val otlColor = "#FFD700"
         const val implantColor = "#595B5D"
-        const val pupeColor = "#FF0000"
+        const val puColor = "#CF1D2E"
+        const val peColor = "#555555"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -319,6 +320,14 @@ class MainActivity : AppCompatActivity() {
             R.drawable.t242r,R.drawable.t232r,R.drawable.t222r,R.drawable.t212r,R.drawable.t382r,R.drawable.t372r,R.drawable.t362r,R.drawable.t352r,R.drawable.t342r,R.drawable.t332r,R.drawable.t322r,R.drawable.t312r,R.drawable.t482r,R.drawable.t472r,
             R.drawable.t462r,R.drawable.t452r,R.drawable.t442r,R.drawable.t432r,R.drawable.t422r,R.drawable.t412r)
 
+        val tbDrawable = intArrayOf(R.drawable.t18b, R.drawable.t17b,R.drawable.t16b,R.drawable.t15b,R.drawable.t14b,R.drawable.t13b,R.drawable.t12b,R.drawable.t11b,R.drawable.t28b,R.drawable.t27b,R.drawable.t26b,R.drawable.t25b,
+            R.drawable.t24b,R.drawable.t23b,R.drawable.t22b,R.drawable.t21b,R.drawable.t38b,R.drawable.t37b,R.drawable.t36b,R.drawable.t35b,R.drawable.t34b,R.drawable.t33b,R.drawable.t32b,R.drawable.t31b,R.drawable.t48b,R.drawable.t47b,
+            R.drawable.t46b,R.drawable.t45b,R.drawable.t44b,R.drawable.t43b,R.drawable.t42b,R.drawable.t41b)
+
+        val t2bDrawable = intArrayOf(R.drawable.t182b, R.drawable.t172b,R.drawable.t162b,R.drawable.t152b,R.drawable.t142b,R.drawable.t132b,R.drawable.t122b,R.drawable.t112b,R.drawable.t282b,R.drawable.t272b,R.drawable.t262b,R.drawable.t252b,
+            R.drawable.t242b,R.drawable.t232b,R.drawable.t222b,R.drawable.t212b,R.drawable.t382b,R.drawable.t372b,R.drawable.t362b,R.drawable.t352b,R.drawable.t342b,R.drawable.t332b,R.drawable.t322b,R.drawable.t312b,R.drawable.t482b,R.drawable.t472b,
+            R.drawable.t462b,R.drawable.t452b,R.drawable.t442b,R.drawable.t432b,R.drawable.t422b,R.drawable.t412b)
+
         for(i in pupesId.indices){
             val t = findViewById<ImageView>(tsId[i])
             val t2 = findViewById<ImageView>(t2sId[i])
@@ -328,9 +337,14 @@ class MainActivity : AppCompatActivity() {
                 val colorStateList = pupe.backgroundTintList
                 val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
                 if (defaultColor == Color.parseColor(but0Color)) {
-                    pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(pupeColor)))
+                    pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(puColor)))
                     t.setImageResource(trDrawable[i])
                     t2.setImageResource(t2rDrawable[i])
+                }
+                else if (defaultColor == Color.parseColor(puColor)) {
+                    pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(peColor)))
+                    t.setImageResource(tbDrawable[i])
+                    t2.setImageResource(t2bDrawable[i])
                 }
                 else{
                     pupe.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
