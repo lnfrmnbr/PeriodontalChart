@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-07-10T19:42:10.984360800Z">
+        <DropdownSelection timestamp="2024-07-13T10:48:57.843217600Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\WITE_PC\.android\avd\Blackview_Tab_11_SE_API_34.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Xiaomi\.android\avd\Pixel_Tablet_API_35.avd" />
             </handle>
           </Target>
         </DropdownSelection>
