@@ -3,8 +3,11 @@ package com.example.periodontalchart
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -186,8 +189,8 @@ class MainActivity : AppCompatActivity() {
         const val implantColor = "#595B5D"
         const val puColor = "#CF1D2E"
         const val peColor = "#555555"
-        const val kamColor = "#CD5C5C"
-        const val vosColor = "#CD5C5C"
+        const val kamColor = "#696969"
+        const val vosColor = "#9ACD32"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -206,6 +209,7 @@ class MainActivity : AppCompatActivity() {
         settingsForPupes()
         settingsForKam()
         settingsForVos()
+        settingsForFurk()
 
         val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
         val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
@@ -441,6 +445,50 @@ class MainActivity : AppCompatActivity() {
 
         for(el in otlId){
             changeColorButton(findViewById(el), but0Color, otlColor)
+        }
+    }
+
+    private fun settingsForFurk(){
+        val furksId = intArrayOf(R.id.furk18, R.id.furk17,R.id.furk16,R.id.furk28,R.id.furk27,R.id.furk26,
+            R.id.furk182_1,R.id.furk182_2, R.id.furk172_1,R.id.furk172_2,R.id.furk162_1,R.id.furk162_2,R.id.furk142_1,R.id.furk142_2,
+            R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2
+            ,R.id.furk38,R.id.furk37,R.id.furk36,R.id.furk48,R.id.furk47, R.id.furk46)
+        val furksImgId = intArrayOf(R.id.fi18, R.id.fi17,R.id.fi16,R.id.fi28,R.id.fi27,R.id.fi26,
+            R.id.fi182_1,R.id.fi182_2, R.id.fi172_1,R.id.fi172_2,R.id.fi162_1,R.id.fi162_2,R.id.fi142_1,R.id.fi142_2,
+            R.id.fi282_1,R.id.fi282_2, R.id.fi272_1,R.id.fi272_2,R.id.fi262_1,R.id.fi262_2,R.id.fi242_1,R.id.fi242_2
+            ,R.id.fi38,R.id.fi37,R.id.fi36,R.id.fi48,R.id.fi47, R.id.fi46)
+
+        for(i in furksId.indices){
+            val furkBut = findViewById<ImageButton>(furksId[i])
+            val furkImg = findViewById<ImageView>(furksImgId[i])
+            furkBut.setImageResource(R.drawable.null17)
+            furkBut.tag = R.drawable.null17
+            furkBut.setOnClickListener {
+                if (furkBut.tag == R.drawable.null17) {
+                    furkBut.setImageResource(R.drawable.f1)
+                    furkImg.setImageResource(R.drawable.f1)
+                    furkBut.tag = R.drawable.f1
+                    furkImg.tag = R.drawable.f1
+                }
+                else if (furkBut.tag == R.drawable.f1) {
+                    furkBut.setImageResource(R.drawable.f2)
+                    furkImg.setImageResource(R.drawable.f2)
+                    furkBut.tag = R.drawable.f2
+                    furkImg.tag = R.drawable.f2
+                }
+                else if (furkBut.tag == R.drawable.f2) {
+                    furkBut.setImageResource(R.drawable.f3)
+                    furkImg.setImageResource(R.drawable.f3)
+                    furkBut.tag = R.drawable.f3
+                    furkImg.tag = R.drawable.f3
+                }
+                else {
+                    furkBut.setImageResource(R.drawable.null17)
+                    furkImg.setImageResource(R.drawable.null17)
+                    furkBut.tag = R.drawable.null17
+                    furkImg.tag = R.drawable.null17
+                }
+            }
         }
     }
 
