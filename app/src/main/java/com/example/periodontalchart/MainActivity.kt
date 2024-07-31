@@ -11,6 +11,7 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.graphics.drawable.toDrawable
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.github.mikephil.charting.data.Entry
@@ -502,7 +503,15 @@ class MainActivity : AppCompatActivity() {
             R.id.kar14_1, R.id.kar14_5, R.id.kar14_21, R.id.kar14_22, R.id.kar14_61, R.id.kar14_62,
             R.id.kar13_6, R.id.kar13_5, R.id.kar13_31, R.id.kar13_32, R.id.kar13_41, R.id.kar13_42,
             R.id.kar12_6, R.id.kar12_5, R.id.kar12_31, R.id.kar12_32, R.id.kar12_41, R.id.kar12_42,
-            R.id.kar11_6, R.id.kar11_5, R.id.kar11_31, R.id.kar11_32, R.id.kar11_41, R.id.kar11_42
+            R.id.kar11_6, R.id.kar11_5, R.id.kar11_31, R.id.kar11_32, R.id.kar11_41, R.id.kar11_42,
+            R.id.kar28_1, R.id.kar28_5, R.id.kar28_21, R.id.kar28_22, R.id.kar28_61, R.id.kar28_62,
+            R.id.kar27_1, R.id.kar27_5, R.id.kar27_21, R.id.kar27_22, R.id.kar27_61, R.id.kar27_62,
+            R.id.kar26_1, R.id.kar26_5, R.id.kar26_21, R.id.kar26_22, R.id.kar26_61, R.id.kar26_62,
+            R.id.kar25_1, R.id.kar25_5, R.id.kar25_21, R.id.kar25_22, R.id.kar25_61, R.id.kar25_62,
+            R.id.kar24_1, R.id.kar24_5, R.id.kar24_21, R.id.kar24_22, R.id.kar24_61, R.id.kar24_62,
+            R.id.kar23_6, R.id.kar23_5, R.id.kar23_31, R.id.kar23_32, R.id.kar23_41, R.id.kar23_42,
+            R.id.kar22_6, R.id.kar22_5, R.id.kar22_31, R.id.kar22_32, R.id.kar22_41, R.id.kar22_42,
+            R.id.kar21_6, R.id.kar21_5, R.id.kar21_31, R.id.kar21_32, R.id.kar21_41, R.id.kar21_42
         )
         val karsImgId = intArrayOf(R.id.t18k1, R.id.t18k5, R.id.t18k21, R.id.t18k22, R.id.t18k61, R.id.t18k62,
             R.id.t17k1, R.id.t17k5, R.id.t17k21, R.id.t17k22, R.id.t17k61, R.id.t17k62,
@@ -511,10 +520,21 @@ class MainActivity : AppCompatActivity() {
             R.id.t14k1, R.id.t14k5, R.id.t14k21, R.id.t14k22, R.id.t14k61, R.id.t14k62,
             R.id.t13k6, R.id.t13k5, R.id.t13k31, R.id.t13k32, R.id.t13k41, R.id.t13k42,
             R.id.t12k6, R.id.t12k5, R.id.t12k31, R.id.t12k32, R.id.t12k41, R.id.t12k42,
-            R.id.t11k6, R.id.t11k5, R.id.t11k31, R.id.t11k32, R.id.t11k41, R.id.t11k42
+            R.id.t11k6, R.id.t11k5, R.id.t11k31, R.id.t11k32, R.id.t11k41, R.id.t11k42,
+            R.id.t28k1, R.id.t28k5, R.id.t28k21, R.id.t28k22, R.id.t28k61, R.id.t28k62,
+            R.id.t27k1, R.id.t27k5, R.id.t27k21, R.id.t27k22, R.id.t27k61, R.id.t27k62,
+            R.id.t26k1, R.id.t26k5, R.id.t26k21, R.id.t26k22, R.id.t26k61, R.id.t26k62,
+            R.id.t25k1, R.id.t25k5, R.id.t25k21, R.id.t25k22, R.id.t25k61, R.id.t25k62,
+            R.id.t24k1, R.id.t24k5, R.id.t24k21, R.id.t24k22, R.id.t24k61, R.id.t24k62,
+            R.id.t23k6, R.id.t23k5, R.id.t23k31, R.id.t23k32, R.id.t23k41, R.id.t23k42,
+            R.id.t22k6, R.id.t22k5, R.id.t22k31, R.id.t22k32, R.id.t22k41, R.id.t22k42,
+            R.id.t21k6, R.id.t21k5, R.id.t21k31, R.id.t21k32, R.id.t21k41, R.id.t21k42
         )
 
         for (i in karsId.indices) {
+            val r = karsId.indexOf(R.id.kar23_31)
+            val t = karsImgId.indexOf(R.id.t23k31)
+            Log.e("DEBUG", "$i - $r - $t")
             val karBut = findViewById<Button>(karsId[i])
             val karImg = findViewById<ImageView>(karsImgId[i])
             karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
