@@ -191,6 +191,7 @@ class MainActivity : AppCompatActivity() {
         const val peColor = "#555555"
         const val kamColor = "#696969"
         const val vosColor = "#9ACD32"
+        const val karColor = "#a9a9a9"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -210,6 +211,7 @@ class MainActivity : AppCompatActivity() {
         settingsForKam()
         settingsForVos()
         settingsForFurk()
+        settingsForKar()
 
         val chart1 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart1)
         val chart2 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart2)
@@ -487,6 +489,45 @@ class MainActivity : AppCompatActivity() {
                     furkImg.setImageResource(R.drawable.null17)
                     furkBut.tag = R.drawable.null17
                     furkImg.tag = R.drawable.null17
+                }
+            }
+        }
+    }
+
+    private fun settingsForKar() {
+        val karsId = intArrayOf(R.id.kar18_1, R.id.kar18_5, R.id.kar18_21, R.id.kar18_22, R.id.kar18_61, R.id.kar18_62,
+            R.id.kar17_1, R.id.kar17_5, R.id.kar17_21, R.id.kar17_22, R.id.kar17_61, R.id.kar17_62,
+            R.id.kar16_1, R.id.kar16_5, R.id.kar16_21, R.id.kar16_22, R.id.kar16_61, R.id.kar16_62,
+            R.id.kar15_1, R.id.kar15_5, R.id.kar15_21, R.id.kar15_22, R.id.kar15_61, R.id.kar15_62,
+            R.id.kar14_1, R.id.kar14_5, R.id.kar14_21, R.id.kar14_22, R.id.kar14_61, R.id.kar14_62,
+            R.id.kar13_6, R.id.kar13_5, R.id.kar13_31, R.id.kar13_32, R.id.kar13_41, R.id.kar13_42,
+            R.id.kar12_6, R.id.kar12_5, R.id.kar12_31, R.id.kar12_32, R.id.kar12_41, R.id.kar12_42,
+            R.id.kar11_6, R.id.kar11_5, R.id.kar11_31, R.id.kar11_32, R.id.kar11_41, R.id.kar11_42
+        )
+        val karsImgId = intArrayOf(R.id.t18k1, R.id.t18k5, R.id.t18k21, R.id.t18k22, R.id.t18k61, R.id.t18k62,
+            R.id.t17k1, R.id.t17k5, R.id.t17k21, R.id.t17k22, R.id.t17k61, R.id.t17k62,
+            R.id.t16k1, R.id.t16k5, R.id.t16k21, R.id.t16k22, R.id.t16k61, R.id.t16k62,
+            R.id.t15k1, R.id.t15k5, R.id.t15k21, R.id.t15k22, R.id.t15k61, R.id.t15k62,
+            R.id.t14k1, R.id.t14k5, R.id.t14k21, R.id.t14k22, R.id.t14k61, R.id.t14k62,
+            R.id.t13k6, R.id.t13k5, R.id.t13k31, R.id.t13k32, R.id.t13k41, R.id.t13k42,
+            R.id.t12k6, R.id.t12k5, R.id.t12k31, R.id.t12k32, R.id.t12k41, R.id.t12k42,
+            R.id.t11k6, R.id.t11k5, R.id.t11k31, R.id.t11k32, R.id.t11k41, R.id.t11k42
+        )
+
+        for (i in karsId.indices) {
+            val karBut = findViewById<Button>(karsId[i])
+            val karImg = findViewById<ImageView>(karsImgId[i])
+            karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+            karBut.setOnClickListener {
+                val colorStateList = karBut.backgroundTintList
+                val defaultColor =
+                    colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+                if (defaultColor == Color.parseColor(but0Color)) {
+                    karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(karColor)))
+                    karImg.visibility = View.VISIBLE
+                } else {
+                    karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    karImg.visibility = View.GONE
                 }
             }
         }
