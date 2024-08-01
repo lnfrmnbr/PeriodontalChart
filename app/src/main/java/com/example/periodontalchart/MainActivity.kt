@@ -3,6 +3,8 @@ package com.example.periodontalchart
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -14,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.widget.addTextChangedListener
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
@@ -220,6 +223,8 @@ class MainActivity : AppCompatActivity() {
         val chart4 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart4)
         val chart5 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart5)
         val chart6 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart6)
+
+        settingsForDesn(chart1)
 
         generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
         generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
@@ -550,6 +555,51 @@ class MainActivity : AppCompatActivity() {
                     karImg.visibility = View.GONE
                 }
             }
+        }
+    }
+
+    private fun settingsForDesn(chart1: com.github.mikephil.charting.charts.LineChart){
+        val desnId1 = intArrayOf(R.id.desn18_1,R.id.desn18_2,R.id.desn18_3,R.id.desn17_1,R.id.desn17_2,R.id.desn17_3,R.id.desn16_1,R.id.desn16_2,R.id.desn16_3,R.id.desn15_1,R.id.desn15_2,R.id.desn15_3,
+            R.id.desn14_1,R.id.desn14_2,R.id.desn14_3,R.id.desn13_1,R.id.desn13_2,R.id.desn13_3,R.id.desn12_1,R.id.desn12_2,R.id.desn12_3,R.id.desn11_1,R.id.desn11_2,R.id.desn11_3)
+
+        val desnId2 = intArrayOf(R.id.desn21_1,R.id.desn21_2,R.id.desn21_3,R.id.desn22_1,R.id.desn22_2,R.id.desn22_3, R.id.desn23_1,R.id.desn23_2,R.id.desn23_3,
+            R.id.desn24_1,R.id.desn24_2,R.id.desn24_3,R.id.desn25_1,R.id.desn25_2,R.id.desn25_3,
+            R.id.desn26_1,R.id.desn26_2,R.id.desn26_3,R.id.desn27_1,R.id.desn27_2,R.id.desn27_3, R.id.desn28_1,R.id.desn28_2,R.id.desn28_3)
+
+        val desnId3 = intArrayOf(R.id.desn112_1,R.id.desn112_2,R.id.desn112_3,R.id.desn122_1,R.id.desn122_2,R.id.desn122_3,R.id.desn132_1,R.id.desn132_2,R.id.desn132_3,R.id.desn142_1,R.id.desn142_2,R.id.desn142_3,
+            R.id.desn152_1,R.id.desn152_2,R.id.desn152_3,R.id.desn162_1,R.id.desn162_2,R.id.desn162_3,R.id.desn172_1,R.id.desn172_2,R.id.desn172_3,R.id.desn182_1,R.id.desn182_2,R.id.desn182_3)
+
+        val desnId4 = intArrayOf(R.id.desn212_1,R.id.desn212_2, R.id.desn212_3,R.id.desn222_1,R.id.desn222_2,R.id.desn222_3,R.id.desn232_1,R.id.desn232_2,R.id.desn232_3,R.id.desn242_1,R.id.desn242_2,R.id.desn242_3,
+            R.id.desn252_1,R.id.desn252_2,R.id.desn252_3,R.id.desn262_1, R.id.desn262_2,R.id.desn262_3,R.id.desn272_1,R.id.desn272_2,R.id.desn272_3,R.id.desn282_1,R.id.desn282_2,R.id.desn282_3)
+
+        val desnId5 = intArrayOf(R.id.desn41_1,R.id.desn41_2,R.id.desn41_3, R.id.desn42_1,R.id.desn42_2,R.id.desn42_3,R.id.desn43_1,R.id.desn43_2,R.id.desn43_3,R.id.desn44_1,R.id.desn44_2,R.id.desn44_3,R.id.desn45_1,R.id.desn45_2,R.id.desn45_3,R.id.desn46_1,R.id.desn46_2,R.id.desn46_3,
+            R.id.desn47_1,R.id.desn47_2,R.id.desn47_3,R.id.desn48_1,R.id.desn48_2,R.id.desn48_3)
+
+        val desnId6 = intArrayOf(R.id.desn31_1,R.id.desn31_2,R.id.desn31_3,R.id.desn32_1,R.id.desn32_2,R.id.desn32_3,R.id.desn33_1,R.id.desn33_2,R.id.desn33_3,R.id.desn34_1,R.id.desn34_2,R.id.desn34_3,
+            R.id.desn35_1,R.id.desn35_2,R.id.desn35_3,R.id.desn36_1,R.id.desn36_2,R.id.desn36_3,R.id.desn37_1,R.id.desn37_2,R.id.desn37_3,R.id.desn38_1,R.id.desn38_2,R.id.desn38_3)
+
+        val desnId7 = intArrayOf(R.id.desn412_1,R.id.desn412_2,R.id.desn412_3,R.id.desn422_1,R.id.desn422_2,R.id.desn422_3,R.id.desn432_1,R.id.desn432_2,R.id.desn432_3,R.id.desn442_1,
+            R.id.desn442_2,R.id.desn442_3,R.id.desn452_1,R.id.desn452_2,R.id.desn452_3,R.id.desn462_1,R.id.desn462_2,R.id.desn462_3,R.id.desn472_1,R.id.desn472_2,R.id.desn472_3,R.id.desn482_1,R.id.desn482_2,R.id.desn482_3)
+
+        val desnId8 = intArrayOf(R.id.desn312_1,R.id.desn312_2,R.id.desn312_3,R.id.desn322_1,R.id.desn322_2,R.id.desn322_3,
+            R.id.desn332_1,R.id.desn332_2,R.id.desn332_3,R.id.desn342_1,R.id.desn342_2,R.id.desn342_3,R.id.desn352_1,R.id.desn352_2,R.id.desn352_3,R.id.desn362_1,R.id.desn362_2,R.id.desn362_3,R.id.desn372_1,R.id.desn372_2,
+            R.id.desn372_3,R.id.desn382_1,R.id.desn382_2,R.id.desn382_3)
+
+
+        for (i in desnId1.indices){
+            val desnEditText = findViewById<EditText>(desnId1[i])
+            desnEditText.addTextChangedListener(object : TextWatcher {
+                override fun afterTextChanged(editable: Editable?) {
+                }
+
+                override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                }
+
+                override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    desnChart1[i].y = desnEditText.text.toString().trim().toFloat()
+                    generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+                }
+            })
         }
     }
 
