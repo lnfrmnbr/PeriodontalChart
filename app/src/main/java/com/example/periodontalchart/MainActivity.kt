@@ -17,6 +17,7 @@ import androidx.core.graphics.drawable.toDrawable
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.addTextChangedListener
+import androidx.core.widget.doAfterTextChanged
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
@@ -187,7 +188,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         const val but0Color = "#DCDCDC"
-        const val plombColor = "#9C9C9C"
+        const val plombColor = "#20b2aa"
         const val krColor = "#CD5C5C"
         const val otlColor = "#FFD700"
         const val implantColor = "#595B5D"
@@ -224,7 +225,7 @@ class MainActivity : AppCompatActivity() {
         val chart5 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart5)
         val chart6 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart6)
 
-        settingsForDesn(chart1)
+        settingsForDesn(chart1, chart2, chart3, chart4, chart5, chart6)
 
         generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
         generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
@@ -516,7 +517,55 @@ class MainActivity : AppCompatActivity() {
             R.id.kar24_1, R.id.kar24_5, R.id.kar24_21, R.id.kar24_22, R.id.kar24_61, R.id.kar24_62,
             R.id.kar23_6, R.id.kar23_5, R.id.kar23_31, R.id.kar23_32, R.id.kar23_41, R.id.kar23_42,
             R.id.kar22_6, R.id.kar22_5, R.id.kar22_31, R.id.kar22_32, R.id.kar22_41, R.id.kar22_42,
-            R.id.kar21_6, R.id.kar21_5, R.id.kar21_31, R.id.kar21_32, R.id.kar21_41, R.id.kar21_42
+            R.id.kar21_6, R.id.kar21_5, R.id.kar21_31, R.id.kar21_32, R.id.kar21_41, R.id.kar21_42,
+            R.id.kar38_1, R.id.kar38_5, R.id.kar38_21, R.id.kar38_22, R.id.kar38_61, R.id.kar38_62,
+            R.id.kar37_1, R.id.kar37_5, R.id.kar37_21, R.id.kar37_22, R.id.kar37_61, R.id.kar37_62,
+            R.id.kar36_1, R.id.kar36_5, R.id.kar36_21, R.id.kar36_22, R.id.kar36_61, R.id.kar36_62,
+            R.id.kar35_1, R.id.kar35_5, R.id.kar35_21, R.id.kar35_22, R.id.kar35_61, R.id.kar35_62,
+            R.id.kar34_1, R.id.kar34_5, R.id.kar34_21, R.id.kar34_22, R.id.kar34_61, R.id.kar34_62,
+            R.id.kar33_6, R.id.kar33_5, R.id.kar33_31, R.id.kar33_32, R.id.kar33_41, R.id.kar33_42,
+            R.id.kar32_6, R.id.kar32_5, R.id.kar32_31, R.id.kar32_32, R.id.kar32_41, R.id.kar32_42,
+            R.id.kar31_6, R.id.kar31_5, R.id.kar31_31, R.id.kar31_32, R.id.kar31_41, R.id.kar31_42,
+            R.id.kar48_1, R.id.kar48_5, R.id.kar48_21, R.id.kar48_22, R.id.kar48_61, R.id.kar48_62,
+            R.id.kar47_1, R.id.kar47_5, R.id.kar47_21, R.id.kar47_22, R.id.kar47_61, R.id.kar47_62,
+            R.id.kar46_1, R.id.kar46_5, R.id.kar46_21, R.id.kar46_22, R.id.kar46_61, R.id.kar46_62,
+            R.id.kar45_1, R.id.kar45_5, R.id.kar45_21, R.id.kar45_22, R.id.kar45_61, R.id.kar45_62,
+            R.id.kar44_1, R.id.kar44_5, R.id.kar44_21, R.id.kar44_22, R.id.kar44_61, R.id.kar44_62,
+            R.id.kar43_6, R.id.kar43_5, R.id.kar43_31, R.id.kar43_32, R.id.kar43_41, R.id.kar43_42,
+            R.id.kar42_6, R.id.kar42_5, R.id.kar42_31, R.id.kar42_32, R.id.kar42_41, R.id.kar42_42,
+            R.id.kar41_6, R.id.kar41_5, R.id.kar41_31, R.id.kar41_32, R.id.kar41_41, R.id.kar41_42,
+            R.id.kar182_1, R.id.kar182_5, R.id.kar182_21, R.id.kar182_22, R.id.kar182_61, R.id.kar182_62,
+            R.id.kar172_1, R.id.kar172_5, R.id.kar172_21, R.id.kar172_22, R.id.kar172_61, R.id.kar172_62,
+            R.id.kar162_1, R.id.kar162_5, R.id.kar162_21, R.id.kar162_22, R.id.kar162_61, R.id.kar162_62,
+            R.id.kar152_1, R.id.kar152_5, R.id.kar152_21, R.id.kar152_22, R.id.kar152_61, R.id.kar152_62,
+            R.id.kar142_1, R.id.kar142_5, R.id.kar142_21, R.id.kar142_22, R.id.kar142_61, R.id.kar142_62,
+            R.id.kar132_6, R.id.kar132_5, R.id.kar132_31, R.id.kar132_32, R.id.kar132_41, R.id.kar132_42,
+            R.id.kar122_6, R.id.kar122_5, R.id.kar122_31, R.id.kar122_32, R.id.kar122_41, R.id.kar122_42,
+            R.id.kar112_6, R.id.kar112_5, R.id.kar112_31, R.id.kar112_32, R.id.kar112_41, R.id.kar112_42,
+            R.id.kar282_1, R.id.kar282_5, R.id.kar282_21, R.id.kar282_22, R.id.kar282_61, R.id.kar282_62,
+            R.id.kar272_1, R.id.kar272_5, R.id.kar272_21, R.id.kar272_22, R.id.kar272_61, R.id.kar272_62,
+            R.id.kar262_1, R.id.kar262_5, R.id.kar262_21, R.id.kar262_22, R.id.kar262_61, R.id.kar262_62,
+            R.id.kar252_1, R.id.kar252_5, R.id.kar252_21, R.id.kar252_22, R.id.kar252_61, R.id.kar252_62,
+            R.id.kar242_1, R.id.kar242_5, R.id.kar242_21, R.id.kar242_22, R.id.kar242_61, R.id.kar242_62,
+            R.id.kar232_6, R.id.kar232_5, R.id.kar232_31, R.id.kar232_32, R.id.kar232_41, R.id.kar232_42,
+            R.id.kar222_6, R.id.kar222_5, R.id.kar222_31, R.id.kar222_32, R.id.kar222_41, R.id.kar222_42,
+            R.id.kar212_6, R.id.kar212_5, R.id.kar212_31, R.id.kar212_32, R.id.kar212_41, R.id.kar212_42,
+            R.id.kar382_1, R.id.kar382_5, R.id.kar382_21, R.id.kar382_22, R.id.kar382_61, R.id.kar382_62,
+            R.id.kar372_1, R.id.kar372_5, R.id.kar372_21, R.id.kar372_22, R.id.kar372_61, R.id.kar372_62,
+            R.id.kar362_1, R.id.kar362_5, R.id.kar362_21, R.id.kar362_22, R.id.kar362_61, R.id.kar362_62,
+            R.id.kar352_1, R.id.kar352_5, R.id.kar352_21, R.id.kar352_22, R.id.kar352_61, R.id.kar352_62,
+            R.id.kar342_1, R.id.kar342_5, R.id.kar342_21, R.id.kar342_22, R.id.kar342_61, R.id.kar342_62,
+            R.id.kar332_6, R.id.kar332_5, R.id.kar332_31, R.id.kar332_32, R.id.kar332_41, R.id.kar332_42,
+            R.id.kar322_6, R.id.kar322_5, R.id.kar322_31, R.id.kar322_32, R.id.kar322_41, R.id.kar322_42,
+            R.id.kar312_6, R.id.kar312_5, R.id.kar312_31, R.id.kar312_32, R.id.kar312_41, R.id.kar312_42,
+            R.id.kar482_1, R.id.kar482_5, R.id.kar482_21, R.id.kar482_22, R.id.kar482_61, R.id.kar482_62,
+            R.id.kar472_1, R.id.kar472_5, R.id.kar472_21, R.id.kar472_22, R.id.kar472_61, R.id.kar472_62,
+            R.id.kar462_1, R.id.kar462_5, R.id.kar462_21, R.id.kar462_22, R.id.kar462_61, R.id.kar462_62,
+            R.id.kar452_1, R.id.kar452_5, R.id.kar452_21, R.id.kar452_22, R.id.kar452_61, R.id.kar452_62,
+            R.id.kar442_1, R.id.kar442_5, R.id.kar442_21, R.id.kar442_22, R.id.kar442_61, R.id.kar442_62,
+            R.id.kar432_6, R.id.kar432_5, R.id.kar432_31, R.id.kar432_32, R.id.kar432_41, R.id.kar432_42,
+            R.id.kar422_6, R.id.kar422_5, R.id.kar422_31, R.id.kar422_32, R.id.kar422_41, R.id.kar422_42,
+            R.id.kar412_6, R.id.kar412_5, R.id.kar412_31, R.id.kar412_32, R.id.kar412_41, R.id.kar412_42
         )
         val karsImgId = intArrayOf(R.id.t18k1, R.id.t18k5, R.id.t18k21, R.id.t18k22, R.id.t18k61, R.id.t18k62,
             R.id.t17k1, R.id.t17k5, R.id.t17k21, R.id.t17k22, R.id.t17k61, R.id.t17k62,
@@ -533,13 +582,58 @@ class MainActivity : AppCompatActivity() {
             R.id.t24k1, R.id.t24k5, R.id.t24k21, R.id.t24k22, R.id.t24k61, R.id.t24k62,
             R.id.t23k6, R.id.t23k5, R.id.t23k31, R.id.t23k32, R.id.t23k41, R.id.t23k42,
             R.id.t22k6, R.id.t22k5, R.id.t22k31, R.id.t22k32, R.id.t22k41, R.id.t22k42,
-            R.id.t21k6, R.id.t21k5, R.id.t21k31, R.id.t21k32, R.id.t21k41, R.id.t21k42
+            R.id.t21k6, R.id.t21k5, R.id.t21k31, R.id.t21k32, R.id.t21k41, R.id.t21k42,
+            R.id.t38k1, R.id.t38k5, R.id.t38k21, R.id.t38k22, R.id.t38k61, R.id.t38k62,
+            R.id.t37k1, R.id.t37k5, R.id.t37k21, R.id.t37k22, R.id.t37k61, R.id.t37k62,
+            R.id.t36k1, R.id.t36k5, R.id.t36k21, R.id.t36k22, R.id.t36k61, R.id.t36k62,
+            R.id.t35k1, R.id.t35k5, R.id.t35k21, R.id.t35k22, R.id.t35k61, R.id.t35k62,
+            R.id.t34k1, R.id.t34k5, R.id.t34k21, R.id.t34k22, R.id.t34k61, R.id.t34k62,
+            R.id.t33k6, R.id.t33k5, R.id.t33k31, R.id.t33k32, R.id.t33k41, R.id.t33k42,
+            R.id.t32k6, R.id.t32k5, R.id.t32k31, R.id.t32k32, R.id.t32k41, R.id.t32k42,
+            R.id.t31k6, R.id.t31k5, R.id.t31k31, R.id.t31k32, R.id.t31k41, R.id.t31k42,
+            R.id.t48k1, R.id.t48k5, R.id.t48k21, R.id.t48k22, R.id.t48k61, R.id.t48k62,
+            R.id.t47k1, R.id.t47k5, R.id.t47k21, R.id.t47k22, R.id.t47k61, R.id.t47k62,
+            R.id.t46k1, R.id.t46k5, R.id.t46k21, R.id.t46k22, R.id.t46k61, R.id.t46k62,
+            R.id.t45k1, R.id.t45k5, R.id.t45k21, R.id.t45k22, R.id.t45k61, R.id.t45k62,
+            R.id.t44k1, R.id.t44k5, R.id.t44k21, R.id.t44k22, R.id.t44k61, R.id.t44k62,
+            R.id.t43k6, R.id.t43k5, R.id.t43k31, R.id.t43k32, R.id.t43k41, R.id.t43k42,
+            R.id.t42k6, R.id.t42k5, R.id.t42k31, R.id.t42k32, R.id.t42k41, R.id.t42k42,
+            R.id.t41k6, R.id.t41k5, R.id.t41k31, R.id.t41k32, R.id.t41k41, R.id.t41k42,
+            R.id.t182k1, R.id.t182k5, R.id.t182k21, R.id.t182k22, R.id.t182k61, R.id.t182k62,
+            R.id.t172k1, R.id.t172k5, R.id.t172k21, R.id.t172k22, R.id.t172k61, R.id.t172k62,
+            R.id.t162k1, R.id.t162k5, R.id.t162k21, R.id.t162k22, R.id.t162k61, R.id.t162k62,
+            R.id.t152k1, R.id.t152k5, R.id.t152k21, R.id.t152k22, R.id.t152k61, R.id.t152k62,
+            R.id.t142k1, R.id.t142k5, R.id.t142k21, R.id.t142k22, R.id.t142k61, R.id.t142k62,
+            R.id.t132k6, R.id.t132k5, R.id.t132k31, R.id.t132k32, R.id.t132k41, R.id.t132k42,
+            R.id.t122k6, R.id.t122k5, R.id.t122k31, R.id.t122k32, R.id.t122k41, R.id.t122k42,
+            R.id.t112k6, R.id.t112k5, R.id.t112k31, R.id.t112k32, R.id.t112k41, R.id.t112k42,
+            R.id.t282k1, R.id.t282k5, R.id.t282k21, R.id.t282k22, R.id.t282k61, R.id.t282k62,
+            R.id.t272k1, R.id.t272k5, R.id.t272k21, R.id.t272k22, R.id.t272k61, R.id.t272k62,
+            R.id.t262k1, R.id.t262k5, R.id.t262k21, R.id.t262k22, R.id.t262k61, R.id.t262k62,
+            R.id.t252k1, R.id.t252k5, R.id.t252k21, R.id.t252k22, R.id.t252k61, R.id.t252k62,
+            R.id.t242k1, R.id.t242k5, R.id.t242k21, R.id.t242k22, R.id.t242k61, R.id.t242k62,
+            R.id.t232k6, R.id.t232k5, R.id.t232k31, R.id.t232k32, R.id.t232k41, R.id.t232k42,
+            R.id.t222k6, R.id.t222k5, R.id.t222k31, R.id.t222k32, R.id.t222k41, R.id.t222k42,
+            R.id.t212k6, R.id.t212k5, R.id.t212k31, R.id.t212k32, R.id.t212k41, R.id.t212k42,
+            R.id.t382k1, R.id.t382k5, R.id.t382k21, R.id.t382k22, R.id.t382k61, R.id.t382k62,
+            R.id.t372k1, R.id.t372k5, R.id.t372k21, R.id.t372k22, R.id.t372k61, R.id.t372k62,
+            R.id.t362k1, R.id.t362k5, R.id.t362k21, R.id.t362k22, R.id.t362k61, R.id.t362k62,
+            R.id.t352k1, R.id.t352k5, R.id.t352k21, R.id.t352k22, R.id.t352k61, R.id.t352k62,
+            R.id.t342k1, R.id.t342k5, R.id.t342k21, R.id.t342k22, R.id.t342k61, R.id.t342k62,
+            R.id.t332k6, R.id.t332k5, R.id.t332k31, R.id.t332k32, R.id.t332k41, R.id.t332k42,
+            R.id.t322k6, R.id.t322k5, R.id.t322k31, R.id.t322k32, R.id.t322k41, R.id.t322k42,
+            R.id.t312k6, R.id.t312k5, R.id.t312k31, R.id.t312k32, R.id.t312k41, R.id.t312k42,
+            R.id.t482k1, R.id.t482k5, R.id.t482k21, R.id.t482k22, R.id.t482k61, R.id.t482k62,
+            R.id.t472k1, R.id.t472k5, R.id.t472k21, R.id.t472k22, R.id.t472k61, R.id.t472k62,
+            R.id.t462k1, R.id.t462k5, R.id.t462k21, R.id.t462k22, R.id.t462k61, R.id.t462k62,
+            R.id.t452k1, R.id.t452k5, R.id.t452k21, R.id.t452k22, R.id.t452k61, R.id.t452k62,
+            R.id.t442k1, R.id.t442k5, R.id.t442k21, R.id.t442k22, R.id.t442k61, R.id.t442k62,
+            R.id.t432k6, R.id.t432k5, R.id.t432k31, R.id.t432k32, R.id.t432k41, R.id.t432k42,
+            R.id.t422k6, R.id.t422k5, R.id.t422k31, R.id.t422k32, R.id.t422k41, R.id.t422k42,
+            R.id.t412k6, R.id.t412k5, R.id.t412k31, R.id.t412k32, R.id.t412k41, R.id.t412k42
         )
 
         for (i in karsId.indices) {
-            val r = karsId.indexOf(R.id.kar23_31)
-            val t = karsImgId.indexOf(R.id.t23k31)
-            Log.e("DEBUG", "$i - $r - $t")
             val karBut = findViewById<Button>(karsId[i])
             val karImg = findViewById<ImageView>(karsImgId[i])
             karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -558,7 +652,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun settingsForDesn(chart1: com.github.mikephil.charting.charts.LineChart){
+    private fun settingsForDesn(chart1: com.github.mikephil.charting.charts.LineChart,
+                                chart2: com.github.mikephil.charting.charts.LineChart,
+                                chart3: com.github.mikephil.charting.charts.LineChart,
+                                chart4: com.github.mikephil.charting.charts.LineChart,
+                                chart5: com.github.mikephil.charting.charts.LineChart,
+                                chart6: com.github.mikephil.charting.charts.LineChart){
         val desnId1 = intArrayOf(R.id.desn18_1,R.id.desn18_2,R.id.desn18_3,R.id.desn17_1,R.id.desn17_2,R.id.desn17_3,R.id.desn16_1,R.id.desn16_2,R.id.desn16_3,R.id.desn15_1,R.id.desn15_2,R.id.desn15_3,
             R.id.desn14_1,R.id.desn14_2,R.id.desn14_3,R.id.desn13_1,R.id.desn13_2,R.id.desn13_3,R.id.desn12_1,R.id.desn12_2,R.id.desn12_3,R.id.desn11_1,R.id.desn11_2,R.id.desn11_3)
 
@@ -588,18 +687,35 @@ class MainActivity : AppCompatActivity() {
 
         for (i in desnId1.indices){
             val desnEditText = findViewById<EditText>(desnId1[i])
-            desnEditText.addTextChangedListener(object : TextWatcher {
-                override fun afterTextChanged(editable: Editable?) {
+            desnEditText.doAfterTextChanged{
+                    val text = desnEditText.text.toString().trim()
+                    if(text != "-"){
+                        desnChart1[i].y = text.toFloat()
+                        generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+                    }
                 }
+        }
 
-                override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+        for (i in desnId2.indices){
+            val desnEditText = findViewById<EditText>(desnId2[i])
+            desnEditText.doAfterTextChanged{
+                val text = desnEditText.text.toString().trim()
+                if(text != "-"){
+                    desnChart2[i].y = text.toFloat()
+                    generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
                 }
+            }
+        }
 
-                override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                    desnChart1[i].y = desnEditText.text.toString().trim().toFloat()
-                    generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+        for (i in desnId3.indices){
+            val desnEditText = findViewById<EditText>(desnId3[i])
+            desnEditText.doAfterTextChanged{
+                val text = desnEditText.text.toString().trim()
+                if(text != "-"){
+                    desnChart1[i].y = text.toFloat()
+                    generateChart(chart3, zondChart3, desnChart3, 17f, -9f)
                 }
-            })
+            }
         }
     }
 
@@ -610,12 +726,12 @@ class MainActivity : AppCompatActivity() {
         desnDataSet.lineWidth = 2f
         //zondDataSet.setDrawCircles(false)
         //desnDataSet.setDrawCircles(false)
-        zondDataSet.setColor(Color.RED)
-        desnDataSet.setColor(Color.BLUE)
+        zondDataSet.setColor(Color.BLUE)
+        desnDataSet.setColor(Color.RED)
         desnDataSet.setDrawValues(false)
         zondDataSet.setDrawValues(false)
-        desnDataSet.setCircleColor(Color.BLUE)
-        zondDataSet.setCircleColor(Color.RED)
+        desnDataSet.setCircleColor(Color.RED)
+        zondDataSet.setCircleColor(Color.BLUE)
 
         val lineData = LineData(desnDataSet, zondDataSet)
         chart.data = lineData
