@@ -684,16 +684,51 @@ class MainActivity : AppCompatActivity() {
             R.id.desn332_1,R.id.desn332_2,R.id.desn332_3,R.id.desn342_1,R.id.desn342_2,R.id.desn342_3,R.id.desn352_1,R.id.desn352_2,R.id.desn352_3,R.id.desn362_1,R.id.desn362_2,R.id.desn362_3,R.id.desn372_1,R.id.desn372_2,
             R.id.desn372_3,R.id.desn382_1,R.id.desn382_2,R.id.desn382_3)
 
+        val zondId1 = intArrayOf(R.id.zond18_1,R.id.zond18_2,R.id.zond18_3,R.id.zond17_1,R.id.zond17_2,R.id.zond17_3,R.id.zond16_1,R.id.zond16_2,R.id.zond16_3,R.id.zond15_1,R.id.zond15_2,R.id.zond15_3,
+            R.id.zond14_1,R.id.zond14_2,R.id.zond14_3,R.id.zond13_1,R.id.zond13_2,R.id.zond13_3,R.id.zond12_1,R.id.zond12_2,R.id.zond12_3,R.id.zond11_1,R.id.zond11_2,R.id.zond11_3)
+
+        val zondId2 = intArrayOf(R.id.zond21_1,R.id.zond21_2,R.id.zond21_3,R.id.zond22_1,R.id.zond22_2,R.id.zond22_3, R.id.zond23_1,R.id.zond23_2,R.id.zond23_3,
+            R.id.zond24_1,R.id.zond24_2,R.id.zond24_3,R.id.zond25_1,R.id.zond25_2,R.id.zond25_3,
+            R.id.zond26_1,R.id.zond26_2,R.id.zond26_3,R.id.zond27_1,R.id.zond27_2,R.id.zond27_3, R.id.zond28_1,R.id.zond28_2,R.id.zond28_3)
+
+        val zondId3 = intArrayOf(R.id.zond112_1,R.id.zond112_2,R.id.zond112_3,R.id.zond122_1,R.id.zond122_2,R.id.zond122_3,R.id.zond132_1,R.id.zond132_2,R.id.zond132_3,R.id.zond142_1,R.id.zond142_2,R.id.zond142_3,
+            R.id.zond152_1,R.id.zond152_2,R.id.zond152_3,R.id.zond162_1,R.id.zond162_2,R.id.zond162_3,R.id.zond172_1,R.id.zond172_2,R.id.zond172_3,R.id.zond182_1,R.id.zond182_2,R.id.zond182_3)
+
+        val zondId4 = intArrayOf(R.id.zond212_1,R.id.zond212_2, R.id.zond212_3,R.id.zond222_1,R.id.zond222_2,R.id.zond222_3,R.id.zond232_1,R.id.zond232_2,R.id.zond232_3,R.id.zond242_1,R.id.zond242_2,R.id.zond242_3,
+            R.id.zond252_1,R.id.zond252_2,R.id.zond252_3,R.id.zond262_1, R.id.zond262_2,R.id.zond262_3,R.id.zond272_1,R.id.zond272_2,R.id.zond272_3,R.id.zond282_1,R.id.zond282_2,R.id.zond282_3)
+
+        val zondId5 = intArrayOf(R.id.zond41_1,R.id.zond41_2,R.id.zond41_3, R.id.zond42_1,R.id.zond42_2,R.id.zond42_3,R.id.zond43_1,R.id.zond43_2,R.id.zond43_3,R.id.zond44_1,R.id.zond44_2,R.id.zond44_3,R.id.zond45_1,R.id.zond45_2,R.id.zond45_3,R.id.zond46_1,R.id.zond46_2,R.id.zond46_3,
+            R.id.zond47_1,R.id.zond47_2,R.id.zond47_3,R.id.zond48_1,R.id.zond48_2,R.id.zond48_3)
+
+        val zondId6 = intArrayOf(R.id.zond31_1,R.id.zond31_2,R.id.zond31_3,R.id.zond32_1,R.id.zond32_2,R.id.zond32_3,R.id.zond33_1,R.id.zond33_2,R.id.zond33_3,R.id.zond34_1,R.id.zond34_2,R.id.zond34_3,
+            R.id.zond35_1,R.id.zond35_2,R.id.zond35_3,R.id.zond36_1,R.id.zond36_2,R.id.zond36_3,R.id.zond37_1,R.id.zond37_2,R.id.zond37_3,R.id.zond38_1,R.id.zond38_2,R.id.zond38_3)
+
+        val zondId7 = intArrayOf(R.id.zond412_1,R.id.zond412_2,R.id.zond412_3,R.id.zond422_1,R.id.zond422_2,R.id.zond422_3,R.id.zond432_1,R.id.zond432_2,R.id.zond432_3,R.id.zond442_1,
+            R.id.zond442_2,R.id.zond442_3,R.id.zond452_1,R.id.zond452_2,R.id.zond452_3,R.id.zond462_1,R.id.zond462_2,R.id.zond462_3,R.id.zond472_1,R.id.zond472_2,R.id.zond472_3,R.id.zond482_1,R.id.zond482_2,R.id.zond482_3)
+
+        val zondId8 = intArrayOf(R.id.zond312_1,R.id.zond312_2,R.id.zond312_3,R.id.zond322_1,R.id.zond322_2,R.id.zond322_3,
+            R.id.zond332_1,R.id.zond332_2,R.id.zond332_3,R.id.zond342_1,R.id.zond342_2,R.id.zond342_3,R.id.zond352_1,R.id.zond352_2,R.id.zond352_3,R.id.zond362_1,R.id.zond362_2,R.id.zond362_3,R.id.zond372_1,R.id.zond372_2,
+            R.id.zond372_3,R.id.zond382_1,R.id.zond382_2,R.id.zond382_3)
+
 
         for (i in desnId1.indices){
+            val zondEditText = findViewById<EditText>(zondId1[i])
             val desnEditText = findViewById<EditText>(desnId1[i])
             desnEditText.doAfterTextChanged{
-                    val text = desnEditText.text.toString().trim()
-                    if(text != "-"){
-                        desnChart1[i].y = text.toFloat()
-                        generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
-                    }
+                var textZond = zondEditText.text.toString().trim()
+                var textDesn = desnEditText.text.toString().trim()
+                if (textDesn == ""){
+                    textDesn = "0"
                 }
+                if (textZond==""){
+                    textZond = "0"
+                }
+                if(textZond != "-" && textDesn != "-"){
+                    desnChart1[i].y = textDesn.toFloat()
+                    zondChart1[i].y = textDesn.toFloat()-textZond.toFloat()
+                    generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+                }
+            }
         }
 
         for (i in desnId2.indices){
@@ -717,6 +752,47 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        for (i in zondId1.indices){
+            val zondEditText = findViewById<EditText>(zondId1[i])
+            val desnEditText = findViewById<EditText>(desnId1[i])
+            zondEditText.doAfterTextChanged{
+                var textZond = zondEditText.text.toString().trim()
+                var textDesn = desnEditText.text.toString().trim()
+                if (textDesn == ""){
+                    textDesn = "0"
+                }
+                if (textZond==""){
+                    textZond = "0"
+                }
+                if(textZond != "-" && textDesn != "-"){
+                    zondChart1[i].y = textDesn.toFloat()-textZond.toFloat()
+                    generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
+                }
+            }
+        }
+
+        for (i in zondId2.indices){
+            val zondEditText = findViewById<EditText>(zondId2[i])
+            zondEditText.doAfterTextChanged{
+                val text = zondEditText.text.toString().trim()
+                if(text != "-" && text!=""){
+                    zondChart2[i].y = text.toFloat()
+                    generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
+                }
+            }
+        }
+
+        for (i in zondId3.indices){
+            val zondEditText = findViewById<EditText>(zondId3[i])
+            zondEditText.doAfterTextChanged{
+                val text = zondEditText.text.toString().trim()
+                if(text != "-"){
+                    zondChart1[i].y = text.toFloat()
+                    generateChart(chart3, zondChart3, desnChart3, 17f, -9f)
+                }
+            }
+        }
     }
 
     private fun generateChart(chart: com.github.mikephil.charting.charts.LineChart, zondChart: MutableList<Entry>, desnChart: MutableList<Entry>, max: Float, min: Float){
@@ -726,14 +802,14 @@ class MainActivity : AppCompatActivity() {
         desnDataSet.lineWidth = 2f
         //zondDataSet.setDrawCircles(false)
         //desnDataSet.setDrawCircles(false)
-        zondDataSet.setColor(Color.BLUE)
         desnDataSet.setColor(Color.RED)
+        zondDataSet.setColor(Color.BLUE)
         desnDataSet.setDrawValues(false)
         zondDataSet.setDrawValues(false)
         desnDataSet.setCircleColor(Color.RED)
         zondDataSet.setCircleColor(Color.BLUE)
 
-        val lineData = LineData(desnDataSet, zondDataSet)
+        val lineData = LineData(zondDataSet, desnDataSet)
         chart.data = lineData
         chart.axisRight.setAxisMinimum(min)
         chart.axisRight.setAxisMaximum(max)
