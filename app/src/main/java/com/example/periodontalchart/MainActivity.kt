@@ -189,6 +189,275 @@ class MainActivity : AppCompatActivity() {
             Entry(13.6f, 0f)
         )
 
+        var zondChart4 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.5f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.55f, 0f),
+            Entry(3f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4f, 0f),
+            Entry(4.5f, 0f),
+            Entry(5.1f, 0f),
+            Entry(5.6f, 0f),
+            Entry(6.1f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.1f, 0f),
+            Entry(7.6f, 0f),
+            Entry(8.2f, 0f),
+            Entry(9.0f, 0f),
+            Entry(9.8f, 0f),
+            Entry(10.4f, 0f),
+            Entry(11.15f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.4f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.8f, 0f)
+        )
+        var desnChart4 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.95f, 0f),
+            Entry(1.5f, 0f),
+            Entry(2.1f, 0f),
+            Entry(2.55f, 0f),
+            Entry(3f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4f, 0f),
+            Entry(4.5f, 0f),
+            Entry(5.1f, 0f),
+            Entry(5.6f, 0f),
+            Entry(6.1f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.1f, 0f),
+            Entry(7.6f, 0f),
+            Entry(8.2f, 0f),
+            Entry(9.0f, 0f),
+            Entry(9.8f, 0f),
+            Entry(10.4f, 0f),
+            Entry(11.15f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.4f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.8f, 0f)
+        )
+
+        var zondChart5 = mutableListOf(
+            Entry(0.2f, 0f),
+            Entry(1.1f, 0f),
+            Entry(2.0f, 0f),
+            Entry(2.6f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4.4f, 0f),
+            Entry(5f, 0f),
+            Entry(5.8f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.4f, 0f),
+            Entry(7.8f, 0f),
+            Entry(8.2f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.25f, 0f),
+            Entry(9.7f, 0f),
+            Entry(10.25f, 0f),
+            Entry(10.8f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.7f, 0f),
+            Entry(12f, 0f),
+            Entry(12.3f, 0f),
+            Entry(13.0f, 0f),
+            Entry(13.35f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var desnChart5 = mutableListOf(
+            Entry(0.2f, 0f),
+            Entry(1.1f, 0f),
+            Entry(2.0f, 0f),
+            Entry(2.6f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4.4f, 0f),
+            Entry(5f, 0f),
+            Entry(5.8f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.4f, 0f),
+            Entry(7.8f, 0f),
+            Entry(8.2f, 0f),
+            Entry(8.8f, 0f),
+            Entry(9.25f, 0f),
+            Entry(9.7f, 0f),
+            Entry(10.25f, 0f),
+            Entry(10.8f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.7f, 0f),
+            Entry(12f, 0f),
+            Entry(12.3f, 0f),
+            Entry(13.0f, 0f),
+            Entry(13.35f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var zondChart6 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.7f, 0f),
+            Entry(1.0f, 0f),
+            Entry(2f, 0f),
+            Entry(2.5f, 0f),
+            Entry(3f, 0f),
+            Entry(3.6f, 0f),
+            Entry(4.1f, 0f),
+            Entry(4.6f, 0f),
+            Entry(5.2f, 0f),
+            Entry(5.65f, 0f),
+            Entry(6.1f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.1f, 0f),
+            Entry(7.6f, 0f),
+            Entry(8.2f, 0f),
+            Entry(9.1f, 0f),
+            Entry(10f, 0f),
+            Entry(10.5f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var desnChart6 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.7f, 0f),
+            Entry(1.0f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2.0f, 0f),
+            Entry(2.4f, 0f),
+            Entry(2.9f, 0f),
+            Entry(3.3f, 0f),
+            Entry(3.7f, 0f),
+            Entry(4.3f, 0f),
+            Entry(4.75f, 0f),
+            Entry(5.2f, 0f),
+            Entry(5.8f, 0f),
+            Entry(6.2f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.4f, 0f),
+            Entry(8.25f, 0f),
+            Entry(9.1f, 0f),
+            Entry(9.6f, 0f),
+            Entry(10.55f, 0f),
+            Entry(11.5f, 0f),
+            Entry(12.0f, 0f),
+            Entry(12.9f, 0f),
+            Entry(13.8f, 0f)
+        )
+
+        var zondChart7 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(1.1f, 0f),
+            Entry(1.9f, 0f),
+            Entry(2.6f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4.4f, 0f),
+            Entry(5f, 0f),
+            Entry(5.8f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.5f, 0f),
+            Entry(7.8f, 0f),
+            Entry(8.1f, 0f),
+            Entry(9f, 0f),
+            Entry(9.35f, 0f),
+            Entry(9.7f, 0f),
+            Entry(10.4f, 0f),
+            Entry(10.8f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.2f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.4f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var desnChart7 = mutableListOf(
+            Entry(0.3f, 0f),
+            Entry(1.1f, 0f),
+            Entry(1.9f, 0f),
+            Entry(2.6f, 0f),
+            Entry(3.5f, 0f),
+            Entry(4.4f, 0f),
+            Entry(5f, 0f),
+            Entry(5.8f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.5f, 0f),
+            Entry(7.8f, 0f),
+            Entry(8.1f, 0f),
+            Entry(9f, 0f),
+            Entry(9.35f, 0f),
+            Entry(9.7f, 0f),
+            Entry(10.4f, 0f),
+            Entry(10.8f, 0f),
+            Entry(11.2f, 0f),
+            Entry(11.9f, 0f),
+            Entry(12.2f, 0f),
+            Entry(12.5f, 0f),
+            Entry(13.1f, 0f),
+            Entry(13.4f, 0f),
+            Entry(13.7f, 0f)
+        )
+
+        var zondChart8 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.7f, 0f),
+            Entry(1.0f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2.0f, 0f),
+            Entry(2.4f, 0f),
+            Entry(2.9f, 0f),
+            Entry(3.3f, 0f),
+            Entry(3.7f, 0f),
+            Entry(4.3f, 0f),
+            Entry(4.75f, 0f),
+            Entry(5.2f, 0f),
+            Entry(6.0f, 0f),
+            Entry(6.3f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.4f, 0f),
+            Entry(8.25f, 0f),
+            Entry(9.1f, 0f),
+            Entry(9.8f, 0f),
+            Entry(10.65f, 0f),
+            Entry(11.5f, 0f),
+            Entry(12.3f, 0f),
+            Entry(13.05f, 0f),
+            Entry(13.8f, 0f)
+        )
+
+        var desnChart8 = mutableListOf(
+            Entry(0.4f, 0f),
+            Entry(0.7f, 0f),
+            Entry(1.0f, 0f),
+            Entry(1.6f, 0f),
+            Entry(2.0f, 0f),
+            Entry(2.4f, 0f),
+            Entry(2.9f, 0f),
+            Entry(3.3f, 0f),
+            Entry(3.7f, 0f),
+            Entry(4.3f, 0f),
+            Entry(4.75f, 0f),
+            Entry(5.2f, 0f),
+            Entry(6.0f, 0f),
+            Entry(6.3f, 0f),
+            Entry(6.6f, 0f),
+            Entry(7.4f, 0f),
+            Entry(8.25f, 0f),
+            Entry(9.1f, 0f),
+            Entry(9.8f, 0f),
+            Entry(10.65f, 0f),
+            Entry(11.5f, 0f),
+            Entry(12.3f, 0f),
+            Entry(13.05f, 0f),
+            Entry(13.8f, 0f)
+        )
+
         val implantsId1 = intArrayOf(R.id.implant18, R.id.implant17,R.id.implant16,R.id.implant15,R.id.implant14,R.id.implant13,R.id.implant12,R.id.implant11)
         val implantsId2 = intArrayOf(R.id.implant28,R.id.implant27,R.id.implant26,R.id.implant25, R.id.implant24,R.id.implant23,R.id.implant22,R.id.implant21)
         val implantsId3 = intArrayOf(R.id.implant38,R.id.implant37,R.id.implant36,R.id.implant35,R.id.implant34,R.id.implant33,R.id.implant32,R.id.implant31)
@@ -408,13 +677,13 @@ class MainActivity : AppCompatActivity() {
 
         val furksId = intArrayOf(R.id.furk18, R.id.furk17,R.id.furk16,R.id.furk28,R.id.furk27,R.id.furk26,
             R.id.furk182_1,R.id.furk182_2, R.id.furk172_1,R.id.furk172_2,R.id.furk162_1,R.id.furk162_2,R.id.furk142_1,R.id.furk142_2,
-            R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2
-            ,R.id.furk38,R.id.furk37,R.id.furk36,R.id.furk48,R.id.furk47, R.id.furk46)
+            R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2,R.id.furk38,R.id.furk37,R.id.furk36,R.id.furk48,R.id.furk47, R.id.furk46,
+            R.id.furk382,R.id.furk372,R.id.furk362,R.id.furk482,R.id.furk472,R.id.furk462)
 
         val furksImgId = intArrayOf(R.id.fi18, R.id.fi17,R.id.fi16,R.id.fi28,R.id.fi27,R.id.fi26,
             R.id.fi182_1,R.id.fi182_2, R.id.fi172_1,R.id.fi172_2,R.id.fi162_1,R.id.fi162_2,R.id.fi142_1,R.id.fi142_2,
             R.id.fi282_1,R.id.fi282_2, R.id.fi272_1,R.id.fi272_2,R.id.fi262_1,R.id.fi262_2,R.id.fi242_1,R.id.fi242_2
-            ,R.id.fi38,R.id.fi37,R.id.fi36,R.id.fi48,R.id.fi47, R.id.fi46)
+            ,R.id.fi38,R.id.fi37,R.id.fi36,R.id.fi48,R.id.fi47, R.id.fi46,R.id.fi382,R.id.fi372,R.id.fi362,R.id.fi482,R.id.fi472,R.id.fi462)
 
         val desnId1 = intArrayOf(R.id.desn18_1,R.id.desn18_2,R.id.desn18_3,R.id.desn17_1,R.id.desn17_2,R.id.desn17_3,R.id.desn16_1,R.id.desn16_2,R.id.desn16_3,R.id.desn15_1,R.id.desn15_2,R.id.desn15_3,
             R.id.desn14_1,R.id.desn14_2,R.id.desn14_3,R.id.desn13_1,R.id.desn13_2,R.id.desn13_3,R.id.desn12_1,R.id.desn12_2,R.id.desn12_3,R.id.desn11_1,R.id.desn11_2,R.id.desn11_3)
@@ -506,6 +775,8 @@ class MainActivity : AppCompatActivity() {
         val chart4 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart4)
         val chart5 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart5)
         val chart6 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart6)
+        val chart7 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart7)
+        val chart8 = findViewById<com.github.mikephil.charting.charts.LineChart>(R.id.chart8)
 
         settingsForDesn(chart1, chart2, chart3, chart4, chart5, chart6)
         settingsForExist(chart1, chart2, chart3, chart4, chart5, chart6)
@@ -513,9 +784,11 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
         generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
         generateChart(chart3, zondChart3, desnChart3,9f, -16f)
-        generateChart(chart4, zondChart2, desnChart2,9f, -16f)
-        generateChart(chart5, zondChart1, desnChart1, 17f, -9f)
-        generateChart(chart6, zondChart2, desnChart2, 17f, -9f)
+        generateChart(chart4, zondChart4, desnChart4,9f, -16f)
+        generateChart(chart5, zondChart5, desnChart5, 17f, -9f)
+        generateChart(chart6, zondChart6, desnChart6, 17f, -9f)
+        generateChart(chart7, zondChart7, desnChart7,9f, -16f)
+        generateChart(chart8, zondChart8, desnChart8,9f, -16f)
     }
 
     private fun changeColorButton(button: Button, color0: String, color1: String){
@@ -849,13 +1122,13 @@ class MainActivity : AppCompatActivity() {
         val desnDataSet = LineDataSet(desnChart, "")
         zondDataSet.lineWidth = 2f
         desnDataSet.lineWidth = 2f
-        //zondDataSet.setDrawCircles(false)
-        //desnDataSet.setDrawCircles(false)
-        desnDataSet.setColor(Color.RED)
+        zondDataSet.setDrawCircles(false)
+        desnDataSet.setDrawCircles(false)
+        desnDataSet.setColor(Color.parseColor("#da8c99"))
         zondDataSet.setColor(Color.BLUE)
         desnDataSet.setDrawValues(false)
         zondDataSet.setDrawValues(false)
-        desnDataSet.setCircleColor(Color.RED)
+        desnDataSet.setCircleColor(Color.parseColor("#da8c99"))
         zondDataSet.setCircleColor(Color.BLUE)
 
         val lineData = LineData(zondDataSet, desnDataSet)
@@ -1108,7 +1381,7 @@ class MainActivity : AppCompatActivity() {
                         findViewById<EditText>(zondId3[j]).visibility = View.INVISIBLE
                         findViewById<EditText>(desnId3[j]).setText("")
                         findViewById<EditText>(zondId3[j]).setText("")
-                    }//занулили график
+                    }
                     generateChart(chart1, zondChart1, desnChart1, 17f, -9f)
                     generateChart(chart3, zondChart3, desnChart3,9f, -16f)
 
