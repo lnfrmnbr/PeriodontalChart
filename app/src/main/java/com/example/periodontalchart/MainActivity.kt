@@ -1175,7 +1175,7 @@ class MainActivity : AppCompatActivity() {
         val furksId1 = intArrayOf(R.id.furk18, R.id.furk17,R.id.furk16)
         val furks2Id1 = intArrayOf(R.id.furk182_1,R.id.furk182_2, R.id.furk172_1,R.id.furk172_2,R.id.furk162_1,R.id.furk162_2,R.id.furk142_1,R.id.furk142_2)
         val furksId2 = intArrayOf(R.id.furk28, R.id.furk27,R.id.furk26)
-        val furks2Id4 = intArrayOf(R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2)
+        val furks2Id2 = intArrayOf(R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2)
         val furksId3  = intArrayOf(R.id.furk38,R.id.furk37,R.id.furk36)
         val furksId4  = intArrayOf(R.id.furk48,R.id.furk47, R.id.furk46)
 
@@ -1349,15 +1349,24 @@ class MainActivity : AppCompatActivity() {
 
         val kr2Id1 = intArrayOf(R.id.kr182_1,R.id.kr182_2,R.id.kr182_3,R.id.kr172_1,R.id.kr172_2,R.id.kr172_3,R.id.kr162_1,R.id.kr162_2,R.id.kr162_3,R.id.kr152_1,R.id.kr152_2,R.id.kr152_3,R.id.kr142_1,R.id.kr142_2,R.id.kr142_3,R.id.kr132_1,R.id.kr132_2,R.id.kr132_3,R.id.kr122_1,R.id.kr122_2,R.id.kr122_3,R.id.kr112_1,R.id.kr112_2,R.id.kr112_3)
         val krId1 = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3)
+        val kr2Id2 = intArrayOf(R.id.kr282_1,R.id.kr282_2,R.id.kr282_3,R.id.kr272_1,R.id.kr272_2,R.id.kr272_3,R.id.kr262_1,R.id.kr262_2,R.id.kr262_3,R.id.kr252_1,R.id.kr252_2,R.id.kr252_3,R.id.kr242_1,R.id.kr242_2,R.id.kr242_3,R.id.kr232_1,R.id.kr232_2,R.id.kr232_3,R.id.kr222_1,R.id.kr222_2,R.id.kr222_3,R.id.kr212_1,R.id.kr212_2,R.id.kr212_3)
+        val krId2 = intArrayOf(R.id.kr28_1,R.id.kr28_2,R.id.kr28_3,R.id.kr27_1,R.id.kr27_2,R.id.kr27_3,R.id.kr26_1,R.id.kr26_2,R.id.kr26_3,R.id.kr25_1,R.id.kr25_2,R.id.kr25_3,R.id.kr24_1,R.id.kr24_2,R.id.kr24_3,R.id.kr23_1,R.id.kr23_2,R.id.kr23_3,R.id.kr22_1,R.id.kr22_2,R.id.kr22_3,R.id.kr21_1,R.id.kr21_2,R.id.kr21_3)
+
 
         val otl2Id1 = intArrayOf(R.id.otl182_1,R.id.otl182_2,R.id.otl182_3,R.id.otl172_1,R.id.otl172_2,R.id.otl172_3,R.id.otl162_1,R.id.otl162_2,R.id.otl162_3,R.id.otl152_1,R.id.otl152_2,R.id.otl152_3,R.id.otl142_1,R.id.otl142_2,R.id.otl142_3,R.id.otl132_1,R.id.otl132_2,R.id.otl132_3,R.id.otl122_1,R.id.otl122_2,R.id.otl122_3,R.id.otl112_1,R.id.otl112_2,R.id.otl112_3)
         val otlId1 = intArrayOf(R.id.otl18_1,R.id.otl18_2,R.id.otl18_3,R.id.otl17_1,R.id.otl17_2,R.id.otl17_3,R.id.otl16_1,R.id.otl16_2,R.id.otl16_3,R.id.otl15_1,R.id.otl15_2,R.id.otl15_3,R.id.otl14_1,R.id.otl14_2,R.id.otl14_3,R.id.otl13_1,R.id.otl13_2,R.id.otl13_3,R.id.otl12_1,R.id.otl12_2,R.id.otl12_3,R.id.otl11_1,R.id.otl11_2,R.id.otl11_3)
+        val otl2Id2 = intArrayOf(R.id.otl282_1,R.id.otl282_2,R.id.otl282_3,R.id.otl272_1,R.id.otl272_2,R.id.otl272_3,R.id.otl262_1,R.id.otl262_2,R.id.otl262_3,R.id.otl252_1,R.id.otl252_2,R.id.otl252_3,R.id.otl242_1,R.id.otl242_2,R.id.otl242_3,R.id.otl232_1,R.id.otl232_2,R.id.otl232_3,R.id.otl222_1,R.id.otl222_2,R.id.otl222_3,R.id.otl212_1,R.id.otl212_2,R.id.otl212_3)
+        val otlId2 = intArrayOf(R.id.otl28_1,R.id.otl28_2,R.id.otl28_3,R.id.otl27_1,R.id.otl27_2,R.id.otl27_3,R.id.otl26_1,R.id.otl26_2,R.id.otl26_3,R.id.otl25_1,R.id.otl25_2,R.id.otl25_3,R.id.otl24_1,R.id.otl24_2,R.id.otl24_3,R.id.otl23_1,R.id.otl23_2,R.id.otl23_3,R.id.otl22_1,R.id.otl22_2,R.id.otl22_3,R.id.otl21_1,R.id.otl21_2,R.id.otl21_3)
 
         val vos2Id1 = intArrayOf(R.id.vos182_1,R.id.vos182_2,R.id.vos182_3,R.id.vos172_1,R.id.vos172_2,R.id.vos172_3,R.id.vos162_1,R.id.vos162_2,R.id.vos162_3,R.id.vos152_1,R.id.vos152_2,R.id.vos152_3,R.id.vos142_1,R.id.vos142_2,R.id.vos142_3,R.id.vos132_1,R.id.vos132_2,R.id.vos132_3,R.id.vos122_1,R.id.vos122_2,R.id.vos122_3,R.id.vos112_1,R.id.vos112_2,R.id.vos112_3)
         val vosId1 = intArrayOf(R.id.vos18_1,R.id.vos18_2,R.id.vos18_3,R.id.vos17_1,R.id.vos17_2,R.id.vos17_3,R.id.vos16_1,R.id.vos16_2,R.id.vos16_3,R.id.vos15_1,R.id.vos15_2,R.id.vos15_3,R.id.vos14_1,R.id.vos14_2,R.id.vos14_3,R.id.vos13_1,R.id.vos13_2,R.id.vos13_3,R.id.vos12_1,R.id.vos12_2,R.id.vos12_3,R.id.vos11_1,R.id.vos11_2,R.id.vos11_3)
+        val vos2Id2 = intArrayOf(R.id.vos282_1,R.id.vos282_2,R.id.vos282_3,R.id.vos272_1,R.id.vos272_2,R.id.vos272_3,R.id.vos262_1,R.id.vos262_2,R.id.vos262_3,R.id.vos252_1,R.id.vos252_2,R.id.vos252_3,R.id.vos242_1,R.id.vos242_2,R.id.vos242_3,R.id.vos232_1,R.id.vos232_2,R.id.vos232_3,R.id.vos222_1,R.id.vos222_2,R.id.vos222_3,R.id.vos212_1,R.id.vos212_2,R.id.vos212_3)
+        val vosId2 = intArrayOf(R.id.vos28_1,R.id.vos28_2,R.id.vos28_3,R.id.vos27_1,R.id.vos27_2,R.id.vos27_3,R.id.vos26_1,R.id.vos26_2,R.id.vos26_3,R.id.vos25_1,R.id.vos25_2,R.id.vos25_3,R.id.vos24_1,R.id.vos24_2,R.id.vos24_3,R.id.vos23_1,R.id.vos23_2,R.id.vos23_3,R.id.vos22_1,R.id.vos22_2,R.id.vos22_3,R.id.vos21_1,R.id.vos21_2,R.id.vos21_3)
 
         val kam2Id1 = intArrayOf(R.id.kam182_1,R.id.kam182_2,R.id.kam182_3,R.id.kam172_1,R.id.kam172_2,R.id.kam172_3,R.id.kam162_1,R.id.kam162_2,R.id.kam162_3,R.id.kam152_1,R.id.kam152_2,R.id.kam152_3,R.id.kam142_1,R.id.kam142_2,R.id.kam142_3,R.id.kam132_1,R.id.kam132_2,R.id.kam132_3,R.id.kam122_1,R.id.kam122_2,R.id.kam122_3,R.id.kam112_1,R.id.kam112_2,R.id.kam112_3)
         val kamId1 = intArrayOf(R.id.kam18_1,R.id.kam18_2,R.id.kam18_3,R.id.kam17_1,R.id.kam17_2,R.id.kam17_3,R.id.kam16_1,R.id.kam16_2,R.id.kam16_3,R.id.kam15_1,R.id.kam15_2,R.id.kam15_3,R.id.kam14_1,R.id.kam14_2,R.id.kam14_3,R.id.kam13_1,R.id.kam13_2,R.id.kam13_3,R.id.kam12_1,R.id.kam12_2,R.id.kam12_3,R.id.kam11_1,R.id.kam11_2,R.id.kam11_3)
+        val kam2Id2 = intArrayOf(R.id.kam282_1,R.id.kam282_2,R.id.kam282_3,R.id.kam272_1,R.id.kam272_2,R.id.kam272_3,R.id.kam262_1,R.id.kam262_2,R.id.kam262_3,R.id.kam252_1,R.id.kam252_2,R.id.kam252_3,R.id.kam242_1,R.id.kam242_2,R.id.kam242_3,R.id.kam232_1,R.id.kam232_2,R.id.kam232_3,R.id.kam222_1,R.id.kam222_2,R.id.kam222_3,R.id.kam212_1,R.id.kam212_2,R.id.kam212_3)
+        val kamId2 = intArrayOf(R.id.kam28_1,R.id.kam28_2,R.id.kam28_3,R.id.kam27_1,R.id.kam27_2,R.id.kam27_3,R.id.kam26_1,R.id.kam26_2,R.id.kam26_3,R.id.kam25_1,R.id.kam25_2,R.id.kam25_3,R.id.kam24_1,R.id.kam24_2,R.id.kam24_3,R.id.kam23_1,R.id.kam23_2,R.id.kam23_3,R.id.kam22_1,R.id.kam22_2,R.id.kam22_3,R.id.kam21_1,R.id.kam21_2,R.id.kam21_3)
 
         for (i in existsId1.indices){
             val existBut = findViewById<Button>(existsId1[i])
@@ -1365,6 +1374,7 @@ class MainActivity : AppCompatActivity() {
             existBut.setOnClickListener{
                 val colorStateList = existBut.backgroundTintList
                 val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+
                 if (defaultColor == Color.parseColor(but0Color)) {
                     existBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
                     for (j in i*3..i*3+2){
@@ -1499,6 +1509,152 @@ class MainActivity : AppCompatActivity() {
 
                         findViewById<Button>(vosId1[k]).visibility = View.VISIBLE
                         findViewById<Button>(vos2Id1[k]).visibility = View.VISIBLE
+                    }
+                }
+            }
+        }
+
+        for (i in existsId2.indices){
+            val existBut = findViewById<Button>(existsId2[i])
+            existBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+            existBut.setOnClickListener{
+                val colorStateList = existBut.backgroundTintList
+                val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+
+                if (defaultColor == Color.parseColor(but0Color)) {
+                    existBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
+                    for (j in (7-i)*3..(7-i)*3+2){
+                        zondChart2[j].y = 0f
+                        desnChart2[j].y = 0f
+                        findViewById<EditText>(desnId2[j]).visibility = View.INVISIBLE
+                        findViewById<EditText>(zondId2[j]).visibility = View.INVISIBLE
+                        findViewById<EditText>(desnId2[j]).setText("")
+                        findViewById<EditText>(zondId2[j]).setText("")
+
+                        zondChart4[j].y = 0f
+                        desnChart4[j].y = 0f
+                        findViewById<EditText>(desnId4[j]).visibility = View.INVISIBLE
+                        findViewById<EditText>(zondId4[j]).visibility = View.INVISIBLE
+                        findViewById<EditText>(desnId4[j]).setText("")
+                        findViewById<EditText>(zondId4[j]).setText("")
+                    }
+                    generateChart(chart2, zondChart2, desnChart2, 17f, -9f)
+                    generateChart(chart4, zondChart4, desnChart4,9f, -16f)
+
+                    findViewById<Button>(implantsId2[i]).visibility = View.INVISIBLE
+                    findViewById<Button>(implantsId2[i]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    findViewById<EditText>(podvsId2[i]).visibility = View.INVISIBLE
+                    if(i <= 2){
+                        findViewById<ImageButton>(furksId2[i]).tag = R.drawable.null17
+                        findViewById<ImageView>(furksImgId2[i]).tag = R.drawable.null17
+                        findViewById<ImageButton>(furks2Id2[i*2]).tag = R.drawable.null17
+                        findViewById<ImageView>(furks2ImgId2[i*2]).tag = R.drawable.null17
+                        findViewById<ImageButton>(furks2Id2[i*2+1]).tag = R.drawable.null17
+                        findViewById<ImageView>(furks2ImgId2[i*2+1]).tag = R.drawable.null17
+                        findViewById<ImageButton>(furksId2[i]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(furksImgId2[i]).visibility = View.INVISIBLE
+                        findViewById<ImageButton>(furks2Id2[i*2]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(furks2ImgId2[i*2]).visibility = View.INVISIBLE
+                        findViewById<ImageButton>(furks2Id2[i*2+1]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(furks2ImgId2[i*2+1]).visibility = View.INVISIBLE
+                    }
+                    if (i == 4){
+                        findViewById<ImageButton>(furks2Id2[6]).tag = R.drawable.null17
+                        findViewById<ImageView>(furks2ImgId2[6]).tag = R.drawable.null17
+                        findViewById<ImageButton>(furks2Id2[7]).tag = R.drawable.null17
+                        findViewById<ImageView>(furks2ImgId2[7]).tag = R.drawable.null17
+                        findViewById<ImageButton>(furks2Id2[6]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(furks2ImgId2[6]).visibility = View.INVISIBLE
+                        findViewById<ImageButton>(furks2Id2[7]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(furks2ImgId2[7]).visibility = View.INVISIBLE
+                    }
+                    findViewById<Button>(pupesId2[i]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    findViewById<Button>(pupesId2[i]).visibility = View.INVISIBLE
+
+                    findViewById<ImageView>(tsId2[i]).setImageResource(tsDrawable2[i])
+                    findViewById<ImageView>(t2sId2[i]).setImageResource(t2sDrawable2[i])
+                    findViewById<ImageView>(tsId2[i]).visibility = View.INVISIBLE
+                    findViewById<ImageView>(t2sId2[i]).visibility = View.INVISIBLE
+
+                    findViewById<Button>(plombsId2[i]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    findViewById<Button>(plombsId2[i]).visibility = View.INVISIBLE
+                    for (j in i*6..i*6+5){
+                        findViewById<Button>(karsId2[j]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(karsId2[j]).visibility = View.INVISIBLE
+                        findViewById<Button>(kars2Id2[j]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(kars2Id2[j]).visibility = View.INVISIBLE
+                        findViewById<ImageView>(karsIdImg2[j]).visibility = View.GONE
+                        findViewById<ImageView>(kars2IdImg2[j]).visibility = View.GONE
+                    }
+                    for (k in i*3..i*3+2){
+                        findViewById<Button>(krId2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(krId2[k]).visibility = View.INVISIBLE
+                        findViewById<Button>(kr2Id2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(kr2Id2[k]).visibility = View.INVISIBLE
+
+                        findViewById<Button>(otlId2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(otlId2[k]).visibility = View.INVISIBLE
+                        findViewById<Button>(otl2Id2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(otl2Id2[k]).visibility = View.INVISIBLE
+
+                        findViewById<Button>(kamId2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(kamId2[k]).visibility = View.INVISIBLE
+                        findViewById<Button>(kam2Id2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(kam2Id2[k]).visibility = View.INVISIBLE
+
+                        findViewById<Button>(vosId2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(vosId2[k]).visibility = View.INVISIBLE
+                        findViewById<Button>(vos2Id2[k]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(vos2Id2[k]).visibility = View.INVISIBLE
+                    }
+                }
+                else{
+                    existBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                    for (j in (7-i)*3..(7-i)*3+2){
+                        findViewById<EditText>(desnId2[j]).visibility = View.VISIBLE
+                        findViewById<EditText>(zondId2[j]).visibility = View.VISIBLE
+                        findViewById<EditText>(desnId4[j]).visibility = View.VISIBLE
+                        findViewById<EditText>(zondId4[j]).visibility = View.VISIBLE
+                    }
+
+                    findViewById<Button>(implantsId2[i]).visibility = View.VISIBLE
+                    findViewById<EditText>(podvsId2[i]).visibility = View.VISIBLE
+                    if(i <= 2){
+                        findViewById<ImageButton>(furksId2[i]).visibility = View.VISIBLE
+                        findViewById<ImageView>(furksImgId2[i]).visibility = View.VISIBLE
+                        findViewById<ImageButton>(furks2Id2[i*2]).visibility = View.VISIBLE
+                        findViewById<ImageView>(furks2ImgId2[i*2]).visibility = View.VISIBLE
+                        findViewById<ImageButton>(furks2Id2[i*2+1]).visibility = View.VISIBLE
+                        findViewById<ImageView>(furks2ImgId2[i*2+1]).visibility = View.VISIBLE
+                    }
+                    if (i == 4){
+                        findViewById<ImageButton>(furks2Id2[6]).visibility = View.VISIBLE
+                        findViewById<ImageView>(furks2ImgId2[6]).visibility = View.VISIBLE
+                        findViewById<ImageButton>(furks2Id2[7]).visibility = View.VISIBLE
+                        findViewById<ImageView>(furks2ImgId2[7]).visibility = View.VISIBLE
+                    }
+                    findViewById<Button>(pupesId2[i]).visibility = View.VISIBLE
+
+                    findViewById<ImageView>(tsId2[i]).visibility = View.VISIBLE
+                    findViewById<ImageView>(t2sId2[i]).visibility = View.VISIBLE
+
+                    findViewById<Button>(plombsId2[i]).visibility = View.VISIBLE
+                    for (j in i*6..i*6+5){
+                        findViewById<Button>(karsId2[j]).visibility = View.VISIBLE
+                        findViewById<Button>(kars2Id2[j]).visibility = View.VISIBLE
+                    }
+                    for (k in i*3..i*3+2){
+                        findViewById<Button>(krId2[k]).visibility = View.VISIBLE
+                        findViewById<Button>(kr2Id2[k]).visibility = View.VISIBLE
+
+                        findViewById<Button>(otlId2[k]).visibility = View.VISIBLE
+                        findViewById<Button>(otl2Id2[k]).visibility = View.VISIBLE
+
+                        findViewById<Button>(kamId2[k]).visibility = View.VISIBLE
+                        findViewById<Button>(kam2Id2[k]).visibility = View.VISIBLE
+
+                        findViewById<Button>(vosId2[k]).visibility = View.VISIBLE
+                        findViewById<Button>(vos2Id2[k]).visibility = View.VISIBLE
                     }
                 }
             }

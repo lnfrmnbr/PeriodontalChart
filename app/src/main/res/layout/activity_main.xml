@@ -36762,6 +36762,25 @@
 
                 </LinearLayout>
 
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart7"
+                        android:layout_width="528dp"
+                        android:layout_height="222dp"
+                        android:layout_marginStart="112dp"
+                        android:layout_marginTop="-7dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart8"
+                        android:layout_width="530dp"
+                        android:layout_height="222dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="-3dp"
+                        android:layout_marginTop="-7dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
                     <ImageView
                         android:id="@+id/fi482"
                         android:layout_marginStart="148dp"
@@ -36818,25 +36837,6 @@
                         app:srcCompat="@drawable/null17"
                         android:layout_width="16dp"
                         android:layout_height="16dp"/>
-
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:id="@+id/chart7"
-                        android:layout_width="528dp"
-                        android:layout_height="222dp"
-                        android:layout_marginStart="112dp"
-                        android:layout_marginTop="-7dp">
-
-                    </com.github.mikephil.charting.charts.LineChart>
-
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:id="@+id/chart8"
-                        android:layout_width="530dp"
-                        android:layout_height="222dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginEnd="-3dp"
-                        android:layout_marginTop="-7dp">
-
-                    </com.github.mikephil.charting.charts.LineChart>
                 </RelativeLayout>
 
             </LinearLayout>
