@@ -458,6 +458,44 @@ class MainActivity : AppCompatActivity() {
             Entry(13.8f, 0f)
         )
 
+        val tsDrawable1 = intArrayOf(R.drawable.t18, R.drawable.t17,R.drawable.t16,R.drawable.t15,R.drawable.t14,R.drawable.t13,R.drawable.t12,R.drawable.t11)
+        val tsDrawable2 = intArrayOf(R.drawable.t28,R.drawable.t27,R.drawable.t26,R.drawable.t25, R.drawable.t24,R.drawable.t23,R.drawable.t22,R.drawable.t21)
+        val tsDrawable3 = intArrayOf(R.drawable.t38,R.drawable.t37,R.drawable.t36,R.drawable.t35,R.drawable.t34,R.drawable.t33,R.drawable.t32,R.drawable.t31)
+        val tsDrawable4 = intArrayOf(R.drawable.t48,R.drawable.t47,R.drawable.t46,R.drawable.t45,R.drawable.t44,R.drawable.t43,R.drawable.t42,R.drawable.t41)
+
+        val t2sDrawable1 = intArrayOf(R.drawable.t182, R.drawable.t172,R.drawable.t162,R.drawable.t152,R.drawable.t142,R.drawable.t132,R.drawable.t122,R.drawable.t112)
+        val t2sDrawable2 = intArrayOf(R.drawable.t282,R.drawable.t272,R.drawable.t262,R.drawable.t252, R.drawable.t242,R.drawable.t232,R.drawable.t222,R.drawable.t212)
+        val t2sDrawable3 = intArrayOf(R.drawable.t382,R.drawable.t372,R.drawable.t362,R.drawable.t352,R.drawable.t342,R.drawable.t332,R.drawable.t322,R.drawable.t312)
+        val t2sDrawable4 = intArrayOf(R.drawable.t482,R.drawable.t472, R.drawable.t462,R.drawable.t452,R.drawable.t442,R.drawable.t432,R.drawable.t422,R.drawable.t412)
+
+        val tsId1 = intArrayOf(R.id.t18, R.id.t17,R.id.t16,R.id.t15,R.id.t14,R.id.t13,R.id.t12,R.id.t11)
+        val tsId2 = intArrayOf(R.id.t28,R.id.t27,R.id.t26,R.id.t25,R.id.t24,R.id.t23,R.id.t22,R.id.t21)
+        val tsId3 = intArrayOf(R.id.t38,R.id.t37,R.id.t36,R.id.t35,R.id.t34,R.id.t33,R.id.t32,R.id.t31)
+        val tsId4 = intArrayOf(R.id.t48,R.id.t47, R.id.t46,R.id.t45,R.id.t44,R.id.t43,R.id.t42,R.id.t41)
+
+        val t2sId1 = intArrayOf(R.id.t182, R.id.t172,R.id.t162,R.id.t152,R.id.t142,R.id.t132,R.id.t122,R.id.t112)
+        val t2sId2 = intArrayOf(R.id.t282,R.id.t272,R.id.t262,R.id.t252, R.id.t242,R.id.t232,R.id.t222,R.id.t212)
+        val t2sId3 = intArrayOf(R.id.t382,R.id.t372,R.id.t362,R.id.t352,R.id.t342,R.id.t332,R.id.t322,R.id.t312)
+        val t2sId4 = intArrayOf(R.id.t482,R.id.t472, R.id.t462,R.id.t452,R.id.t442,R.id.t432,R.id.t422,R.id.t412)
+
+        val furksId1 = intArrayOf(R.id.furk18, R.id.furk17,R.id.furk16)
+        val furks2Id1 = intArrayOf(R.id.furk182_1,R.id.furk182_2, R.id.furk172_1,R.id.furk172_2,R.id.furk162_1,R.id.furk162_2,R.id.furk142_1,R.id.furk142_2)
+        val furksId2 = intArrayOf(R.id.furk28, R.id.furk27,R.id.furk26)
+        val furks2Id2 = intArrayOf(R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2)
+        val furksId3  = intArrayOf(R.id.furk38,R.id.furk37,R.id.furk36)
+        val furks2Id3  = intArrayOf(R.id.furk382,R.id.furk372,R.id.furk362)
+        val furksId4  = intArrayOf(R.id.furk48,R.id.furk47, R.id.furk46)
+        val furks2Id4  = intArrayOf(R.id.furk482,R.id.furk472, R.id.furk462)
+
+        val furksImgId1 = intArrayOf(R.id.fi18, R.id.fi17,R.id.fi16)
+        val furks2ImgId1 = intArrayOf(R.id.fi182_1,R.id.fi182_2, R.id.fi172_1,R.id.fi172_2,R.id.fi162_1,R.id.fi162_2,R.id.fi142_1,R.id.fi142_2)
+        val furksImgId2 = intArrayOf(R.id.fi28,R.id.fi27,R.id.fi26)
+        val furks2ImgId2 = intArrayOf(R.id.fi282_1,R.id.fi282_2, R.id.fi272_1,R.id.fi272_2,R.id.fi262_1,R.id.fi262_2,R.id.fi242_1,R.id.fi242_2)
+        val furksImgId3 = intArrayOf( R.id.fi38,R.id.fi37,R.id.fi36)
+        val furks2ImgId3 = intArrayOf( R.id.fi382,R.id.fi372,R.id.fi362)
+        val furksImgId4 = intArrayOf(R.id.fi48,R.id.fi47, R.id.fi46)
+        val furks2ImgId4 = intArrayOf(R.id.fi482,R.id.fi472, R.id.fi462)
+
         val implantsId1 = intArrayOf(R.id.implant18, R.id.implant17,R.id.implant16,R.id.implant15,R.id.implant14,R.id.implant13,R.id.implant12,R.id.implant11)
         val implantsId2 = intArrayOf(R.id.implant28,R.id.implant27,R.id.implant26,R.id.implant25, R.id.implant24,R.id.implant23,R.id.implant22,R.id.implant21)
         val implantsId3 = intArrayOf(R.id.implant38,R.id.implant37,R.id.implant36,R.id.implant35,R.id.implant34,R.id.implant33,R.id.implant32,R.id.implant31)
@@ -737,6 +775,147 @@ class MainActivity : AppCompatActivity() {
             R.id.zond332_1,R.id.zond332_2,R.id.zond332_3,R.id.zond342_1,R.id.zond342_2,R.id.zond342_3,R.id.zond352_1,R.id.zond352_2,R.id.zond352_3,R.id.zond362_1,R.id.zond362_2,R.id.zond362_3,R.id.zond372_1,R.id.zond372_2,
             R.id.zond372_3,R.id.zond382_1,R.id.zond382_2,R.id.zond382_3)
 
+        val plombsId1 = intArrayOf(R.id.plomb18, R.id.plomb17,R.id.plomb16,R.id.plomb15,R.id.plomb14,R.id.plomb13,R.id.plomb12,R.id.plomb11)
+        val plombsId2 = intArrayOf(R.id.plomb28,R.id.plomb27,R.id.plomb26,R.id.plomb25,R.id.plomb24,R.id.plomb23,R.id.plomb22,R.id.plomb21)
+        val plombsId3 = intArrayOf(R.id.plomb38,R.id.plomb37,R.id.plomb36,R.id.plomb35,R.id.plomb34,R.id.plomb33,R.id.plomb32,R.id.plomb31)
+        val plombsId4 = intArrayOf(R.id.plomb48,R.id.plomb47, R.id.plomb46,R.id.plomb45,R.id.plomb44,R.id.plomb43,R.id.plomb42,R.id.plomb41)
+
+        val karsId1 = intArrayOf(R.id.kar18_1, R.id.kar18_5, R.id.kar18_21, R.id.kar18_22, R.id.kar18_61, R.id.kar18_62,
+            R.id.kar17_1, R.id.kar17_5, R.id.kar17_21, R.id.kar17_22, R.id.kar17_61, R.id.kar17_62,
+            R.id.kar16_1, R.id.kar16_5, R.id.kar16_21, R.id.kar16_22, R.id.kar16_61, R.id.kar16_62,
+            R.id.kar15_1, R.id.kar15_5, R.id.kar15_21, R.id.kar15_22, R.id.kar15_61, R.id.kar15_62,
+            R.id.kar14_1, R.id.kar14_5, R.id.kar14_21, R.id.kar14_22, R.id.kar14_61, R.id.kar14_62,
+            R.id.kar13_6, R.id.kar13_5, R.id.kar13_31, R.id.kar13_32, R.id.kar13_41, R.id.kar13_42,
+            R.id.kar12_6, R.id.kar12_5, R.id.kar12_31, R.id.kar12_32, R.id.kar12_41, R.id.kar12_42,
+            R.id.kar11_6, R.id.kar11_5, R.id.kar11_31, R.id.kar11_32, R.id.kar11_41, R.id.kar11_42)
+        val karsId2 = intArrayOf(  R.id.kar28_1, R.id.kar28_5, R.id.kar28_21, R.id.kar28_22, R.id.kar28_61, R.id.kar28_62,
+            R.id.kar27_1, R.id.kar27_5, R.id.kar27_21, R.id.kar27_22, R.id.kar27_61, R.id.kar27_62,
+            R.id.kar26_1, R.id.kar26_5, R.id.kar26_21, R.id.kar26_22, R.id.kar26_61, R.id.kar26_62,
+            R.id.kar25_1, R.id.kar25_5, R.id.kar25_21, R.id.kar25_22, R.id.kar25_61, R.id.kar25_62,
+            R.id.kar24_1, R.id.kar24_5, R.id.kar24_21, R.id.kar24_22, R.id.kar24_61, R.id.kar24_62,
+            R.id.kar23_6, R.id.kar23_5, R.id.kar23_31, R.id.kar23_32, R.id.kar23_41, R.id.kar23_42,
+            R.id.kar22_6, R.id.kar22_5, R.id.kar22_31, R.id.kar22_32, R.id.kar22_41, R.id.kar22_42,
+            R.id.kar21_6, R.id.kar21_5, R.id.kar21_31, R.id.kar21_32, R.id.kar21_41, R.id.kar21_42)
+        val karsId3 = intArrayOf(R.id.kar38_1, R.id.kar38_5, R.id.kar38_21, R.id.kar38_22, R.id.kar38_61, R.id.kar38_62,
+            R.id.kar37_1, R.id.kar37_5, R.id.kar37_21, R.id.kar37_22, R.id.kar37_61, R.id.kar37_62,
+            R.id.kar36_1, R.id.kar36_5, R.id.kar36_21, R.id.kar36_22, R.id.kar36_61, R.id.kar36_62,
+            R.id.kar35_1, R.id.kar35_5, R.id.kar35_21, R.id.kar35_22, R.id.kar35_61, R.id.kar35_62,
+            R.id.kar34_1, R.id.kar34_5, R.id.kar34_21, R.id.kar34_22, R.id.kar34_61, R.id.kar34_62,
+            R.id.kar33_6, R.id.kar33_5, R.id.kar33_31, R.id.kar33_32, R.id.kar33_41, R.id.kar33_42,
+            R.id.kar32_6, R.id.kar32_5, R.id.kar32_31, R.id.kar32_32, R.id.kar32_41, R.id.kar32_42,
+            R.id.kar31_6, R.id.kar31_5, R.id.kar31_31, R.id.kar31_32, R.id.kar31_41, R.id.kar31_42)
+        val karsId4 = intArrayOf( R.id.kar48_1, R.id.kar48_5, R.id.kar48_21, R.id.kar48_22, R.id.kar48_61, R.id.kar48_62,
+            R.id.kar47_1, R.id.kar47_5, R.id.kar47_21, R.id.kar47_22, R.id.kar47_61, R.id.kar47_62,
+            R.id.kar46_1, R.id.kar46_5, R.id.kar46_21, R.id.kar46_22, R.id.kar46_61, R.id.kar46_62,
+            R.id.kar45_1, R.id.kar45_5, R.id.kar45_21, R.id.kar45_22, R.id.kar45_61, R.id.kar45_62,
+            R.id.kar44_1, R.id.kar44_5, R.id.kar44_21, R.id.kar44_22, R.id.kar44_61, R.id.kar44_62,
+            R.id.kar43_6, R.id.kar43_5, R.id.kar43_31, R.id.kar43_32, R.id.kar43_41, R.id.kar43_42,
+            R.id.kar42_6, R.id.kar42_5, R.id.kar42_31, R.id.kar42_32, R.id.kar42_41, R.id.kar42_42,
+            R.id.kar41_6, R.id.kar41_5, R.id.kar41_31, R.id.kar41_32, R.id.kar41_41, R.id.kar41_42)
+        val kars2Id1 = intArrayOf(R.id.kar182_1, R.id.kar182_5, R.id.kar182_21, R.id.kar182_22, R.id.kar182_61, R.id.kar182_62,
+            R.id.kar172_1, R.id.kar172_5, R.id.kar172_21, R.id.kar172_22, R.id.kar172_61, R.id.kar172_62,
+            R.id.kar162_1, R.id.kar162_5, R.id.kar162_21, R.id.kar162_22, R.id.kar162_61, R.id.kar162_62,
+            R.id.kar152_1, R.id.kar152_5, R.id.kar152_21, R.id.kar152_22, R.id.kar152_61, R.id.kar152_62,
+            R.id.kar142_1, R.id.kar142_5, R.id.kar142_21, R.id.kar142_22, R.id.kar142_61, R.id.kar142_62,
+            R.id.kar132_6, R.id.kar132_5, R.id.kar132_31, R.id.kar132_32, R.id.kar132_41, R.id.kar132_42,
+            R.id.kar122_6, R.id.kar122_5, R.id.kar122_31, R.id.kar122_32, R.id.kar122_41, R.id.kar122_42,
+            R.id.kar112_6, R.id.kar112_5, R.id.kar112_31, R.id.kar112_32, R.id.kar112_41, R.id.kar112_42)
+        val kars2Id2 = intArrayOf(R.id.kar282_1, R.id.kar282_5, R.id.kar282_21, R.id.kar282_22, R.id.kar282_61, R.id.kar282_62,
+            R.id.kar272_1, R.id.kar272_5, R.id.kar272_21, R.id.kar272_22, R.id.kar272_61, R.id.kar272_62,
+            R.id.kar262_1, R.id.kar262_5, R.id.kar262_21, R.id.kar262_22, R.id.kar262_61, R.id.kar262_62,
+            R.id.kar252_1, R.id.kar252_5, R.id.kar252_21, R.id.kar252_22, R.id.kar252_61, R.id.kar252_62,
+            R.id.kar242_1, R.id.kar242_5, R.id.kar242_21, R.id.kar242_22, R.id.kar242_61, R.id.kar242_62,
+            R.id.kar232_6, R.id.kar232_5, R.id.kar232_31, R.id.kar232_32, R.id.kar232_41, R.id.kar232_42,
+            R.id.kar222_6, R.id.kar222_5, R.id.kar222_31, R.id.kar222_32, R.id.kar222_41, R.id.kar222_42,
+            R.id.kar212_6, R.id.kar212_5, R.id.kar212_31, R.id.kar212_32, R.id.kar212_41, R.id.kar212_42)
+        val kars2Id3 = intArrayOf(R.id.kar382_1, R.id.kar382_5, R.id.kar382_21, R.id.kar382_22, R.id.kar382_61, R.id.kar382_62,
+            R.id.kar372_1, R.id.kar372_5, R.id.kar372_21, R.id.kar372_22, R.id.kar372_61, R.id.kar372_62,
+            R.id.kar362_1, R.id.kar362_5, R.id.kar362_21, R.id.kar362_22, R.id.kar362_61, R.id.kar362_62,
+            R.id.kar352_1, R.id.kar352_5, R.id.kar352_21, R.id.kar352_22, R.id.kar352_61, R.id.kar352_62,
+            R.id.kar342_1, R.id.kar342_5, R.id.kar342_21, R.id.kar342_22, R.id.kar342_61, R.id.kar342_62,
+            R.id.kar332_6, R.id.kar332_5, R.id.kar332_31, R.id.kar332_32, R.id.kar332_41, R.id.kar332_42,
+            R.id.kar322_6, R.id.kar322_5, R.id.kar322_31, R.id.kar322_32, R.id.kar322_41, R.id.kar322_42,
+            R.id.kar312_6, R.id.kar312_5, R.id.kar312_31, R.id.kar312_32, R.id.kar312_41, R.id.kar312_42)
+        val kars2Id4 = intArrayOf(R.id.kar482_1, R.id.kar482_5, R.id.kar482_21, R.id.kar482_22, R.id.kar482_61, R.id.kar482_62,
+            R.id.kar472_1, R.id.kar472_5, R.id.kar472_21, R.id.kar472_22, R.id.kar472_61, R.id.kar472_62,
+            R.id.kar462_1, R.id.kar462_5, R.id.kar462_21, R.id.kar462_22, R.id.kar462_61, R.id.kar462_62,
+            R.id.kar452_1, R.id.kar452_5, R.id.kar452_21, R.id.kar452_22, R.id.kar452_61, R.id.kar452_62,
+            R.id.kar442_1, R.id.kar442_5, R.id.kar442_21, R.id.kar442_22, R.id.kar442_61, R.id.kar442_62,
+            R.id.kar432_6, R.id.kar432_5, R.id.kar432_31, R.id.kar432_32, R.id.kar432_41, R.id.kar432_42,
+            R.id.kar422_6, R.id.kar422_5, R.id.kar422_31, R.id.kar422_32, R.id.kar422_41, R.id.kar422_42,
+            R.id.kar412_6, R.id.kar412_5, R.id.kar412_31, R.id.kar412_32, R.id.kar412_41, R.id.kar412_42
+        )
+        val karsIdImg1 = intArrayOf(R.id.t18k1, R.id.t18k5, R.id.t18k21, R.id.t18k22, R.id.t18k61, R.id.t18k62,
+            R.id.t17k1, R.id.t17k5, R.id.t17k21, R.id.t17k22, R.id.t17k61, R.id.t17k62,
+            R.id.t16k1, R.id.t16k5, R.id.t16k21, R.id.t16k22, R.id.t16k61, R.id.t16k62,
+            R.id.t15k1, R.id.t15k5, R.id.t15k21, R.id.t15k22, R.id.t15k61, R.id.t15k62,
+            R.id.t14k1, R.id.t14k5, R.id.t14k21, R.id.t14k22, R.id.t14k61, R.id.t14k62,
+            R.id.t13k6, R.id.t13k5, R.id.t13k31, R.id.t13k32, R.id.t13k41, R.id.t13k42,
+            R.id.t12k6, R.id.t12k5, R.id.t12k31, R.id.t12k32, R.id.t12k41, R.id.t12k42,
+            R.id.t11k6, R.id.t11k5, R.id.t11k31, R.id.t11k32, R.id.t11k41, R.id.t11k42)
+        val karsIdImg2 = intArrayOf(  R.id.t28k1, R.id.t28k5, R.id.t28k21, R.id.t28k22, R.id.t28k61, R.id.t28k62,
+            R.id.t27k1, R.id.t27k5, R.id.t27k21, R.id.t27k22, R.id.t27k61, R.id.t27k62,
+            R.id.t26k1, R.id.t26k5, R.id.t26k21, R.id.t26k22, R.id.t26k61, R.id.t26k62,
+            R.id.t25k1, R.id.t25k5, R.id.t25k21, R.id.t25k22, R.id.t25k61, R.id.t25k62,
+            R.id.t24k1, R.id.t24k5, R.id.t24k21, R.id.t24k22, R.id.t24k61, R.id.t24k62,
+            R.id.t23k6, R.id.t23k5, R.id.t23k31, R.id.t23k32, R.id.t23k41, R.id.t23k42,
+            R.id.t22k6, R.id.t22k5, R.id.t22k31, R.id.t22k32, R.id.t22k41, R.id.t22k42,
+            R.id.t21k6, R.id.t21k5, R.id.t21k31, R.id.t21k32, R.id.t21k41, R.id.t21k42)
+        val karsIdImg3 = intArrayOf(R.id.t38k1, R.id.t38k5, R.id.t38k21, R.id.t38k22, R.id.t38k61, R.id.t38k62,
+            R.id.t37k1, R.id.t37k5, R.id.t37k21, R.id.t37k22, R.id.t37k61, R.id.t37k62,
+            R.id.t36k1, R.id.t36k5, R.id.t36k21, R.id.t36k22, R.id.t36k61, R.id.t36k62,
+            R.id.t35k1, R.id.t35k5, R.id.t35k21, R.id.t35k22, R.id.t35k61, R.id.t35k62,
+            R.id.t34k1, R.id.t34k5, R.id.t34k21, R.id.t34k22, R.id.t34k61, R.id.t34k62,
+            R.id.t33k6, R.id.t33k5, R.id.t33k31, R.id.t33k32, R.id.t33k41, R.id.t33k42,
+            R.id.t32k6, R.id.t32k5, R.id.t32k31, R.id.t32k32, R.id.t32k41, R.id.t32k42,
+            R.id.t31k6, R.id.t31k5, R.id.t31k31, R.id.t31k32, R.id.t31k41, R.id.t31k42)
+        val karsIdImg4 = intArrayOf( R.id.t48k1, R.id.t48k5, R.id.t48k21, R.id.t48k22, R.id.t48k61, R.id.t48k62,
+            R.id.t47k1, R.id.t47k5, R.id.t47k21, R.id.t47k22, R.id.t47k61, R.id.t47k62,
+            R.id.t46k1, R.id.t46k5, R.id.t46k21, R.id.t46k22, R.id.t46k61, R.id.t46k62,
+            R.id.t45k1, R.id.t45k5, R.id.t45k21, R.id.t45k22, R.id.t45k61, R.id.t45k62,
+            R.id.t44k1, R.id.t44k5, R.id.t44k21, R.id.t44k22, R.id.t44k61, R.id.t44k62,
+            R.id.t43k6, R.id.t43k5, R.id.t43k31, R.id.t43k32, R.id.t43k41, R.id.t43k42,
+            R.id.t42k6, R.id.t42k5, R.id.t42k31, R.id.t42k32, R.id.t42k41, R.id.t42k42,
+            R.id.t41k6, R.id.t41k5, R.id.t41k31, R.id.t41k32, R.id.t41k41, R.id.t41k42)
+        val kars2IdImg1 = intArrayOf(R.id.t182k1, R.id.t182k5, R.id.t182k21, R.id.t182k22, R.id.t182k61, R.id.t182k62,
+            R.id.t172k1, R.id.t172k5, R.id.t172k21, R.id.t172k22, R.id.t172k61, R.id.t172k62,
+            R.id.t162k1, R.id.t162k5, R.id.t162k21, R.id.t162k22, R.id.t162k61, R.id.t162k62,
+            R.id.t152k1, R.id.t152k5, R.id.t152k21, R.id.t152k22, R.id.t152k61, R.id.t152k62,
+            R.id.t142k1, R.id.t142k5, R.id.t142k21, R.id.t142k22, R.id.t142k61, R.id.t142k62,
+            R.id.t132k6, R.id.t132k5, R.id.t132k31, R.id.t132k32, R.id.t132k41, R.id.t132k42,
+            R.id.t122k6, R.id.t122k5, R.id.t122k31, R.id.t122k32, R.id.t122k41, R.id.t122k42,
+            R.id.t112k6, R.id.t112k5, R.id.t112k31, R.id.t112k32, R.id.t112k41, R.id.t112k42)
+        val kars2IdImg2 = intArrayOf(R.id.t282k1, R.id.t282k5, R.id.t282k21, R.id.t282k22, R.id.t282k61, R.id.t282k62,
+            R.id.t272k1, R.id.t272k5, R.id.t272k21, R.id.t272k22, R.id.t272k61, R.id.t272k62,
+            R.id.t262k1, R.id.t262k5, R.id.t262k21, R.id.t262k22, R.id.t262k61, R.id.t262k62,
+            R.id.t252k1, R.id.t252k5, R.id.t252k21, R.id.t252k22, R.id.t252k61, R.id.t252k62,
+            R.id.t242k1, R.id.t242k5, R.id.t242k21, R.id.t242k22, R.id.t242k61, R.id.t242k62,
+            R.id.t232k6, R.id.t232k5, R.id.t232k31, R.id.t232k32, R.id.t232k41, R.id.t232k42,
+            R.id.t222k6, R.id.t222k5, R.id.t222k31, R.id.t222k32, R.id.t222k41, R.id.t222k42,
+            R.id.t212k6, R.id.t212k5, R.id.t212k31, R.id.t212k32, R.id.t212k41, R.id.t212k42)
+        val kars2IdImg3 = intArrayOf(R.id.t382k1, R.id.t382k5, R.id.t382k21, R.id.t382k22, R.id.t382k61, R.id.t382k62,
+            R.id.t372k1, R.id.t372k5, R.id.t372k21, R.id.t372k22, R.id.t372k61, R.id.t372k62,
+            R.id.t362k1, R.id.t362k5, R.id.t362k21, R.id.t362k22, R.id.t362k61, R.id.t362k62,
+            R.id.t352k1, R.id.t352k5, R.id.t352k21, R.id.t352k22, R.id.t352k61, R.id.t352k62,
+            R.id.t342k1, R.id.t342k5, R.id.t342k21, R.id.t342k22, R.id.t342k61, R.id.t342k62,
+            R.id.t332k6, R.id.t332k5, R.id.t332k31, R.id.t332k32, R.id.t332k41, R.id.t332k42,
+            R.id.t322k6, R.id.t322k5, R.id.t322k31, R.id.t322k32, R.id.t322k41, R.id.t322k42,
+            R.id.t312k6, R.id.t312k5, R.id.t312k31, R.id.t312k32, R.id.t312k41, R.id.t312k42)
+        val kars2IdImg4 = intArrayOf(R.id.t482k1, R.id.t482k5, R.id.t482k21, R.id.t482k22, R.id.t482k61, R.id.t482k62,
+            R.id.t472k1, R.id.t472k5, R.id.t472k21, R.id.t472k22, R.id.t472k61, R.id.t472k62,
+            R.id.t462k1, R.id.t462k5, R.id.t462k21, R.id.t462k22, R.id.t462k61, R.id.t462k62,
+            R.id.t452k1, R.id.t452k5, R.id.t452k21, R.id.t452k22, R.id.t452k61, R.id.t452k62,
+            R.id.t442k1, R.id.t442k5, R.id.t442k21, R.id.t442k22, R.id.t442k61, R.id.t442k62,
+            R.id.t432k6, R.id.t432k5, R.id.t432k31, R.id.t432k32, R.id.t432k41, R.id.t432k42,
+            R.id.t422k6, R.id.t422k5, R.id.t422k31, R.id.t422k32, R.id.t422k41, R.id.t422k42,
+            R.id.t412k6, R.id.t412k5, R.id.t412k31, R.id.t412k32, R.id.t412k41, R.id.t412k42
+        )
+
+        val pupesId1 = intArrayOf(R.id.pupe18, R.id.pupe17,R.id.pupe16,R.id.pupe15,R.id.pupe14,R.id.pupe13,R.id.pupe12,R.id.pupe11)
+        val pupesId2 = intArrayOf(R.id.pupe28,R.id.pupe27,R.id.pupe26,R.id.pupe25,R.id.pupe24,R.id.pupe23,R.id.pupe22,R.id.pupe21)
+        val pupesId3 = intArrayOf(R.id.pupe38,R.id.pupe37,R.id.pupe36,R.id.pupe35,R.id.pupe34,R.id.pupe33,R.id.pupe32,R.id.pupe31)
+        val pupesId4 = intArrayOf(R.id.pupe48,R.id.pupe47, R.id.pupe46,R.id.pupe45,R.id.pupe44,R.id.pupe43,R.id.pupe42,R.id.pupe41)
+
         const val but0Color = "#DCDCDC"
         const val plombColor = "#20b2aa"
         const val krColor = "#CD5C5C"
@@ -811,27 +990,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun settingsForImplants(){
+        val tisDrawable1 = intArrayOf(R.drawable.t18i, R.drawable.t17i,R.drawable.t16i,R.drawable.t15i,R.drawable.t14i,R.drawable.t13i,R.drawable.t12i,R.drawable.t11i)
+        val tisDrawable2 = intArrayOf(R.drawable.t28i,R.drawable.t27i,R.drawable.t26i,R.drawable.t25i, R.drawable.t24i,R.drawable.t23i,R.drawable.t22i,R.drawable.t21i)
+        val tisDrawable3 = intArrayOf(R.drawable.t38i,R.drawable.t37i,R.drawable.t36i,R.drawable.t35i,R.drawable.t34i,R.drawable.t33i,R.drawable.t32i,R.drawable.t31i)
+        val tisDrawable4 = intArrayOf(R.drawable.t48i,R.drawable.t47i, R.drawable.t46i,R.drawable.t45i,R.drawable.t44i,R.drawable.t43i,R.drawable.t42i,R.drawable.t41i)
 
-        val tsDrawable = intArrayOf(R.drawable.t18, R.drawable.t17,R.drawable.t16,R.drawable.t15,R.drawable.t14,R.drawable.t13,R.drawable.t12,R.drawable.t11,R.drawable.t28,R.drawable.t27,R.drawable.t26,R.drawable.t25,
-            R.drawable.t24,R.drawable.t23,R.drawable.t22,R.drawable.t21,R.drawable.t38,R.drawable.t37,R.drawable.t36,R.drawable.t35,R.drawable.t34,R.drawable.t33,R.drawable.t32,R.drawable.t31,R.drawable.t48,R.drawable.t47,
-            R.drawable.t46,R.drawable.t45,R.drawable.t44,R.drawable.t43,R.drawable.t42,R.drawable.t41)
+        val t2iDrawable1 = intArrayOf(R.drawable.t182i, R.drawable.t172i,R.drawable.t162i,R.drawable.t152i,R.drawable.t142i,R.drawable.t132i,R.drawable.t122i,R.drawable.t112i)
+        val t2iDrawable2 = intArrayOf(R.drawable.t282i,R.drawable.t272i,R.drawable.t262i,R.drawable.t252i, R.drawable.t242i,R.drawable.t232i,R.drawable.t222i,R.drawable.t212i)
+        val t2iDrawable3 = intArrayOf(R.drawable.t382i,R.drawable.t372i,R.drawable.t362i,R.drawable.t352i,R.drawable.t342i,R.drawable.t332i,R.drawable.t322i,R.drawable.t312i)
+        val t2iDrawable4 = intArrayOf(R.drawable.t482i,R.drawable.t472i, R.drawable.t462i,R.drawable.t452i,R.drawable.t442i,R.drawable.t432i,R.drawable.t422i,R.drawable.t412i)
 
-        val t2sDrawable = intArrayOf(R.drawable.t182, R.drawable.t172,R.drawable.t162,R.drawable.t152,R.drawable.t142,R.drawable.t132,R.drawable.t122,R.drawable.t112,R.drawable.t282,R.drawable.t272,R.drawable.t262,R.drawable.t252,
-            R.drawable.t242,R.drawable.t232,R.drawable.t222,R.drawable.t212,R.drawable.t382,R.drawable.t372,R.drawable.t362,R.drawable.t352,R.drawable.t342,R.drawable.t332,R.drawable.t322,R.drawable.t312,R.drawable.t482,R.drawable.t472,
-            R.drawable.t462,R.drawable.t452,R.drawable.t442,R.drawable.t432,R.drawable.t422,R.drawable.t412)
-
-        val tisDrawable = intArrayOf(R.drawable.t18i, R.drawable.t17i,R.drawable.t16i,R.drawable.t15i,R.drawable.t14i,R.drawable.t13i,R.drawable.t12i,R.drawable.t11i,R.drawable.t28i,R.drawable.t27i,R.drawable.t26i,R.drawable.t25i,
-            R.drawable.t24i,R.drawable.t23i,R.drawable.t22i,R.drawable.t21i,R.drawable.t38i,R.drawable.t37i,R.drawable.t36i,R.drawable.t35i,R.drawable.t34i,R.drawable.t33i,R.drawable.t32i,R.drawable.t31i,R.drawable.t48i,R.drawable.t47i,
-            R.drawable.t46i,R.drawable.t45i,R.drawable.t44i,R.drawable.t43i,R.drawable.t42i,R.drawable.t41i)
-
-        val t2iDrawable = intArrayOf(R.drawable.t182i, R.drawable.t172i,R.drawable.t162i,R.drawable.t152i,R.drawable.t142i,R.drawable.t132i,R.drawable.t122i,R.drawable.t112i,R.drawable.t282i,R.drawable.t272i,R.drawable.t262i,R.drawable.t252i,
-            R.drawable.t242i,R.drawable.t232i,R.drawable.t222i,R.drawable.t212i,R.drawable.t382i,R.drawable.t372i,R.drawable.t362i,R.drawable.t352i,R.drawable.t342i,R.drawable.t332i,R.drawable.t322i,R.drawable.t312i,R.drawable.t482i,R.drawable.t472i,
-            R.drawable.t462i,R.drawable.t452i,R.drawable.t442i,R.drawable.t432i,R.drawable.t422i,R.drawable.t412i)
-
-        fun implntHelp(implantsId: IntArray){
+        fun implntHelp(implantsId: IntArray, furksImgId1: IntArray, furksId1: IntArray, furks2ImgId1: IntArray, furks2Id1: IntArray, tsId1: IntArray, t2sId1: IntArray,
+                       tisDrawable1: IntArray, t2iDrawable1: IntArray, tsDrawable1: IntArray, t2sDrawable1: IntArray, plombsId1: IntArray,karsId1: IntArray,kars2Id1: IntArray,
+                       karsIdImg1: IntArray, kars2IdImg1: IntArray, pupesId1: IntArray, flag: Boolean){
             for(i in implantsId.indices){
-                val t = findViewById<ImageView>(tsId[i])
-                val t2 = findViewById<ImageView>(t2sId[i])
+                val t = findViewById<ImageView>(tsId1[i])
+                val t2 = findViewById<ImageView>(t2sId1[i])
                 val implant = findViewById<Button>(implantsId[i])
                 implant.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                 implant.setOnClickListener {
@@ -839,22 +1013,112 @@ class MainActivity : AppCompatActivity() {
                     val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
                     if (defaultColor == Color.parseColor(but0Color)) {
                         implant.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(implantColor)))
-                        t.setImageResource(tisDrawable[i])
-                        t2.setImageResource(t2iDrawable[i])
+                        t.setImageResource(tisDrawable1[i])
+                        t2.setImageResource(t2iDrawable1[i])
+
+                        findViewById<Button>(plombsId1[i]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(plombsId1[i]).visibility = View.INVISIBLE
+
+                        findViewById<Button>(pupesId1[i]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(pupesId1[i]).visibility = View.INVISIBLE
+
+                        for (j in i*6..i*6+5){
+                            findViewById<Button>(karsId1[j]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                            findViewById<Button>(karsId1[j]).visibility = View.INVISIBLE
+                            findViewById<Button>(kars2Id1[j]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                            findViewById<Button>(kars2Id1[j]).visibility = View.INVISIBLE
+                            findViewById<ImageView>(karsIdImg1[j]).visibility = View.GONE
+                            findViewById<ImageView>(kars2IdImg1[j]).visibility = View.GONE
+                        }
+
+
+                        if (flag){
+                            if(i <= 2){
+                                findViewById<ImageButton>(furksId1[i]).tag = R.drawable.null17
+                                findViewById<ImageView>(furksImgId1[i]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furks2Id1[i*2]).tag = R.drawable.null17
+                                findViewById<ImageView>(furks2ImgId1[i*2]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furks2Id1[i*2+1]).tag = R.drawable.null17
+                                findViewById<ImageView>(furks2ImgId1[i*2+1]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furksId1[i]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furksImgId1[i]).visibility = View.INVISIBLE
+                                findViewById<ImageButton>(furks2Id1[i*2]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i*2]).visibility = View.INVISIBLE
+                                findViewById<ImageButton>(furks2Id1[i*2+1]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i*2+1]).visibility = View.INVISIBLE
+                            }
+                            if (i == 4){
+                                findViewById<ImageButton>(furks2Id1[6]).tag = R.drawable.null17
+                                findViewById<ImageView>(furks2ImgId1[6]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furks2Id1[7]).tag = R.drawable.null17
+                                findViewById<ImageView>(furks2ImgId1[7]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furks2Id1[6]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furks2ImgId1[6]).visibility = View.INVISIBLE
+                                findViewById<ImageButton>(furks2Id1[7]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furks2ImgId1[7]).visibility = View.INVISIBLE
+                            }
+                        }
+                        else{
+                            if(i <= 2){
+                                findViewById<ImageButton>(furksId1[i]).tag = R.drawable.null17
+                                findViewById<ImageView>(furksImgId1[i]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furks2Id1[i]).tag = R.drawable.null17
+                                findViewById<ImageView>(furks2ImgId1[i]).tag = R.drawable.null17
+                                findViewById<ImageButton>(furksId1[i]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furksImgId1[i]).visibility = View.INVISIBLE
+                                findViewById<ImageButton>(furks2Id1[i]).visibility = View.INVISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i]).visibility = View.INVISIBLE
+                            }
+                        }
                     }
                     else{
                         implant.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
-                        t.setImageResource(tsDrawable[i])
-                        t2.setImageResource(t2sDrawable[i])
+                        t.setImageResource(tsDrawable1[i])
+                        t2.setImageResource(t2sDrawable1[i])
+
+                        findViewById<Button>(plombsId1[i]).visibility = View.VISIBLE
+
+                        findViewById<Button>(pupesId1[i]).visibility = View.VISIBLE
+
+                        for (j in i*6..i*6+5){
+                            findViewById<Button>(karsId1[j]).visibility = View.VISIBLE
+                            findViewById<Button>(kars2Id1[j]).visibility = View.VISIBLE
+                        }
+                        if (flag){
+                            if(i <= 2){
+                                findViewById<ImageButton>(furksId1[i]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furksImgId1[i]).visibility = View.VISIBLE
+                                findViewById<ImageButton>(furks2Id1[i*2]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i*2]).visibility = View.VISIBLE
+                                findViewById<ImageButton>(furks2Id1[i*2+1]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i*2+1]).visibility = View.VISIBLE
+                            }
+                            if (i == 4){
+                                findViewById<ImageButton>(furks2Id1[6]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furks2ImgId1[6]).visibility = View.VISIBLE
+                                findViewById<ImageButton>(furks2Id1[7]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furks2ImgId1[7]).visibility = View.VISIBLE
+                            }
+                        }
+                        else{
+                            if(i <= 2){
+                                findViewById<ImageButton>(furksId1[i]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furksImgId1[i]).visibility = View.VISIBLE
+
+                                findViewById<ImageButton>(furks2Id1[i]).visibility = View.VISIBLE
+                                findViewById<ImageView>(furks2ImgId1[i]).visibility = View.VISIBLE
+                            }
+                        }
+
                     }
                 }
             }
         }
 
-        implntHelp(implantsId1)
-        implntHelp(implantsId2)
-        implntHelp(implantsId3)
-        implntHelp(implantsId4)
+        implntHelp(implantsId1,furksImgId1, furksId1, furks2ImgId1, furks2Id1, tsId1, t2sId1 ,tisDrawable1, t2iDrawable1, tsDrawable1, t2sDrawable1,plombsId1,karsId1,kars2Id1, karsIdImg1, kars2IdImg1, pupesId1,true)
+        implntHelp(implantsId2, furksImgId2, furksId2, furks2ImgId2, furks2Id2, tsId2, t2sId2 ,tisDrawable2, t2iDrawable2, tsDrawable2, t2sDrawable2,plombsId2,karsId2,kars2Id2, karsIdImg2, kars2IdImg2,pupesId2,true)
+        implntHelp(implantsId3, furksImgId3, furksId3, furks2ImgId3, furks2Id3, tsId3, t2sId3 ,tisDrawable3, t2iDrawable3, tsDrawable3, t2sDrawable3,plombsId3,karsId3,kars2Id3, karsIdImg3, kars2IdImg3,pupesId3,false)
+        implntHelp(implantsId4, furksImgId4, furksId4, furks2ImgId4, furks2Id4, tsId4, t2sId4 ,tisDrawable4, t2iDrawable4, tsDrawable4, t2sDrawable4,plombsId4,karsId4,kars2Id4, karsIdImg4, kars2IdImg4,pupesId4,false)
     }
 
     private fun settingsForPupes(){
@@ -1117,185 +1381,6 @@ class MainActivity : AppCompatActivity() {
         val existsId2 = intArrayOf(R.id.exist28,R.id.exist27,R.id.exist26,R.id.exist25,R.id.exist24,R.id.exist23,R.id.exist22,R.id.exist21)
         val existsId3 = intArrayOf(R.id.exist38,R.id.exist37,R.id.exist36,R.id.exist35,R.id.exist34,R.id.exist33,R.id.exist32,R.id.exist31)
         val existsId4 = intArrayOf(R.id.exist48,R.id.exist47, R.id.exist46,R.id.exist45,R.id.exist44,R.id.exist43,R.id.exist42,R.id.exist41)
-
-        val furksId1 = intArrayOf(R.id.furk18, R.id.furk17,R.id.furk16)
-        val furks2Id1 = intArrayOf(R.id.furk182_1,R.id.furk182_2, R.id.furk172_1,R.id.furk172_2,R.id.furk162_1,R.id.furk162_2,R.id.furk142_1,R.id.furk142_2)
-        val furksId2 = intArrayOf(R.id.furk28, R.id.furk27,R.id.furk26)
-        val furks2Id2 = intArrayOf(R.id.furk282_1,R.id.furk282_2, R.id.furk272_1,R.id.furk272_2,R.id.furk262_1,R.id.furk262_2,R.id.furk242_1,R.id.furk242_2)
-        val furksId3  = intArrayOf(R.id.furk38,R.id.furk37,R.id.furk36)
-        val furks2Id3  = intArrayOf(R.id.furk382,R.id.furk372,R.id.furk362)
-        val furksId4  = intArrayOf(R.id.furk48,R.id.furk47, R.id.furk46)
-        val furks2Id4  = intArrayOf(R.id.furk482,R.id.furk472, R.id.furk462)
-
-        val furksImgId1 = intArrayOf(R.id.fi18, R.id.fi17,R.id.fi16)
-        val furks2ImgId1 = intArrayOf(R.id.fi182_1,R.id.fi182_2, R.id.fi172_1,R.id.fi172_2,R.id.fi162_1,R.id.fi162_2,R.id.fi142_1,R.id.fi142_2)
-        val furksImgId2 = intArrayOf(R.id.fi28,R.id.fi27,R.id.fi26)
-        val furks2ImgId2 = intArrayOf(R.id.fi282_1,R.id.fi282_2, R.id.fi272_1,R.id.fi272_2,R.id.fi262_1,R.id.fi262_2,R.id.fi242_1,R.id.fi242_2)
-        val furksImgId3 = intArrayOf( R.id.fi38,R.id.fi37,R.id.fi36)
-        val furks2ImgId3 = intArrayOf( R.id.fi382,R.id.fi372,R.id.fi362)
-        val furksImgId4 = intArrayOf(R.id.fi48,R.id.fi47, R.id.fi46)
-        val furks2ImgId4 = intArrayOf(R.id.fi482,R.id.fi472, R.id.fi462)
-
-        val pupesId1 = intArrayOf(R.id.pupe18, R.id.pupe17,R.id.pupe16,R.id.pupe15,R.id.pupe14,R.id.pupe13,R.id.pupe12,R.id.pupe11)
-        val pupesId2 = intArrayOf(R.id.pupe28,R.id.pupe27,R.id.pupe26,R.id.pupe25,R.id.pupe24,R.id.pupe23,R.id.pupe22,R.id.pupe21)
-        val pupesId3 = intArrayOf(R.id.pupe38,R.id.pupe37,R.id.pupe36,R.id.pupe35,R.id.pupe34,R.id.pupe33,R.id.pupe32,R.id.pupe31)
-        val pupesId4 = intArrayOf(R.id.pupe48,R.id.pupe47, R.id.pupe46,R.id.pupe45,R.id.pupe44,R.id.pupe43,R.id.pupe42,R.id.pupe41)
-
-        val tsDrawable1 = intArrayOf(R.drawable.t18, R.drawable.t17,R.drawable.t16,R.drawable.t15,R.drawable.t14,R.drawable.t13,R.drawable.t12,R.drawable.t11)
-        val tsDrawable2 = intArrayOf(R.drawable.t28,R.drawable.t27,R.drawable.t26,R.drawable.t25, R.drawable.t24,R.drawable.t23,R.drawable.t22,R.drawable.t21)
-        val tsDrawable3 = intArrayOf(R.drawable.t38,R.drawable.t37,R.drawable.t36,R.drawable.t35,R.drawable.t34,R.drawable.t33,R.drawable.t32,R.drawable.t31)
-        val tsDrawable4 = intArrayOf(R.drawable.t48,R.drawable.t47,R.drawable.t46,R.drawable.t45,R.drawable.t44,R.drawable.t43,R.drawable.t42,R.drawable.t41)
-
-        val t2sDrawable1 = intArrayOf(R.drawable.t182, R.drawable.t172,R.drawable.t162,R.drawable.t152,R.drawable.t142,R.drawable.t132,R.drawable.t122,R.drawable.t112)
-        val t2sDrawable2 = intArrayOf(R.drawable.t282,R.drawable.t272,R.drawable.t262,R.drawable.t252, R.drawable.t242,R.drawable.t232,R.drawable.t222,R.drawable.t212)
-        val t2sDrawable3 = intArrayOf(R.drawable.t382,R.drawable.t372,R.drawable.t362,R.drawable.t352,R.drawable.t342,R.drawable.t332,R.drawable.t322,R.drawable.t312)
-        val t2sDrawable4 = intArrayOf(R.drawable.t482,R.drawable.t472, R.drawable.t462,R.drawable.t452,R.drawable.t442,R.drawable.t432,R.drawable.t422,R.drawable.t412)
-
-        val tsId1 = intArrayOf(R.id.t18, R.id.t17,R.id.t16,R.id.t15,R.id.t14,R.id.t13,R.id.t12,R.id.t11)
-        val tsId2 = intArrayOf(R.id.t28,R.id.t27,R.id.t26,R.id.t25,R.id.t24,R.id.t23,R.id.t22,R.id.t21)
-        val tsId3 = intArrayOf(R.id.t38,R.id.t37,R.id.t36,R.id.t35,R.id.t34,R.id.t33,R.id.t32,R.id.t31)
-        val tsId4 = intArrayOf(R.id.t48,R.id.t47, R.id.t46,R.id.t45,R.id.t44,R.id.t43,R.id.t42,R.id.t41)
-
-        val t2sId1 = intArrayOf(R.id.t182, R.id.t172,R.id.t162,R.id.t152,R.id.t142,R.id.t132,R.id.t122,R.id.t112)
-        val t2sId2 = intArrayOf(R.id.t282,R.id.t272,R.id.t262,R.id.t252, R.id.t242,R.id.t232,R.id.t222,R.id.t212)
-        val t2sId3 = intArrayOf(R.id.t382,R.id.t372,R.id.t362,R.id.t352,R.id.t342,R.id.t332,R.id.t322,R.id.t312)
-        val t2sId4 = intArrayOf(R.id.t482,R.id.t472, R.id.t462,R.id.t452,R.id.t442,R.id.t432,R.id.t422,R.id.t412)
-
-        val plombsId1 = intArrayOf(R.id.plomb18, R.id.plomb17,R.id.plomb16,R.id.plomb15,R.id.plomb14,R.id.plomb13,R.id.plomb12,R.id.plomb11)
-        val plombsId2 = intArrayOf(R.id.plomb28,R.id.plomb27,R.id.plomb26,R.id.plomb25,R.id.plomb24,R.id.plomb23,R.id.plomb22,R.id.plomb21)
-        val plombsId3 = intArrayOf(R.id.plomb38,R.id.plomb37,R.id.plomb36,R.id.plomb35,R.id.plomb34,R.id.plomb33,R.id.plomb32,R.id.plomb31)
-        val plombsId4 = intArrayOf(R.id.plomb48,R.id.plomb47, R.id.plomb46,R.id.plomb45,R.id.plomb44,R.id.plomb43,R.id.plomb42,R.id.plomb41)
-
-        val karsId1 = intArrayOf(R.id.kar18_1, R.id.kar18_5, R.id.kar18_21, R.id.kar18_22, R.id.kar18_61, R.id.kar18_62,
-            R.id.kar17_1, R.id.kar17_5, R.id.kar17_21, R.id.kar17_22, R.id.kar17_61, R.id.kar17_62,
-            R.id.kar16_1, R.id.kar16_5, R.id.kar16_21, R.id.kar16_22, R.id.kar16_61, R.id.kar16_62,
-            R.id.kar15_1, R.id.kar15_5, R.id.kar15_21, R.id.kar15_22, R.id.kar15_61, R.id.kar15_62,
-            R.id.kar14_1, R.id.kar14_5, R.id.kar14_21, R.id.kar14_22, R.id.kar14_61, R.id.kar14_62,
-            R.id.kar13_6, R.id.kar13_5, R.id.kar13_31, R.id.kar13_32, R.id.kar13_41, R.id.kar13_42,
-            R.id.kar12_6, R.id.kar12_5, R.id.kar12_31, R.id.kar12_32, R.id.kar12_41, R.id.kar12_42,
-            R.id.kar11_6, R.id.kar11_5, R.id.kar11_31, R.id.kar11_32, R.id.kar11_41, R.id.kar11_42)
-        val karsId2 = intArrayOf(  R.id.kar28_1, R.id.kar28_5, R.id.kar28_21, R.id.kar28_22, R.id.kar28_61, R.id.kar28_62,
-            R.id.kar27_1, R.id.kar27_5, R.id.kar27_21, R.id.kar27_22, R.id.kar27_61, R.id.kar27_62,
-            R.id.kar26_1, R.id.kar26_5, R.id.kar26_21, R.id.kar26_22, R.id.kar26_61, R.id.kar26_62,
-            R.id.kar25_1, R.id.kar25_5, R.id.kar25_21, R.id.kar25_22, R.id.kar25_61, R.id.kar25_62,
-            R.id.kar24_1, R.id.kar24_5, R.id.kar24_21, R.id.kar24_22, R.id.kar24_61, R.id.kar24_62,
-            R.id.kar23_6, R.id.kar23_5, R.id.kar23_31, R.id.kar23_32, R.id.kar23_41, R.id.kar23_42,
-            R.id.kar22_6, R.id.kar22_5, R.id.kar22_31, R.id.kar22_32, R.id.kar22_41, R.id.kar22_42,
-            R.id.kar21_6, R.id.kar21_5, R.id.kar21_31, R.id.kar21_32, R.id.kar21_41, R.id.kar21_42)
-        val karsId3 = intArrayOf(R.id.kar38_1, R.id.kar38_5, R.id.kar38_21, R.id.kar38_22, R.id.kar38_61, R.id.kar38_62,
-            R.id.kar37_1, R.id.kar37_5, R.id.kar37_21, R.id.kar37_22, R.id.kar37_61, R.id.kar37_62,
-            R.id.kar36_1, R.id.kar36_5, R.id.kar36_21, R.id.kar36_22, R.id.kar36_61, R.id.kar36_62,
-            R.id.kar35_1, R.id.kar35_5, R.id.kar35_21, R.id.kar35_22, R.id.kar35_61, R.id.kar35_62,
-            R.id.kar34_1, R.id.kar34_5, R.id.kar34_21, R.id.kar34_22, R.id.kar34_61, R.id.kar34_62,
-            R.id.kar33_6, R.id.kar33_5, R.id.kar33_31, R.id.kar33_32, R.id.kar33_41, R.id.kar33_42,
-            R.id.kar32_6, R.id.kar32_5, R.id.kar32_31, R.id.kar32_32, R.id.kar32_41, R.id.kar32_42,
-            R.id.kar31_6, R.id.kar31_5, R.id.kar31_31, R.id.kar31_32, R.id.kar31_41, R.id.kar31_42)
-        val karsId4 = intArrayOf( R.id.kar48_1, R.id.kar48_5, R.id.kar48_21, R.id.kar48_22, R.id.kar48_61, R.id.kar48_62,
-            R.id.kar47_1, R.id.kar47_5, R.id.kar47_21, R.id.kar47_22, R.id.kar47_61, R.id.kar47_62,
-            R.id.kar46_1, R.id.kar46_5, R.id.kar46_21, R.id.kar46_22, R.id.kar46_61, R.id.kar46_62,
-            R.id.kar45_1, R.id.kar45_5, R.id.kar45_21, R.id.kar45_22, R.id.kar45_61, R.id.kar45_62,
-            R.id.kar44_1, R.id.kar44_5, R.id.kar44_21, R.id.kar44_22, R.id.kar44_61, R.id.kar44_62,
-            R.id.kar43_6, R.id.kar43_5, R.id.kar43_31, R.id.kar43_32, R.id.kar43_41, R.id.kar43_42,
-            R.id.kar42_6, R.id.kar42_5, R.id.kar42_31, R.id.kar42_32, R.id.kar42_41, R.id.kar42_42,
-            R.id.kar41_6, R.id.kar41_5, R.id.kar41_31, R.id.kar41_32, R.id.kar41_41, R.id.kar41_42)
-        val kars2Id1 = intArrayOf(R.id.kar182_1, R.id.kar182_5, R.id.kar182_21, R.id.kar182_22, R.id.kar182_61, R.id.kar182_62,
-            R.id.kar172_1, R.id.kar172_5, R.id.kar172_21, R.id.kar172_22, R.id.kar172_61, R.id.kar172_62,
-            R.id.kar162_1, R.id.kar162_5, R.id.kar162_21, R.id.kar162_22, R.id.kar162_61, R.id.kar162_62,
-            R.id.kar152_1, R.id.kar152_5, R.id.kar152_21, R.id.kar152_22, R.id.kar152_61, R.id.kar152_62,
-            R.id.kar142_1, R.id.kar142_5, R.id.kar142_21, R.id.kar142_22, R.id.kar142_61, R.id.kar142_62,
-            R.id.kar132_6, R.id.kar132_5, R.id.kar132_31, R.id.kar132_32, R.id.kar132_41, R.id.kar132_42,
-            R.id.kar122_6, R.id.kar122_5, R.id.kar122_31, R.id.kar122_32, R.id.kar122_41, R.id.kar122_42,
-            R.id.kar112_6, R.id.kar112_5, R.id.kar112_31, R.id.kar112_32, R.id.kar112_41, R.id.kar112_42)
-        val kars2Id2 = intArrayOf(R.id.kar282_1, R.id.kar282_5, R.id.kar282_21, R.id.kar282_22, R.id.kar282_61, R.id.kar282_62,
-            R.id.kar272_1, R.id.kar272_5, R.id.kar272_21, R.id.kar272_22, R.id.kar272_61, R.id.kar272_62,
-            R.id.kar262_1, R.id.kar262_5, R.id.kar262_21, R.id.kar262_22, R.id.kar262_61, R.id.kar262_62,
-            R.id.kar252_1, R.id.kar252_5, R.id.kar252_21, R.id.kar252_22, R.id.kar252_61, R.id.kar252_62,
-            R.id.kar242_1, R.id.kar242_5, R.id.kar242_21, R.id.kar242_22, R.id.kar242_61, R.id.kar242_62,
-            R.id.kar232_6, R.id.kar232_5, R.id.kar232_31, R.id.kar232_32, R.id.kar232_41, R.id.kar232_42,
-            R.id.kar222_6, R.id.kar222_5, R.id.kar222_31, R.id.kar222_32, R.id.kar222_41, R.id.kar222_42,
-            R.id.kar212_6, R.id.kar212_5, R.id.kar212_31, R.id.kar212_32, R.id.kar212_41, R.id.kar212_42)
-        val kars2Id3 = intArrayOf(R.id.kar382_1, R.id.kar382_5, R.id.kar382_21, R.id.kar382_22, R.id.kar382_61, R.id.kar382_62,
-            R.id.kar372_1, R.id.kar372_5, R.id.kar372_21, R.id.kar372_22, R.id.kar372_61, R.id.kar372_62,
-            R.id.kar362_1, R.id.kar362_5, R.id.kar362_21, R.id.kar362_22, R.id.kar362_61, R.id.kar362_62,
-            R.id.kar352_1, R.id.kar352_5, R.id.kar352_21, R.id.kar352_22, R.id.kar352_61, R.id.kar352_62,
-            R.id.kar342_1, R.id.kar342_5, R.id.kar342_21, R.id.kar342_22, R.id.kar342_61, R.id.kar342_62,
-            R.id.kar332_6, R.id.kar332_5, R.id.kar332_31, R.id.kar332_32, R.id.kar332_41, R.id.kar332_42,
-            R.id.kar322_6, R.id.kar322_5, R.id.kar322_31, R.id.kar322_32, R.id.kar322_41, R.id.kar322_42,
-            R.id.kar312_6, R.id.kar312_5, R.id.kar312_31, R.id.kar312_32, R.id.kar312_41, R.id.kar312_42)
-        val kars2Id4 = intArrayOf(R.id.kar482_1, R.id.kar482_5, R.id.kar482_21, R.id.kar482_22, R.id.kar482_61, R.id.kar482_62,
-            R.id.kar472_1, R.id.kar472_5, R.id.kar472_21, R.id.kar472_22, R.id.kar472_61, R.id.kar472_62,
-            R.id.kar462_1, R.id.kar462_5, R.id.kar462_21, R.id.kar462_22, R.id.kar462_61, R.id.kar462_62,
-            R.id.kar452_1, R.id.kar452_5, R.id.kar452_21, R.id.kar452_22, R.id.kar452_61, R.id.kar452_62,
-            R.id.kar442_1, R.id.kar442_5, R.id.kar442_21, R.id.kar442_22, R.id.kar442_61, R.id.kar442_62,
-            R.id.kar432_6, R.id.kar432_5, R.id.kar432_31, R.id.kar432_32, R.id.kar432_41, R.id.kar432_42,
-            R.id.kar422_6, R.id.kar422_5, R.id.kar422_31, R.id.kar422_32, R.id.kar422_41, R.id.kar422_42,
-            R.id.kar412_6, R.id.kar412_5, R.id.kar412_31, R.id.kar412_32, R.id.kar412_41, R.id.kar412_42
-        )
-        val karsIdImg1 = intArrayOf(R.id.t18k1, R.id.t18k5, R.id.t18k21, R.id.t18k22, R.id.t18k61, R.id.t18k62,
-            R.id.t17k1, R.id.t17k5, R.id.t17k21, R.id.t17k22, R.id.t17k61, R.id.t17k62,
-            R.id.t16k1, R.id.t16k5, R.id.t16k21, R.id.t16k22, R.id.t16k61, R.id.t16k62,
-            R.id.t15k1, R.id.t15k5, R.id.t15k21, R.id.t15k22, R.id.t15k61, R.id.t15k62,
-            R.id.t14k1, R.id.t14k5, R.id.t14k21, R.id.t14k22, R.id.t14k61, R.id.t14k62,
-            R.id.t13k6, R.id.t13k5, R.id.t13k31, R.id.t13k32, R.id.t13k41, R.id.t13k42,
-            R.id.t12k6, R.id.t12k5, R.id.t12k31, R.id.t12k32, R.id.t12k41, R.id.t12k42,
-            R.id.t11k6, R.id.t11k5, R.id.t11k31, R.id.t11k32, R.id.t11k41, R.id.t11k42)
-        val karsIdImg2 = intArrayOf(  R.id.t28k1, R.id.t28k5, R.id.t28k21, R.id.t28k22, R.id.t28k61, R.id.t28k62,
-            R.id.t27k1, R.id.t27k5, R.id.t27k21, R.id.t27k22, R.id.t27k61, R.id.t27k62,
-            R.id.t26k1, R.id.t26k5, R.id.t26k21, R.id.t26k22, R.id.t26k61, R.id.t26k62,
-            R.id.t25k1, R.id.t25k5, R.id.t25k21, R.id.t25k22, R.id.t25k61, R.id.t25k62,
-            R.id.t24k1, R.id.t24k5, R.id.t24k21, R.id.t24k22, R.id.t24k61, R.id.t24k62,
-            R.id.t23k6, R.id.t23k5, R.id.t23k31, R.id.t23k32, R.id.t23k41, R.id.t23k42,
-            R.id.t22k6, R.id.t22k5, R.id.t22k31, R.id.t22k32, R.id.t22k41, R.id.t22k42,
-            R.id.t21k6, R.id.t21k5, R.id.t21k31, R.id.t21k32, R.id.t21k41, R.id.t21k42)
-        val karsIdImg3 = intArrayOf(R.id.t38k1, R.id.t38k5, R.id.t38k21, R.id.t38k22, R.id.t38k61, R.id.t38k62,
-            R.id.t37k1, R.id.t37k5, R.id.t37k21, R.id.t37k22, R.id.t37k61, R.id.t37k62,
-            R.id.t36k1, R.id.t36k5, R.id.t36k21, R.id.t36k22, R.id.t36k61, R.id.t36k62,
-            R.id.t35k1, R.id.t35k5, R.id.t35k21, R.id.t35k22, R.id.t35k61, R.id.t35k62,
-            R.id.t34k1, R.id.t34k5, R.id.t34k21, R.id.t34k22, R.id.t34k61, R.id.t34k62,
-            R.id.t33k6, R.id.t33k5, R.id.t33k31, R.id.t33k32, R.id.t33k41, R.id.t33k42,
-            R.id.t32k6, R.id.t32k5, R.id.t32k31, R.id.t32k32, R.id.t32k41, R.id.t32k42,
-            R.id.t31k6, R.id.t31k5, R.id.t31k31, R.id.t31k32, R.id.t31k41, R.id.t31k42)
-        val karsIdImg4 = intArrayOf( R.id.t48k1, R.id.t48k5, R.id.t48k21, R.id.t48k22, R.id.t48k61, R.id.t48k62,
-            R.id.t47k1, R.id.t47k5, R.id.t47k21, R.id.t47k22, R.id.t47k61, R.id.t47k62,
-            R.id.t46k1, R.id.t46k5, R.id.t46k21, R.id.t46k22, R.id.t46k61, R.id.t46k62,
-            R.id.t45k1, R.id.t45k5, R.id.t45k21, R.id.t45k22, R.id.t45k61, R.id.t45k62,
-            R.id.t44k1, R.id.t44k5, R.id.t44k21, R.id.t44k22, R.id.t44k61, R.id.t44k62,
-            R.id.t43k6, R.id.t43k5, R.id.t43k31, R.id.t43k32, R.id.t43k41, R.id.t43k42,
-            R.id.t42k6, R.id.t42k5, R.id.t42k31, R.id.t42k32, R.id.t42k41, R.id.t42k42,
-            R.id.t41k6, R.id.t41k5, R.id.t41k31, R.id.t41k32, R.id.t41k41, R.id.t41k42)
-        val kars2IdImg1 = intArrayOf(R.id.t182k1, R.id.t182k5, R.id.t182k21, R.id.t182k22, R.id.t182k61, R.id.t182k62,
-            R.id.t172k1, R.id.t172k5, R.id.t172k21, R.id.t172k22, R.id.t172k61, R.id.t172k62,
-            R.id.t162k1, R.id.t162k5, R.id.t162k21, R.id.t162k22, R.id.t162k61, R.id.t162k62,
-            R.id.t152k1, R.id.t152k5, R.id.t152k21, R.id.t152k22, R.id.t152k61, R.id.t152k62,
-            R.id.t142k1, R.id.t142k5, R.id.t142k21, R.id.t142k22, R.id.t142k61, R.id.t142k62,
-            R.id.t132k6, R.id.t132k5, R.id.t132k31, R.id.t132k32, R.id.t132k41, R.id.t132k42,
-            R.id.t122k6, R.id.t122k5, R.id.t122k31, R.id.t122k32, R.id.t122k41, R.id.t122k42,
-            R.id.t112k6, R.id.t112k5, R.id.t112k31, R.id.t112k32, R.id.t112k41, R.id.t112k42)
-        val kars2IdImg2 = intArrayOf(R.id.t282k1, R.id.t282k5, R.id.t282k21, R.id.t282k22, R.id.t282k61, R.id.t282k62,
-            R.id.t272k1, R.id.t272k5, R.id.t272k21, R.id.t272k22, R.id.t272k61, R.id.t272k62,
-            R.id.t262k1, R.id.t262k5, R.id.t262k21, R.id.t262k22, R.id.t262k61, R.id.t262k62,
-            R.id.t252k1, R.id.t252k5, R.id.t252k21, R.id.t252k22, R.id.t252k61, R.id.t252k62,
-            R.id.t242k1, R.id.t242k5, R.id.t242k21, R.id.t242k22, R.id.t242k61, R.id.t242k62,
-            R.id.t232k6, R.id.t232k5, R.id.t232k31, R.id.t232k32, R.id.t232k41, R.id.t232k42,
-            R.id.t222k6, R.id.t222k5, R.id.t222k31, R.id.t222k32, R.id.t222k41, R.id.t222k42,
-            R.id.t212k6, R.id.t212k5, R.id.t212k31, R.id.t212k32, R.id.t212k41, R.id.t212k42)
-        val kars2IdImg3 = intArrayOf(R.id.t382k1, R.id.t382k5, R.id.t382k21, R.id.t382k22, R.id.t382k61, R.id.t382k62,
-            R.id.t372k1, R.id.t372k5, R.id.t372k21, R.id.t372k22, R.id.t372k61, R.id.t372k62,
-            R.id.t362k1, R.id.t362k5, R.id.t362k21, R.id.t362k22, R.id.t362k61, R.id.t362k62,
-            R.id.t352k1, R.id.t352k5, R.id.t352k21, R.id.t352k22, R.id.t352k61, R.id.t352k62,
-            R.id.t342k1, R.id.t342k5, R.id.t342k21, R.id.t342k22, R.id.t342k61, R.id.t342k62,
-            R.id.t332k6, R.id.t332k5, R.id.t332k31, R.id.t332k32, R.id.t332k41, R.id.t332k42,
-            R.id.t322k6, R.id.t322k5, R.id.t322k31, R.id.t322k32, R.id.t322k41, R.id.t322k42,
-            R.id.t312k6, R.id.t312k5, R.id.t312k31, R.id.t312k32, R.id.t312k41, R.id.t312k42)
-        val kars2IdImg4 = intArrayOf(R.id.t482k1, R.id.t482k5, R.id.t482k21, R.id.t482k22, R.id.t482k61, R.id.t482k62,
-            R.id.t472k1, R.id.t472k5, R.id.t472k21, R.id.t472k22, R.id.t472k61, R.id.t472k62,
-            R.id.t462k1, R.id.t462k5, R.id.t462k21, R.id.t462k22, R.id.t462k61, R.id.t462k62,
-            R.id.t452k1, R.id.t452k5, R.id.t452k21, R.id.t452k22, R.id.t452k61, R.id.t452k62,
-            R.id.t442k1, R.id.t442k5, R.id.t442k21, R.id.t442k22, R.id.t442k61, R.id.t442k62,
-            R.id.t432k6, R.id.t432k5, R.id.t432k31, R.id.t432k32, R.id.t432k41, R.id.t432k42,
-            R.id.t422k6, R.id.t422k5, R.id.t422k31, R.id.t422k32, R.id.t422k41, R.id.t422k42,
-            R.id.t412k6, R.id.t412k5, R.id.t412k31, R.id.t412k32, R.id.t412k41, R.id.t412k42
-        )
 
         val kr2Id1 = intArrayOf(R.id.kr182_1,R.id.kr182_2,R.id.kr182_3,R.id.kr172_1,R.id.kr172_2,R.id.kr172_3,R.id.kr162_1,R.id.kr162_2,R.id.kr162_3,R.id.kr152_1,R.id.kr152_2,R.id.kr152_3,R.id.kr142_1,R.id.kr142_2,R.id.kr142_3,R.id.kr132_1,R.id.kr132_2,R.id.kr132_3,R.id.kr122_1,R.id.kr122_2,R.id.kr122_3,R.id.kr112_1,R.id.kr112_2,R.id.kr112_3)
         val krId1 = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3)
