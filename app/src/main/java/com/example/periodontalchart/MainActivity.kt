@@ -1,5 +1,6 @@
 package com.example.periodontalchart
 
+import android.annotation.SuppressLint
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
@@ -987,6 +988,7 @@ class MainActivity : AppCompatActivity() {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
             kpu()
+            bop()
         }
     }
 
@@ -1118,6 +1120,7 @@ class MainActivity : AppCompatActivity() {
                         }
 
                     }
+                    kpu()
                 }
             }
         }
@@ -1567,6 +1570,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 kpu()
+                bop()
             }
         }
 
@@ -1714,6 +1718,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 kpu()
+                bop()
             }
         }
 
@@ -1840,6 +1845,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 kpu()
+                bop()
             }
         }
         for (i in existsId4.indices){
@@ -1964,6 +1970,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
                 kpu()
+                bop()
             }
         }
 
@@ -2010,4 +2017,42 @@ class MainActivity : AppCompatActivity() {
         kpuText.text = kpu.toString()
     }
 
+    private fun countExist(): Int {
+        var sum = 0
+        val existsId = intArrayOf(R.id.exist18, R.id.exist17,R.id.exist16,R.id.exist15,R.id.exist14,R.id.exist13,R.id.exist12,R.id.exist11,
+            R.id.exist28,R.id.exist27,R.id.exist26,R.id.exist25,R.id.exist24,R.id.exist23,R.id.exist22,R.id.exist21,
+            R.id.exist38,R.id.exist37,R.id.exist36,R.id.exist35,R.id.exist34,R.id.exist33,R.id.exist32,R.id.exist31,
+            R.id.exist48,R.id.exist47, R.id.exist46,R.id.exist45,R.id.exist44,R.id.exist43,R.id.exist42,R.id.exist41)
+
+        for (el in existsId){
+            val existBut = findViewById<Button>(el)
+            val existColorStateList = existBut.backgroundTintList
+            val existColor = existColorStateList?.getColorForState(IntArray(0), existColorStateList.defaultColor)
+            if (existColor == Color.parseColor(but0Color)){
+                sum += 1
+            }
+        }
+        return sum
+    }
+
+    private fun bop() {
+        val bopText = findViewById<TextView>(R.id.bop)
+
+        var krCounter = 0f
+
+        val numOfSurfaces = countExist()*3
+
+        for (el in krId){
+            val krBut = findViewById<Button>(el)
+            val krColorStateList = krBut.backgroundTintList
+            val existColor = krColorStateList?.getColorForState(IntArray(0), krColorStateList.defaultColor)
+            if (existColor != Color.parseColor(but0Color)){
+                krCounter += 1f
+            }
+        }
+
+        val bop = (krCounter/numOfSurfaces)*100f
+
+        bopText.text = String.format("%.3f", bop.toDouble())
+    }
 }
