@@ -2,6 +2,7 @@ package com.example.periodontalchart
 
 import android.content.res.ColorStateList
 import android.graphics.Bitmap
+import android.graphics.Canvas
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +12,7 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.ScrollView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -972,25 +974,23 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart7, zondChart7, desnChart7,9f, -16f)
         generateChart(chart8, zondChart8, desnChart8,9f, -16f)
 
-        layoutToCapture = findViewById(R.id.download_layout) // Убедитесь, что вы добавили id к вашему LinearLayout
+        val myLayout = findViewById<LinearLayout>(R.id.top)
         val downloadBut: Button = findViewById(R.id.download)
 
         downloadBut.setOnClickListener {
-            takeScreenshot()
+            saveBitmap(takeScreenshot(myLayout))
         }
     }
 
-    private fun takeScreenshot() {
-        // Создаем битмап из view
-        val v1 = window.decorView.rootView
-        v1.isDrawingCacheEnabled = true
-        val bitmap = Bitmap.createBitmap(v1.drawingCache)
-        v1.isDrawingCacheEnabled = false
+    fun takeScreenshot(view: View): Bitmap {
+        // Создаем Bitmap размером с Layout
+        val bitmap = Bitmap.createBitmap(view.width, view.height, Bitmap.Config.ARGB_8888)
 
+        // Создаем Canvas и рисуем в него View
+        val canvas = Canvas(bitmap)
+        view.draw(canvas)
 
-
-        // Сохраняем битмап в файл
-        saveBitmap(bitmap)
+        return bitmap
     }
 
     private fun saveBitmap(bitmap: Bitmap) {
