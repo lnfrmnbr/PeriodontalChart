@@ -12,6 +12,7 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -974,7 +975,8 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart7, zondChart7, desnChart7,9f, -16f)
         generateChart(chart8, zondChart8, desnChart8,9f, -16f)
 
-        val myLayout = findViewById<LinearLayout>(R.id.top)
+        val myLayout1 = findViewById<LinearLayout>(R.id.top)
+        val myLayout = findViewById<RelativeLayout>(R.id.table1)
         val downloadBut: Button = findViewById(R.id.download)
 
         downloadBut.setOnClickListener {
