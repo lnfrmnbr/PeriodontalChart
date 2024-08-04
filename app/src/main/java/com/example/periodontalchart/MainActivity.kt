@@ -12,6 +12,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.toDrawable
@@ -911,6 +912,11 @@ class MainActivity : AppCompatActivity() {
             R.id.t412k6, R.id.t412k5, R.id.t412k31, R.id.t412k32, R.id.t412k41, R.id.t412k42
         )
 
+        val existsId1 = intArrayOf(R.id.exist18, R.id.exist17,R.id.exist16,R.id.exist15,R.id.exist14,R.id.exist13,R.id.exist12,R.id.exist11)
+        val existsId2 = intArrayOf(R.id.exist28,R.id.exist27,R.id.exist26,R.id.exist25,R.id.exist24,R.id.exist23,R.id.exist22,R.id.exist21)
+        val existsId3 = intArrayOf(R.id.exist38,R.id.exist37,R.id.exist36,R.id.exist35,R.id.exist34,R.id.exist33,R.id.exist32,R.id.exist31)
+        val existsId4 = intArrayOf(R.id.exist48,R.id.exist47, R.id.exist46,R.id.exist45,R.id.exist44,R.id.exist43,R.id.exist42,R.id.exist41)
+
         val pupesId1 = intArrayOf(R.id.pupe18, R.id.pupe17,R.id.pupe16,R.id.pupe15,R.id.pupe14,R.id.pupe13,R.id.pupe12,R.id.pupe11)
         val pupesId2 = intArrayOf(R.id.pupe28,R.id.pupe27,R.id.pupe26,R.id.pupe25,R.id.pupe24,R.id.pupe23,R.id.pupe22,R.id.pupe21)
         val pupesId3 = intArrayOf(R.id.pupe38,R.id.pupe37,R.id.pupe36,R.id.pupe35,R.id.pupe34,R.id.pupe33,R.id.pupe32,R.id.pupe31)
@@ -980,6 +986,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
+            kpu()
         }
     }
 
@@ -1250,6 +1257,7 @@ class MainActivity : AppCompatActivity() {
                     karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                     karImg.visibility = View.GONE
                 }
+                kpu()
             }
         }
     }
@@ -1377,10 +1385,6 @@ class MainActivity : AppCompatActivity() {
                                  chart6: com.github.mikephil.charting.charts.LineChart,
                                  chart7: com.github.mikephil.charting.charts.LineChart,
                                  chart8: com.github.mikephil.charting.charts.LineChart){
-        val existsId1 = intArrayOf(R.id.exist18, R.id.exist17,R.id.exist16,R.id.exist15,R.id.exist14,R.id.exist13,R.id.exist12,R.id.exist11)
-        val existsId2 = intArrayOf(R.id.exist28,R.id.exist27,R.id.exist26,R.id.exist25,R.id.exist24,R.id.exist23,R.id.exist22,R.id.exist21)
-        val existsId3 = intArrayOf(R.id.exist38,R.id.exist37,R.id.exist36,R.id.exist35,R.id.exist34,R.id.exist33,R.id.exist32,R.id.exist31)
-        val existsId4 = intArrayOf(R.id.exist48,R.id.exist47, R.id.exist46,R.id.exist45,R.id.exist44,R.id.exist43,R.id.exist42,R.id.exist41)
 
         val kr2Id1 = intArrayOf(R.id.kr182_1,R.id.kr182_2,R.id.kr182_3,R.id.kr172_1,R.id.kr172_2,R.id.kr172_3,R.id.kr162_1,R.id.kr162_2,R.id.kr162_3,R.id.kr152_1,R.id.kr152_2,R.id.kr152_3,R.id.kr142_1,R.id.kr142_2,R.id.kr142_3,R.id.kr132_1,R.id.kr132_2,R.id.kr132_3,R.id.kr122_1,R.id.kr122_2,R.id.kr122_3,R.id.kr112_1,R.id.kr112_2,R.id.kr112_3)
         val krId1 = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3)
@@ -1562,6 +1566,7 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id1[k]).visibility = View.VISIBLE
                     }
                 }
+                kpu()
             }
         }
 
@@ -1708,6 +1713,7 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id2[k]).visibility = View.VISIBLE
                     }
                 }
+                kpu()
             }
         }
 
@@ -1833,6 +1839,7 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id3[k]).visibility = View.VISIBLE
                     }
                 }
+                kpu()
             }
         }
         for (i in existsId4.indices){
@@ -1956,9 +1963,51 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id4[k]).visibility = View.VISIBLE
                     }
                 }
+                kpu()
             }
         }
 
+    }
+
+    private fun kpu(){
+        val kpuText = findViewById<TextView>(R.id.kpu)
+        var kpu = 0
+
+        fun kpuHelper(existsId: IntArray, plombsId: IntArray, karsId: IntArray, kars2Id: IntArray){
+            for (i in 0..7){
+                val existColorStateList = findViewById<Button>(existsId[i]).backgroundTintList
+                val existColor = existColorStateList?.getColorForState(IntArray(0), existColorStateList.defaultColor)
+
+                val plombColorStateList = findViewById<Button>(plombsId[i]).backgroundTintList
+                val plombColor = plombColorStateList?.getColorForState(IntArray(0), plombColorStateList.defaultColor)
+
+                var karFlag = false
+
+                for (j in i*6..i*6+5){
+                    val karColorStateList = findViewById<Button>(karsId[j]).backgroundTintList
+                    val karColor = karColorStateList?.getColorForState(IntArray(0), karColorStateList.defaultColor)
+
+                    val kar2ColorStateList = findViewById<Button>(kars2Id[j]).backgroundTintList
+                    val kar2Color = kar2ColorStateList?.getColorForState(IntArray(0), kar2ColorStateList.defaultColor)
+
+                    if(karColor != Color.parseColor(but0Color) || kar2Color != Color.parseColor(but0Color)){
+                        karFlag = true
+                        break
+                    }
+                }
+
+                if (karFlag || existColor != Color.parseColor(but0Color) || plombColor != Color.parseColor(but0Color)){
+                    kpu += 1
+                }
+            }
+        }
+
+        kpuHelper(existsId1, plombsId1, karsId1, kars2Id1)
+        kpuHelper(existsId2, plombsId2, karsId2, kars2Id2)
+        kpuHelper(existsId3, plombsId3, karsId3, kars2Id3)
+        kpuHelper(existsId4, plombsId4, karsId4, kars2Id4)
+
+        kpuText.text = kpu.toString()
     }
 
 }
