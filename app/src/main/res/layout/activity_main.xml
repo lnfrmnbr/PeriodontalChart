@@ -3703,6 +3703,7 @@
                                     android:id="@+id/desn18_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3718,6 +3719,7 @@
                                     android:id="@+id/desn18_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3733,6 +3735,7 @@
                                     android:id="@+id/desn18_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3755,6 +3758,7 @@
                                     android:id="@+id/desn17_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3770,6 +3774,7 @@
                                     android:id="@+id/desn17_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3785,6 +3790,7 @@
                                     android:id="@+id/desn17_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3808,6 +3814,7 @@
                                     android:id="@+id/desn16_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3823,6 +3830,7 @@
                                     android:id="@+id/desn16_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3838,6 +3846,7 @@
                                     android:id="@+id/desn16_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3860,6 +3869,7 @@
                                     android:id="@+id/desn15_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3875,6 +3885,7 @@
                                     android:id="@+id/desn15_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3890,6 +3901,7 @@
                                     android:id="@+id/desn15_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3913,6 +3925,7 @@
                                     android:id="@+id/desn14_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3928,6 +3941,7 @@
                                     android:id="@+id/desn14_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3943,6 +3957,7 @@
                                     android:id="@+id/desn14_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3965,6 +3980,7 @@
                                     android:id="@+id/desn13_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3980,6 +3996,7 @@
                                     android:id="@+id/desn13_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -3995,6 +4012,7 @@
                                     android:id="@+id/desn13_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -4018,6 +4036,7 @@
                                     android:id="@+id/desn12_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -4033,6 +4052,7 @@
                                     android:id="@+id/desn12_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -4048,6 +4068,7 @@
                                     android:id="@+id/desn12_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -4160,6 +4181,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4175,6 +4197,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4190,6 +4213,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4212,6 +4236,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4227,6 +4252,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4242,6 +4268,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4265,6 +4292,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4280,6 +4308,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4295,6 +4324,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4317,6 +4347,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4332,6 +4363,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4347,6 +4379,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4370,6 +4403,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4385,6 +4419,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4400,6 +4435,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4422,6 +4458,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4437,6 +4474,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4452,6 +4490,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4475,6 +4514,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4490,6 +4530,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4506,6 +4547,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4528,6 +4570,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4543,6 +4586,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -4558,6 +4602,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -8602,6 +8647,7 @@
                                     android:id="@+id/desn21_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8617,6 +8663,7 @@
                                     android:id="@+id/desn21_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8632,6 +8679,7 @@
                                     android:id="@+id/desn21_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8654,6 +8702,7 @@
                                     android:id="@+id/desn22_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8669,6 +8718,7 @@
                                     android:id="@+id/desn22_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8684,6 +8734,7 @@
                                     android:id="@+id/desn22_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8707,6 +8758,7 @@
                                     android:id="@+id/desn23_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8722,6 +8774,7 @@
                                     android:id="@+id/desn23_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8737,6 +8790,7 @@
                                     android:id="@+id/desn23_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8759,6 +8813,7 @@
                                     android:id="@+id/desn24_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8774,6 +8829,7 @@
                                     android:id="@+id/desn24_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8789,6 +8845,7 @@
                                     android:id="@+id/desn24_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8812,6 +8869,7 @@
                                     android:id="@+id/desn25_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8827,6 +8885,7 @@
                                     android:id="@+id/desn25_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8842,6 +8901,7 @@
                                     android:id="@+id/desn25_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8864,6 +8924,7 @@
                                     android:id="@+id/desn26_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8879,6 +8940,7 @@
                                     android:id="@+id/desn26_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8894,6 +8956,7 @@
                                     android:id="@+id/desn26_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8917,6 +8980,7 @@
                                     android:id="@+id/desn27_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8932,6 +8996,7 @@
                                     android:id="@+id/desn27_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8947,6 +9012,7 @@
                                     android:id="@+id/desn27_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8969,6 +9035,7 @@
                                     android:id="@+id/desn28_1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8984,6 +9051,7 @@
                                     android:id="@+id/desn28_2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -8999,6 +9067,7 @@
                                     android:id="@+id/desn28_3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:inputType="numberSigned"
                                     android:textSize="11sp"
                                     android:minWidth="10dp"
                                     android:minHeight="30dp"
@@ -9036,6 +9105,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9051,6 +9121,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9066,6 +9137,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9088,6 +9160,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9103,6 +9176,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9118,6 +9192,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9141,6 +9216,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9156,6 +9232,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9171,6 +9248,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9193,6 +9271,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9208,6 +9287,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9223,6 +9303,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9246,6 +9327,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9261,6 +9343,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9276,6 +9359,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9298,6 +9382,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9313,6 +9398,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9328,6 +9414,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9351,6 +9438,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9366,6 +9454,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9382,6 +9471,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9404,6 +9494,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9419,6 +9510,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -9434,6 +9526,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -10790,6 +10883,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10805,6 +10899,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10820,6 +10915,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10842,6 +10938,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10857,6 +10954,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10872,6 +10970,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10895,6 +10994,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10910,6 +11010,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10925,6 +11026,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10947,6 +11049,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10962,6 +11065,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -10977,6 +11081,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11000,6 +11105,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11015,6 +11121,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11030,6 +11137,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11052,6 +11160,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11067,6 +11176,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11082,6 +11192,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11105,6 +11216,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11120,6 +11232,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11135,6 +11248,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11157,6 +11271,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11172,6 +11287,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11187,6 +11303,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11236,6 +11353,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11251,6 +11369,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11266,6 +11385,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11288,6 +11408,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11303,6 +11424,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11318,6 +11440,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11341,6 +11464,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11356,6 +11480,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11371,6 +11496,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11393,6 +11519,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11408,6 +11535,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11423,6 +11551,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11446,6 +11575,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11461,6 +11591,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11476,6 +11607,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11498,6 +11630,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11513,6 +11646,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11528,6 +11662,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11551,6 +11686,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11566,6 +11702,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11582,6 +11719,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11604,6 +11742,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11619,6 +11758,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -11634,6 +11774,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -14975,6 +15116,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -14990,6 +15132,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15005,6 +15148,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15027,6 +15171,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15042,6 +15187,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15057,6 +15203,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15080,6 +15227,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15095,6 +15243,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15110,6 +15259,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15132,6 +15282,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15147,6 +15298,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15162,6 +15314,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15185,6 +15338,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15200,6 +15354,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15215,6 +15370,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15237,6 +15393,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15252,6 +15409,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15267,6 +15425,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15290,6 +15449,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15305,6 +15465,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15320,6 +15481,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15342,6 +15504,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15357,6 +15520,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15372,6 +15536,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15402,6 +15567,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15417,6 +15583,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15432,6 +15599,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15454,6 +15622,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15469,6 +15638,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15484,6 +15654,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15507,6 +15678,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15522,6 +15694,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15537,6 +15710,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15559,6 +15733,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15574,6 +15749,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15589,6 +15765,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15612,6 +15789,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15627,6 +15805,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15642,6 +15821,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15664,6 +15844,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15679,6 +15860,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15694,6 +15876,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15717,6 +15900,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15732,6 +15916,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15748,6 +15933,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15770,6 +15956,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15785,6 +15972,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -15800,6 +15988,7 @@
                                         android:padding="0dp"
                                         android:layout_marginLeft="-3dp"
                                         android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                         android:textColor="@color/black"
                                         android:gravity="center"
                                         android:hint="@string/_0"/>
@@ -21316,6 +21505,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21331,6 +21521,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21346,6 +21537,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21368,6 +21560,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21383,6 +21576,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21398,6 +21592,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21421,6 +21616,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21436,6 +21632,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21451,6 +21648,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21473,6 +21671,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21488,6 +21687,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21503,6 +21703,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21526,6 +21727,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21541,6 +21743,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21556,6 +21759,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21578,6 +21782,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21593,6 +21798,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21608,6 +21814,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21631,6 +21838,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21646,6 +21854,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21661,6 +21870,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21683,6 +21893,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21698,6 +21909,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21713,6 +21925,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21762,6 +21975,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21777,6 +21991,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21792,6 +22007,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21814,6 +22030,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21829,6 +22046,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21844,6 +22062,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21867,6 +22086,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21882,6 +22102,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21897,6 +22118,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21919,6 +22141,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21934,6 +22157,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21949,6 +22173,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21972,6 +22197,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -21987,6 +22213,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22002,6 +22229,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22024,6 +22252,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22039,6 +22268,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22054,6 +22284,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22077,6 +22308,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22092,6 +22324,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22108,6 +22341,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22130,6 +22364,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22145,6 +22380,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -22160,6 +22396,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25400,6 +25637,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25415,6 +25653,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25430,6 +25669,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25452,6 +25692,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25467,6 +25708,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25482,6 +25724,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25505,6 +25748,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25520,6 +25764,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25535,6 +25780,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25557,6 +25803,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25572,6 +25819,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25587,6 +25835,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25610,6 +25859,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25625,6 +25875,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25640,6 +25891,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25662,6 +25914,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25677,6 +25930,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25692,6 +25946,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25715,6 +25970,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25730,6 +25986,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25745,6 +26002,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25767,6 +26025,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25782,6 +26041,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25797,6 +26057,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25827,6 +26088,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25842,6 +26104,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25857,6 +26120,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25879,6 +26143,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25894,6 +26159,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25909,6 +26175,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25932,6 +26199,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25947,6 +26215,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25962,6 +26231,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25984,6 +26254,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -25999,6 +26270,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26014,6 +26286,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26037,6 +26310,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26052,6 +26326,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26067,6 +26342,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26089,6 +26365,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26104,6 +26381,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26119,6 +26397,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26142,6 +26421,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26157,6 +26437,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26173,6 +26454,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26195,6 +26477,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26210,6 +26493,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -26225,6 +26509,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27578,6 +27863,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27593,6 +27879,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27608,6 +27895,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27630,6 +27918,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27645,6 +27934,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27660,6 +27950,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27683,6 +27974,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27698,6 +27990,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27713,6 +28006,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27735,6 +28029,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27750,6 +28045,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27765,6 +28061,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27788,6 +28085,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27803,6 +28101,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27818,6 +28117,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27840,6 +28140,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27855,6 +28156,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27870,6 +28172,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27893,6 +28196,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27908,6 +28212,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27923,6 +28228,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27945,6 +28251,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27960,6 +28267,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -27975,6 +28283,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28024,6 +28333,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28039,6 +28349,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28054,6 +28365,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28076,6 +28388,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28091,6 +28404,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28106,6 +28420,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28129,6 +28444,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28144,6 +28460,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28159,6 +28476,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28181,6 +28499,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28196,6 +28515,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28211,6 +28531,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28234,6 +28555,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28249,6 +28571,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28264,6 +28587,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28286,6 +28610,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28301,6 +28626,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28316,6 +28642,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28339,6 +28666,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28354,6 +28682,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28370,6 +28699,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28392,6 +28722,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28407,6 +28738,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -28422,6 +28754,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32535,6 +32868,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32550,6 +32884,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32565,6 +32900,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32587,6 +32923,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32602,6 +32939,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32617,6 +32955,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32640,6 +32979,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32655,6 +32995,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32670,6 +33011,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32692,6 +33034,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32707,6 +33050,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32722,6 +33066,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32745,6 +33090,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32760,6 +33106,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32775,6 +33122,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32797,6 +33145,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32812,6 +33161,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32827,6 +33177,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32850,6 +33201,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32865,6 +33217,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32880,6 +33233,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32902,6 +33256,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32917,6 +33272,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32932,6 +33288,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32962,6 +33319,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32977,6 +33335,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -32992,6 +33351,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33014,6 +33374,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33029,6 +33390,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33044,6 +33406,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33067,6 +33430,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33082,6 +33446,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33097,6 +33462,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33119,6 +33485,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33134,6 +33501,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33149,6 +33517,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33172,6 +33541,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33187,6 +33557,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33202,6 +33573,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33224,6 +33596,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33239,6 +33612,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33254,6 +33628,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33277,6 +33652,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33292,6 +33668,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33308,6 +33685,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33330,6 +33708,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33345,6 +33724,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
@@ -33360,6 +33740,7 @@
                                     android:padding="0dp"
                                     android:layout_marginLeft="-3dp"
                                     android:layout_marginRight="-3dp"
+android:inputType="numberSigned"
                                     android:textColor="@color/black"
                                     android:gravity="center"
                                     android:hint="@string/_0"/>
