@@ -1263,7 +1263,7 @@ class MainActivity : AppCompatActivity() {
                                 chart7: com.github.mikephil.charting.charts.LineChart,
                                 chart8: com.github.mikephil.charting.charts.LineChart){
 
-        fun DesnHelper(desnId: IntArray, zondId: IntArray, desnChart: MutableList<Entry>, zondChart: MutableList<Entry>, chart: com.github.mikephil.charting.charts.LineChart, max: Float, min: Float){
+        fun DesnHelper(desnId: IntArray, zondId: IntArray, desnChart: MutableList<Entry>, zondChart: MutableList<Entry>, chart: com.github.mikephil.charting.charts.LineChart, sign: Int, max: Float, min: Float){
             for (i in desnId.indices){
                 val zondEditText = findViewById<EditText>(zondId[i])
                 val desnEditText = findViewById<EditText>(desnId[i])
@@ -1277,15 +1277,15 @@ class MainActivity : AppCompatActivity() {
                         textZond = "0"
                     }
                     if(textZond != "-" && textDesn != "-" && textZond != "+" && textDesn != "+"){
-                        desnChart[i].y = textDesn.toFloat()
-                        zondChart[i].y = textDesn.toFloat()-textZond.toFloat()
+                        desnChart[i].y = textDesn.toFloat()*sign
+                        zondChart[i].y = (textDesn.toFloat()-textZond.toFloat())*sign
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
                 }
             }
         }
 
-        fun ZondHelper(desnId: IntArray, zondId: IntArray, desnChart: MutableList<Entry>, zondChart: MutableList<Entry>, chart: com.github.mikephil.charting.charts.LineChart, max: Float, min: Float){
+        fun ZondHelper(desnId: IntArray, zondId: IntArray, desnChart: MutableList<Entry>, zondChart: MutableList<Entry>, chart: com.github.mikephil.charting.charts.LineChart, sign: Int, max: Float, min: Float){
             for (i in zondId.indices){
                 val zondEditText = findViewById<EditText>(zondId[i])
                 val desnEditText = findViewById<EditText>(desnId[i])
@@ -1299,30 +1299,30 @@ class MainActivity : AppCompatActivity() {
                         textZond = "0"
                     }
                     if(textZond != "-" && textDesn != "-" && textZond != "+" && textDesn != "+"){
-                        zondChart[i].y = textDesn.toFloat()-textZond.toFloat()
+                        zondChart[i].y = (textDesn.toFloat()-textZond.toFloat())*sign
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
                 }
             }
         }
 
-        DesnHelper(desnId1, zondId1, desnChart1, zondChart1, chart1, 17f, -9f)
-        DesnHelper(desnId2, zondId2, desnChart2, zondChart2, chart2, 17f, -9f)
-        DesnHelper(desnId3, zondId3, desnChart3, zondChart3, chart3, 9f, -16f)
-        DesnHelper(desnId4, zondId4, desnChart4, zondChart4, chart4, 9f, -16f)
-        DesnHelper(desnId5, zondId5, desnChart5, zondChart5, chart5, 17f, -9f)
-        DesnHelper(desnId6, zondId6, desnChart6, zondChart6, chart6, 17f, -9f)
-        DesnHelper(desnId7, zondId7, desnChart7, zondChart7, chart7, 9f, -16f)
-        DesnHelper(desnId8, zondId8, desnChart8, zondChart8, chart8, 9f, -16f)
+        DesnHelper(desnId1, zondId1, desnChart1, zondChart1, chart1, -1,17f, -9f)
+        DesnHelper(desnId2, zondId2, desnChart2, zondChart2, chart2, -1,17f, -9f)
+        DesnHelper(desnId3, zondId3, desnChart3, zondChart3, chart3, 1,9f, -16f)
+        DesnHelper(desnId4, zondId4, desnChart4, zondChart4, chart4, 1,9f, -16f)
+        DesnHelper(desnId5, zondId5, desnChart5, zondChart5, chart5, -1,17f, -9f)
+        DesnHelper(desnId6, zondId6, desnChart6, zondChart6, chart6, -1,17f, -9f)
+        DesnHelper(desnId7, zondId7, desnChart7, zondChart7, chart7, 1,9f, -16f)
+        DesnHelper(desnId8, zondId8, desnChart8, zondChart8, chart8, 1,9f, -16f)
 
-        ZondHelper(desnId1, zondId1, desnChart1, zondChart1, chart1, 17f, -9f)
-        ZondHelper(desnId2, zondId2, desnChart2, zondChart2, chart2, 17f, -9f)
-        ZondHelper(desnId3, zondId3, desnChart3, zondChart3, chart3, 9f, -16f)
-        ZondHelper(desnId4, zondId4, desnChart4, zondChart4, chart4, 9f, -16f)
-        ZondHelper(desnId5, zondId5, desnChart5, zondChart5, chart5, 17f, -9f)
-        ZondHelper(desnId6, zondId6, desnChart6, zondChart6, chart6, 17f, -9f)
-        ZondHelper(desnId7, zondId7, desnChart7, zondChart7, chart7, 9f, -16f)
-        ZondHelper(desnId8, zondId8, desnChart8, zondChart8, chart8, 9f, -16f)
+        ZondHelper(desnId1, zondId1, desnChart1, zondChart1, chart1,-1, 17f, -9f)
+        ZondHelper(desnId2, zondId2, desnChart2, zondChart2, chart2, -1,17f, -9f)
+        ZondHelper(desnId3, zondId3, desnChart3, zondChart3, chart3, 1,9f, -16f)
+        ZondHelper(desnId4, zondId4, desnChart4, zondChart4, chart4, 1,9f, -16f)
+        ZondHelper(desnId5, zondId5, desnChart5, zondChart5, chart5, -1,17f, -9f)
+        ZondHelper(desnId6, zondId6, desnChart6, zondChart6, chart6, -1,17f, -9f)
+        ZondHelper(desnId7, zondId7, desnChart7, zondChart7, chart7, 1,9f, -16f)
+        ZondHelper(desnId8, zondId8, desnChart8, zondChart8, chart8, 1,9f, -16f)
     }
 
     private fun generateChart(chart: com.github.mikephil.charting.charts.LineChart, zondChart: MutableList<Entry>, desnChart: MutableList<Entry>, max: Float, min: Float){
