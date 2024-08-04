@@ -1,31 +1,27 @@
 package com.example.periodontalchart
 
-import android.annotation.SuppressLint
 import android.content.res.ColorStateList
+import android.graphics.Bitmap
 import android.graphics.Color
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.util.Log
-import android.view.DragEvent
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.graphics.drawable.toDrawable
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.core.widget.addTextChangedListener
 import androidx.core.widget.doAfterTextChanged
-import androidx.transition.Visibility
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
-
+import java.io.File
+import java.io.FileOutputStream
 
 class MainActivity : AppCompatActivity() {
 
@@ -935,7 +931,7 @@ class MainActivity : AppCompatActivity() {
         const val karColor = "#a9a9a9"
     }
 
-
+    private lateinit var layoutToCapture: LinearLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -975,6 +971,41 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart6, zondChart6, desnChart6, 17f, -9f)
         generateChart(chart7, zondChart7, desnChart7,9f, -16f)
         generateChart(chart8, zondChart8, desnChart8,9f, -16f)
+
+        layoutToCapture = findViewById(R.id.download_layout) // Убедитесь, что вы добавили id к вашему LinearLayout
+        val downloadBut: Button = findViewById(R.id.download)
+
+        downloadBut.setOnClickListener {
+            takeScreenshot()
+        }
+    }
+
+    private fun takeScreenshot() {
+        // Создаем битмап из view
+        val v1 = window.decorView.rootView
+        v1.isDrawingCacheEnabled = true
+        val bitmap = Bitmap.createBitmap(v1.drawingCache)
+        v1.isDrawingCacheEnabled = false
+
+
+
+        // Сохраняем битмап в файл
+        saveBitmap(bitmap)
+    }
+
+    private fun saveBitmap(bitmap: Bitmap) {
+        val filePath = "${externalCacheDir?.absolutePath}/screenshot.png"
+        val file = File(filePath)
+
+        try {
+            val outputStream = FileOutputStream(file)
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
+            outputStream.flush()
+            outputStream.close()
+            Log.e("DEBUG","Скриншот сохранен в $filePath")
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     private fun changeColorButton(button: Button, color0: String, color1: String){
