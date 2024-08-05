@@ -937,7 +937,6 @@ class MainActivity : AppCompatActivity() {
         const val karColor = "#a9a9a9"
     }
 
-    private lateinit var layoutToCapture: LinearLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -1000,13 +999,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun takeScreenshot(view: View): Bitmap {
-        // Создаем Bitmap размером с Layout
         val bitmap = Bitmap.createBitmap(view.width, view.height, Bitmap.Config.ARGB_8888)
-
-        // Создаем Canvas и рисуем в него View
         val canvas = Canvas(bitmap)
         view.draw(canvas)
-
         return bitmap
     }
 
@@ -1026,7 +1021,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun convertImagesToPdf() {
-        // Укажите пути к вашим изображениям PNG
         val imagePaths = listOf(
             "${externalCacheDir?.absolutePath}/top.png",
             "${externalCacheDir?.absolutePath}/table1.png",
@@ -1035,8 +1029,6 @@ class MainActivity : AppCompatActivity() {
             "${externalCacheDir?.absolutePath}/table4.png",
             "${externalCacheDir?.absolutePath}/indexes.png"
         )
-
-        // Создаем PDF документ
         val mmpi = 25.4f
         val dpi = 150
         val pdfDocument = PdfDocument()
@@ -1072,7 +1064,6 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        // Сохраняем PDF файл
         val pdfFilePath = "${externalCacheDir?.absolutePath}/converted_images.pdf"
         val file = File(pdfFilePath)
 
@@ -1100,6 +1091,7 @@ class MainActivity : AppCompatActivity() {
             }
             kpu()
             bop()
+            api()
         }
     }
 
@@ -1682,6 +1674,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 kpu()
                 bop()
+                api()
             }
         }
 
@@ -1830,6 +1823,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 kpu()
                 bop()
+                api()
             }
         }
 
@@ -1957,6 +1951,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 kpu()
                 bop()
+                api()
             }
         }
         for (i in existsId4.indices){
@@ -2082,6 +2077,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 kpu()
                 bop()
+                api()
             }
         }
 
@@ -2166,4 +2162,40 @@ class MainActivity : AppCompatActivity() {
 
         bopText.text = String.format("%.3f", bop.toDouble())
     }
+
+    private fun api() {
+        val apiText = findViewById<TextView>(R.id.api)
+
+        var otlCounter = 0f
+
+        val numOfSurfaces = countExist()*2
+
+        for (el in otlIdApi){
+            val krBut = findViewById<Button>(el)
+            val otlColorStateList = krBut.backgroundTintList
+            val existColor = otlColorStateList?.getColorForState(IntArray(0), otlColorStateList.defaultColor)
+            if (existColor != Color.parseColor(but0Color)){
+                otlCounter += 1f
+            }
+        }
+
+        val bop = (otlCounter/numOfSurfaces)*100f
+
+        apiText.text = String.format("%.3f", bop.toDouble())
+    }
+
+    val otlIdApi = intArrayOf(R.id.otl112_1,R.id.otl112_3,R.id.otl122_1,R.id.otl122_3,R.id.otl132_1,R.id.otl132_3,R.id.otl142_1,R.id.otl142_3,
+        R.id.otl152_1,R.id.otl152_3,R.id.otl162_1,R.id.otl162_3,R.id.otl172_1,R.id.otl172_3,R.id.otl182_1,R.id.otl182_3,R.id.otl212_1,
+        R.id.otl212_3,R.id.otl222_1,R.id.otl222_3,R.id.otl232_1,R.id.otl232_3,R.id.otl242_1,R.id.otl242_3,R.id.otl252_1,R.id.otl252_3,R.id.otl262_1,
+        R.id.otl262_3,R.id.otl272_1,R.id.otl272_3,R.id.otl282_1,R.id.otl282_3,R.id.otl312_1,R.id.otl312_3,R.id.otl322_1,R.id.otl322_3,
+        R.id.otl332_1,R.id.otl332_3,R.id.otl342_1,R.id.otl342_3,R.id.otl352_1,R.id.otl352_3,R.id.otl362_1,R.id.otl362_3,R.id.otl372_1,
+        R.id.otl372_3,R.id.otl382_1,R.id.otl382_3,R.id.otl412_1,R.id.otl412_3,R.id.otl422_1,R.id.otl422_3,R.id.otl432_1,R.id.otl432_3,R.id.otl442_1,
+        R.id.otl442_3,R.id.otl452_1,R.id.otl452_3,R.id.otl462_1,R.id.otl462_3,R.id.otl472_1,R.id.otl472_3,R.id.otl482_1,R.id.otl482_3,
+        R.id.otl11_1,R.id.otl11_3,R.id.otl12_1,R.id.otl12_3,R.id.otl13_1,R.id.otl13_3,R.id.otl14_1,R.id.otl14_3,R.id.otl15_1,R.id.otl15_3,
+        R.id.otl16_1,R.id.otl16_3,R.id.otl17_1,R.id.otl17_3,R.id.otl18_1,R.id.otl18_3,R.id.otl21_1,R.id.otl21_3,R.id.otl22_1,R.id.otl22_3,
+        R.id.otl23_1,R.id.otl23_3,R.id.otl24_1,R.id.otl24_3,R.id.otl25_1,R.id.otl25_3,R.id.otl26_1,R.id.otl26_3,R.id.otl27_1,R.id.otl27_3,
+        R.id.otl28_1,R.id.otl28_3,R.id.otl31_1,R.id.otl31_3,R.id.otl32_1,R.id.otl32_3,R.id.otl33_1,R.id.otl33_3,R.id.otl34_1,R.id.otl34_3,
+        R.id.otl35_1,R.id.otl35_3,R.id.otl36_1,R.id.otl36_3,R.id.otl37_1,R.id.otl37_3,R.id.otl38_1,R.id.otl38_3,R.id.otl41_1,R.id.otl41_3,
+        R.id.otl42_1,R.id.otl42_3,R.id.otl43_1,R.id.otl43_3,R.id.otl44_1,R.id.otl44_3,R.id.otl45_1,R.id.otl45_3,R.id.otl46_1,R.id.otl46_3,
+        R.id.otl47_1,R.id.otl47_3,R.id.otl48_1,R.id.otl48_3)
 }

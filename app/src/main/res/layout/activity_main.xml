@@ -36947,6 +36947,31 @@ android:inputType="numberSigned"
                             android:layout_height="wrap_content"
                             android:text="%"/>
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="API = "/>
+
+                        <TextView
+                            android:id="@+id/api"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="%"/>
+                    </LinearLayout>
                 </LinearLayout>
 
                 <Button
@@ -36954,7 +36979,8 @@ android:inputType="numberSigned"
                     android:layout_height="wrap_content"
                     android:id="@+id/download"
                     android:text="Скачать"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"/>
 
             </LinearLayout>
 
