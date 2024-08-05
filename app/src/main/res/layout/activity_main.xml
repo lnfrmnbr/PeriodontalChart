@@ -86,7 +86,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="8"
-                        android:inputType="text"
+                        android:inputType="textCapSentences"
                         android:fontFamily="@font/fira_sans"
                         android:layout_marginEnd="20dp"/>
 
@@ -103,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="7"
-                        android:inputType="text"
+                        android:inputType="textCapSentences"
                         android:fontFamily="@font/fira_sans"
                         android:layout_marginEnd="20dp"/>
 
@@ -120,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="8"
-                        android:inputType="text"
+                        android:inputType="textCapSentences"
                         android:fontFamily="@font/fira_sans"
                         android:layout_marginEnd="20dp"/>
 
@@ -3915,12 +3915,18 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kr1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Кровоточивость"
-                                android:layout_margin="5dp"
-                                android:gravity="center"/>
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"/>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -4690,11 +4696,17 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/otl1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Налет"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -5465,11 +5477,17 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kam1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Камни"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -6240,11 +6258,17 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/vos1"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Гноетечение"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -15404,12 +15428,18 @@ android:inputType="numberSigned"
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content">
 
-                                <TextView
+                                <Button
+                                    android:id="@+id/kr2"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="Кровоточивость"
-                                    android:layout_margin="5dp"
-                                    android:gravity="center"/>
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    app:cornerRadius="0dp"
+                                    android:minHeight="15dp"
+                                    android:minWidth="50dp"
+                                    android:textColor="@color/black"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -16178,11 +16208,17 @@ android:inputType="numberSigned"
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content">
 
-                                <TextView
+                                <Button
+                                    android:id="@+id/otl2"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="Налет"
-                                    android:layout_margin="5dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    app:cornerRadius="0dp"
+                                    android:minHeight="15dp"
+                                    android:minWidth="50dp"
+                                    android:textColor="@color/black"
                                     android:gravity="center"/>
 
                                 <LinearLayout
@@ -16952,11 +16988,17 @@ android:inputType="numberSigned"
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content">
 
-                                <TextView
+                                <Button
+                                    android:id="@+id/kam2"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="Камни"
-                                    android:layout_margin="5dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    app:cornerRadius="0dp"
+                                    android:minHeight="15dp"
+                                    android:minWidth="50dp"
+                                    android:textColor="@color/black"
                                     android:gravity="center"/>
 
                                 <LinearLayout
@@ -17726,11 +17768,17 @@ android:inputType="numberSigned"
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content">
 
-                                <TextView
+                                <Button
+                                    android:id="@+id/vos2"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
+                                    android:layout_height="wrap_content"
                                     android:text="Гноетечение"
-                                    android:layout_margin="5dp"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    app:cornerRadius="0dp"
+                                    android:minHeight="15dp"
+                                    android:minWidth="50dp"
+                                    android:textColor="@color/black"
                                     android:gravity="center"/>
 
                                 <LinearLayout
@@ -18693,11 +18741,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kr3"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="@string/krov"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -19467,11 +19521,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/otl3"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Налет"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -20241,11 +20301,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kam3"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Камни"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -21015,11 +21081,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/vos3"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Гноетечение"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -32104,11 +32176,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kr4"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Кровоточивость"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -32879,11 +32957,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/otl4"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Налет"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -33653,11 +33737,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/kam4"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Камни"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -34427,11 +34517,17 @@ android:inputType="numberSigned"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content">
 
-                            <TextView
+                            <Button
+                                android:id="@+id/vos4"
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="Гноетечение"
-                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                app:cornerRadius="0dp"
+                                android:minHeight="15dp"
+                                android:minWidth="50dp"
+                                android:textColor="@color/black"
                                 android:gravity="center"/>
 
                             <LinearLayout
@@ -36893,6 +36989,30 @@ android:inputType="numberSigned"
                         android:layout_height="16dp"/>
                 </RelativeLayout>
 
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/comments_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    app:cornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="Комментарии"
+                    android:inputType="text"
+                    app:boxStrokeColor="@color/black"
+                    app:counterEnabled="true"
+                    app:endIconTint="@color/black"
+                    app:hintTextColor="@color/black"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/comments"
+                        android:layout_width="1000dp"
+                        android:layout_height="200dp"
+                        android:gravity="top|left"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -36901,7 +37021,9 @@ android:inputType="numberSigned"
                     android:padding="10dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:id="@+id/indexes">
+                    android:id="@+id/indexes"
+                    app:cornerRadius="10dp"
+                    >
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -37055,7 +37177,7 @@ android:inputType="numberSigned"
                     android:id="@+id/download"
                     android:text="Скачать"
                     android:layout_gravity="center"
-                    android:layout_margin="20dp"/>
+                    android:layout_marginTop="200dp"/>
 
             </LinearLayout>
 

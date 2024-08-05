@@ -1291,11 +1291,111 @@ class MainActivity : AppCompatActivity() {
         for(el in krId){
             changeColorButton(findViewById(el), but0Color, krColor)
         }
+        val krId1 = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3,
+            R.id.kr28_1,R.id.kr28_2,R.id.kr28_3,R.id.kr27_1,R.id.kr27_2,R.id.kr27_3,R.id.kr26_1,R.id.kr26_2,R.id.kr26_3,R.id.kr25_1,R.id.kr25_2,R.id.kr25_3,R.id.kr24_1,R.id.kr24_2,R.id.kr24_3,R.id.kr23_1,R.id.kr23_2,R.id.kr23_3,R.id.kr22_1,R.id.kr22_2,R.id.kr22_3,R.id.kr21_1,R.id.kr21_2,R.id.kr21_3)
+
+        val krId2 = intArrayOf(R.id.kr182_1,R.id.kr182_2,R.id.kr182_3,R.id.kr172_1,R.id.kr172_2,R.id.kr172_3,R.id.kr162_1,R.id.kr162_2,R.id.kr162_3,R.id.kr152_1,R.id.kr152_2,R.id.kr152_3,R.id.kr142_1,R.id.kr142_2,R.id.kr142_3,R.id.kr132_1,R.id.kr132_2,R.id.kr132_3,R.id.kr122_1,R.id.kr122_2,R.id.kr122_3,R.id.kr112_1,
+            R.id.kr112_2,R.id.kr112_3,R.id.kr282_1,R.id.kr282_2,R.id.kr282_3,R.id.kr272_1,R.id.kr272_2,R.id.kr272_3,R.id.kr262_1,R.id.kr262_2,R.id.kr262_3,R.id.kr252_1,R.id.kr252_2,R.id.kr252_3,R.id.kr242_1,R.id.kr242_2,R.id.kr242_3,R.id.kr232_1,R.id.kr232_2,R.id.kr232_3,R.id.kr222_1,R.id.kr222_2,R.id.kr222_3,R.id.kr212_1,R.id.kr212_2,R.id.kr212_3)
+
+        val krId3 = intArrayOf(R.id.kr38_1,R.id.kr38_2,R.id.kr38_3,R.id.kr37_1,R.id.kr37_2,R.id.kr37_3,R.id.kr36_1,R.id.kr36_2,R.id.kr36_3,R.id.kr35_1,R.id.kr35_2,R.id.kr35_3,R.id.kr34_1,R.id.kr34_2,R.id.kr34_3,R.id.kr33_1,R.id.kr33_2,R.id.kr33_3,R.id.kr32_1,R.id.kr32_2,R.id.kr32_3,R.id.kr31_1,R.id.kr31_2,R.id.kr31_3,
+            R.id.kr48_1,R.id.kr48_2,R.id.kr48_3,R.id.kr47_1,R.id.kr47_2,R.id.kr47_3,R.id.kr46_1,R.id.kr46_2,R.id.kr46_3,R.id.kr45_1,R.id.kr45_2,R.id.kr45_3,R.id.kr44_1,R.id.kr44_2,R.id.kr44_3,R.id.kr43_1,R.id.kr43_2,R.id.kr43_3,R.id.kr42_1,R.id.kr42_2,R.id.kr42_3,R.id.kr41_1,R.id.kr41_2,R.id.kr41_3)
+
+        val krId4 = intArrayOf(R.id.kr382_1,R.id.kr382_2,R.id.kr382_3,R.id.kr372_1,R.id.kr372_2,R.id.kr372_3,R.id.kr362_1,R.id.kr362_2,R.id.kr362_3,R.id.kr352_1,R.id.kr352_2,R.id.kr352_3,R.id.kr342_1,R.id.kr342_2,R.id.kr342_3,R.id.kr332_1,R.id.kr332_2,R.id.kr332_3,R.id.kr322_1,R.id.kr322_2,R.id.kr322_3,R.id.kr312_1,
+            R.id.kr312_2,R.id.kr312_3,R.id.kr482_1,R.id.kr482_2,R.id.kr482_3,R.id.kr472_1,R.id.kr472_2,R.id.kr472_3,R.id.kr462_1,R.id.kr462_2,R.id.kr462_3,R.id.kr452_1,R.id.kr452_2,R.id.kr452_3,R.id.kr442_1,R.id.kr442_2,R.id.kr442_3,R.id.kr432_1,R.id.kr432_2,R.id.kr432_3,R.id.kr422_1,R.id.kr422_2,R.id.kr422_3,R.id.kr412_1,R.id.kr412_2,R.id.kr412_3)
+
+        findViewById<Button>(R.id.kr1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kr1).setOnClickListener{
+            for (el in krId1){
+                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            }
+        }
+
+        findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kr2).setOnClickListener{
+            for (el in krId2){
+                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            }
+        }
+
+        findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kr3).setOnClickListener{
+            for (el in krId3){
+                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            }
+        }
+
+        findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.kr4).setOnClickListener{
+            for (el in krId4){
+                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            }
+        }
+
     }
 
     private fun settingsForKam(){
         for(el in kamId){
             changeColorButton(findViewById(el), but0Color, kamColor)
+        }
+        val kamId1 = intArrayOf(R.id.kam18_1,R.id.kam18_2,R.id.kam18_3,R.id.kam17_1,R.id.kam17_2,R.id.kam17_3,R.id.kam16_1,R.id.kam16_2,R.id.kam16_3,R.id.kam15_1,R.id.kam15_2,R.id.kam15_3,R.id.kam14_1,R.id.kam14_2,R.id.kam14_3,R.id.kam13_1,R.id.kam13_2,R.id.kam13_3,R.id.kam12_1,R.id.kam12_2,R.id.kam12_3,R.id.kam11_1,R.id.kam11_2,R.id.kam11_3,
+            R.id.kam28_1,R.id.kam28_2,R.id.kam28_3,R.id.kam27_1,R.id.kam27_2,R.id.kam27_3,R.id.kam26_1,R.id.kam26_2,R.id.kam26_3,R.id.kam25_1,R.id.kam25_2,R.id.kam25_3,R.id.kam24_1,R.id.kam24_2,R.id.kam24_3,R.id.kam23_1,R.id.kam23_2,R.id.kam23_3,R.id.kam22_1,R.id.kam22_2,R.id.kam22_3,R.id.kam21_1,R.id.kam21_2,R.id.kam21_3)
+
+        val kamId2 = intArrayOf(R.id.kam182_1,R.id.kam182_2,R.id.kam182_3,R.id.kam172_1,R.id.kam172_2,R.id.kam172_3,R.id.kam162_1,R.id.kam162_2,R.id.kam162_3,R.id.kam152_1,R.id.kam152_2,R.id.kam152_3,R.id.kam142_1,R.id.kam142_2,R.id.kam142_3,R.id.kam132_1,R.id.kam132_2,R.id.kam132_3,R.id.kam122_1,R.id.kam122_2,R.id.kam122_3,R.id.kam112_1,
+            R.id.kam112_2,R.id.kam112_3,R.id.kam282_1,R.id.kam282_2,R.id.kam282_3,R.id.kam272_1,R.id.kam272_2,R.id.kam272_3,R.id.kam262_1,R.id.kam262_2,R.id.kam262_3,R.id.kam252_1,R.id.kam252_2,R.id.kam252_3,R.id.kam242_1,R.id.kam242_2,R.id.kam242_3,R.id.kam232_1,R.id.kam232_2,R.id.kam232_3,R.id.kam222_1,R.id.kam222_2,R.id.kam222_3,R.id.kam212_1,R.id.kam212_2,R.id.kam212_3)
+
+        val kamId3 = intArrayOf(R.id.kam38_1,R.id.kam38_2,R.id.kam38_3,R.id.kam37_1,R.id.kam37_2,R.id.kam37_3,R.id.kam36_1,R.id.kam36_2,R.id.kam36_3,R.id.kam35_1,R.id.kam35_2,R.id.kam35_3,R.id.kam34_1,R.id.kam34_2,R.id.kam34_3,R.id.kam33_1,R.id.kam33_2,R.id.kam33_3,R.id.kam32_1,R.id.kam32_2,R.id.kam32_3,R.id.kam31_1,R.id.kam31_2,R.id.kam31_3,
+            R.id.kam48_1,R.id.kam48_2,R.id.kam48_3,R.id.kam47_1,R.id.kam47_2,R.id.kam47_3,R.id.kam46_1,R.id.kam46_2,R.id.kam46_3,R.id.kam45_1,R.id.kam45_2,R.id.kam45_3,R.id.kam44_1,R.id.kam44_2,R.id.kam44_3,R.id.kam43_1,R.id.kam43_2,R.id.kam43_3,R.id.kam42_1,R.id.kam42_2,R.id.kam42_3,R.id.kam41_1,R.id.kam41_2,R.id.kam41_3)
+
+        val kamId4 = intArrayOf(R.id.kam382_1,R.id.kam382_2,R.id.kam382_3,R.id.kam372_1,R.id.kam372_2,R.id.kam372_3,R.id.kam362_1,R.id.kam362_2,R.id.kam362_3,R.id.kam352_1,R.id.kam352_2,R.id.kam352_3,R.id.kam342_1,R.id.kam342_2,R.id.kam342_3,R.id.kam332_1,R.id.kam332_2,R.id.kam332_3,R.id.kam322_1,R.id.kam322_2,R.id.kam322_3,R.id.kam312_1,
+            R.id.kam312_2,R.id.kam312_3,R.id.kam482_1,R.id.kam482_2,R.id.kam482_3,R.id.kam472_1,R.id.kam472_2,R.id.kam472_3,R.id.kam462_1,R.id.kam462_2,R.id.kam462_3,R.id.kam452_1,R.id.kam452_2,R.id.kam452_3,R.id.kam442_1,R.id.kam442_2,R.id.kam442_3,R.id.kam432_1,R.id.kam432_2,R.id.kam432_3,R.id.kam422_1,R.id.kam422_2,R.id.kam422_3,R.id.kam412_1,R.id.kam412_2,R.id.kam412_3)
+
+        findViewById<Button>(R.id.kam1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.kam4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.kam1).setOnClickListener{
+            for (el in kamId1){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            kamColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.kam2).setOnClickListener{
+            for (el in kamId2){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            kamColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.kam3).setOnClickListener{
+            for (el in kamId3){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            kamColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.kam4).setOnClickListener{
+            for (el in kamId4){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            kamColor
+                        )))
+            }
         }
     }
 
@@ -1304,11 +1404,130 @@ class MainActivity : AppCompatActivity() {
         for(el in vosId){
             changeColorButton(findViewById(el), but0Color, vosColor)
         }
+        findViewById<Button>(R.id.vos1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.vos2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.vos3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.vos4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+
+        val vosId1 = intArrayOf(R.id.vos18_1,R.id.vos18_2,R.id.vos18_3,R.id.vos17_1,R.id.vos17_2,R.id.vos17_3,R.id.vos16_1,R.id.vos16_2,R.id.vos16_3,R.id.vos15_1,R.id.vos15_2,R.id.vos15_3,R.id.vos14_1,R.id.vos14_2,R.id.vos14_3,R.id.vos13_1,R.id.vos13_2,R.id.vos13_3,R.id.vos12_1,R.id.vos12_2,R.id.vos12_3,R.id.vos11_1,R.id.vos11_2,R.id.vos11_3,
+            R.id.vos28_1,R.id.vos28_2,R.id.vos28_3,R.id.vos27_1,R.id.vos27_2,R.id.vos27_3,R.id.vos26_1,R.id.vos26_2,R.id.vos26_3,R.id.vos25_1,R.id.vos25_2,R.id.vos25_3,R.id.vos24_1,R.id.vos24_2,R.id.vos24_3,R.id.vos23_1,R.id.vos23_2,R.id.vos23_3,R.id.vos22_1,R.id.vos22_2,R.id.vos22_3,R.id.vos21_1,R.id.vos21_2,R.id.vos21_3)
+
+        val vosId2 = intArrayOf(R.id.vos182_1,R.id.vos182_2,R.id.vos182_3,R.id.vos172_1,R.id.vos172_2,R.id.vos172_3,R.id.vos162_1,R.id.vos162_2,R.id.vos162_3,R.id.vos152_1,R.id.vos152_2,R.id.vos152_3,R.id.vos142_1,R.id.vos142_2,R.id.vos142_3,R.id.vos132_1,R.id.vos132_2,R.id.vos132_3,R.id.vos122_1,R.id.vos122_2,R.id.vos122_3,R.id.vos112_1,
+            R.id.vos112_2,R.id.vos112_3,R.id.vos282_1,R.id.vos282_2,R.id.vos282_3,R.id.vos272_1,R.id.vos272_2,R.id.vos272_3,R.id.vos262_1,R.id.vos262_2,R.id.vos262_3,R.id.vos252_1,R.id.vos252_2,R.id.vos252_3,R.id.vos242_1,R.id.vos242_2,R.id.vos242_3,R.id.vos232_1,R.id.vos232_2,R.id.vos232_3,R.id.vos222_1,R.id.vos222_2,R.id.vos222_3,R.id.vos212_1,R.id.vos212_2,R.id.vos212_3)
+
+        val vosId3 = intArrayOf(R.id.vos38_1,R.id.vos38_2,R.id.vos38_3,R.id.vos37_1,R.id.vos37_2,R.id.vos37_3,R.id.vos36_1,R.id.vos36_2,R.id.vos36_3,R.id.vos35_1,R.id.vos35_2,R.id.vos35_3,R.id.vos34_1,R.id.vos34_2,R.id.vos34_3,R.id.vos33_1,R.id.vos33_2,R.id.vos33_3,R.id.vos32_1,R.id.vos32_2,R.id.vos32_3,R.id.vos31_1,R.id.vos31_2,R.id.vos31_3,
+            R.id.vos48_1,R.id.vos48_2,R.id.vos48_3,R.id.vos47_1,R.id.vos47_2,R.id.vos47_3,R.id.vos46_1,R.id.vos46_2,R.id.vos46_3,R.id.vos45_1,R.id.vos45_2,R.id.vos45_3,R.id.vos44_1,R.id.vos44_2,R.id.vos44_3,R.id.vos43_1,R.id.vos43_2,R.id.vos43_3,R.id.vos42_1,R.id.vos42_2,R.id.vos42_3,R.id.vos41_1,R.id.vos41_2,R.id.vos41_3)
+
+        val vosId4 = intArrayOf(R.id.vos382_1,R.id.vos382_2,R.id.vos382_3,R.id.vos372_1,R.id.vos372_2,R.id.vos372_3,R.id.vos362_1,R.id.vos362_2,R.id.vos362_3,R.id.vos352_1,R.id.vos352_2,R.id.vos352_3,R.id.vos342_1,R.id.vos342_2,R.id.vos342_3,R.id.vos332_1,R.id.vos332_2,R.id.vos332_3,R.id.vos322_1,R.id.vos322_2,R.id.vos322_3,R.id.vos312_1,
+            R.id.vos312_2,R.id.vos312_3,R.id.vos482_1,R.id.vos482_2,R.id.vos482_3,R.id.vos472_1,R.id.vos472_2,R.id.vos472_3,R.id.vos462_1,R.id.vos462_2,R.id.vos462_3,R.id.vos452_1,R.id.vos452_2,R.id.vos452_3,R.id.vos442_1,R.id.vos442_2,R.id.vos442_3,R.id.vos432_1,R.id.vos432_2,R.id.vos432_3,R.id.vos422_1,R.id.vos422_2,R.id.vos422_3,R.id.vos412_1,R.id.vos412_2,R.id.vos412_3)
+
+        findViewById<Button>(R.id.vos1).setOnClickListener{
+            for (el in vosId1){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            vosColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.vos2).setOnClickListener{
+            for (el in vosId2){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            vosColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.vos3).setOnClickListener{
+            for (el in vosId3){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            vosColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.vos4).setOnClickListener{
+            for (el in vosId4){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            vosColor
+                        )))
+            }
+        }
     }
 
     private fun settingsForOtl(){
         for(el in otlId){
             changeColorButton(findViewById(el), but0Color, otlColor)
+        }
+        val otlId1 = intArrayOf(R.id.otl18_1,R.id.otl18_2,R.id.otl18_3,R.id.otl17_1,R.id.otl17_2,R.id.otl17_3,R.id.otl16_1,R.id.otl16_2,R.id.otl16_3,R.id.otl15_1,R.id.otl15_2,R.id.otl15_3,R.id.otl14_1,R.id.otl14_2,R.id.otl14_3,R.id.otl13_1,R.id.otl13_2,R.id.otl13_3,R.id.otl12_1,R.id.otl12_2,R.id.otl12_3,R.id.otl11_1,R.id.otl11_2,R.id.otl11_3,
+            R.id.otl28_1,R.id.otl28_2,R.id.otl28_3,R.id.otl27_1,R.id.otl27_2,R.id.otl27_3,R.id.otl26_1,R.id.otl26_2,R.id.otl26_3,R.id.otl25_1,R.id.otl25_2,R.id.otl25_3,R.id.otl24_1,R.id.otl24_2,R.id.otl24_3,R.id.otl23_1,R.id.otl23_2,R.id.otl23_3,R.id.otl22_1,R.id.otl22_2,R.id.otl22_3,R.id.otl21_1,R.id.otl21_2,R.id.otl21_3)
+
+        val otlId2 = intArrayOf(R.id.otl182_1,R.id.otl182_2,R.id.otl182_3,R.id.otl172_1,R.id.otl172_2,R.id.otl172_3,R.id.otl162_1,R.id.otl162_2,R.id.otl162_3,R.id.otl152_1,R.id.otl152_2,R.id.otl152_3,R.id.otl142_1,R.id.otl142_2,R.id.otl142_3,R.id.otl132_1,R.id.otl132_2,R.id.otl132_3,R.id.otl122_1,R.id.otl122_2,R.id.otl122_3,R.id.otl112_1,
+            R.id.otl112_2,R.id.otl112_3,R.id.otl282_1,R.id.otl282_2,R.id.otl282_3,R.id.otl272_1,R.id.otl272_2,R.id.otl272_3,R.id.otl262_1,R.id.otl262_2,R.id.otl262_3,R.id.otl252_1,R.id.otl252_2,R.id.otl252_3,R.id.otl242_1,R.id.otl242_2,R.id.otl242_3,R.id.otl232_1,R.id.otl232_2,R.id.otl232_3,R.id.otl222_1,R.id.otl222_2,R.id.otl222_3,R.id.otl212_1,R.id.otl212_2,R.id.otl212_3)
+
+        val otlId3 = intArrayOf(R.id.otl38_1,R.id.otl38_2,R.id.otl38_3,R.id.otl37_1,R.id.otl37_2,R.id.otl37_3,R.id.otl36_1,R.id.otl36_2,R.id.otl36_3,R.id.otl35_1,R.id.otl35_2,R.id.otl35_3,R.id.otl34_1,R.id.otl34_2,R.id.otl34_3,R.id.otl33_1,R.id.otl33_2,R.id.otl33_3,R.id.otl32_1,R.id.otl32_2,R.id.otl32_3,R.id.otl31_1,R.id.otl31_2,R.id.otl31_3,
+            R.id.otl48_1,R.id.otl48_2,R.id.otl48_3,R.id.otl47_1,R.id.otl47_2,R.id.otl47_3,R.id.otl46_1,R.id.otl46_2,R.id.otl46_3,R.id.otl45_1,R.id.otl45_2,R.id.otl45_3,R.id.otl44_1,R.id.otl44_2,R.id.otl44_3,R.id.otl43_1,R.id.otl43_2,R.id.otl43_3,R.id.otl42_1,R.id.otl42_2,R.id.otl42_3,R.id.otl41_1,R.id.otl41_2,R.id.otl41_3)
+
+        val otlId4 = intArrayOf(R.id.otl382_1,R.id.otl382_2,R.id.otl382_3,R.id.otl372_1,R.id.otl372_2,R.id.otl372_3,R.id.otl362_1,R.id.otl362_2,R.id.otl362_3,R.id.otl352_1,R.id.otl352_2,R.id.otl352_3,R.id.otl342_1,R.id.otl342_2,R.id.otl342_3,R.id.otl332_1,R.id.otl332_2,R.id.otl332_3,R.id.otl322_1,R.id.otl322_2,R.id.otl322_3,R.id.otl312_1,
+            R.id.otl312_2,R.id.otl312_3,R.id.otl482_1,R.id.otl482_2,R.id.otl482_3,R.id.otl472_1,R.id.otl472_2,R.id.otl472_3,R.id.otl462_1,R.id.otl462_2,R.id.otl462_3,R.id.otl452_1,R.id.otl452_2,R.id.otl452_3,R.id.otl442_1,R.id.otl442_2,R.id.otl442_3,R.id.otl432_1,R.id.otl432_2,R.id.otl432_3,R.id.otl422_1,R.id.otl422_2,R.id.otl422_3,R.id.otl412_1,R.id.otl412_2,R.id.otl412_3)
+
+        findViewById<Button>(R.id.otl1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.otl4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
+        findViewById<Button>(R.id.otl1).setOnClickListener{
+            for (el in otlId1){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            otlColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.otl2).setOnClickListener{
+            for (el in otlId2){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            otlColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.otl3).setOnClickListener{
+            for (el in otlId3){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            otlColor
+                        )))
+            }
+        }
+
+        findViewById<Button>(R.id.otl4).setOnClickListener{
+            for (el in otlId4){
+                findViewById<Button>(el).setBackgroundTintList(
+                    ColorStateList.valueOf(
+                        Color.parseColor(
+                            otlColor
+                        )))
+            }
         }
     }
 
@@ -2445,3 +2664,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
+
+//кнопки кровоточивость, налет, камни, гноетечение
+//комментарии
+//ohis и russel
