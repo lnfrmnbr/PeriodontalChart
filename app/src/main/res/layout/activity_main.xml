@@ -10129,7 +10129,9 @@ android:inputType="numberSigned"
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:id="@+id/table2"
+                    android:background="@color/white">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -18670,7 +18672,10 @@ android:inputType="numberSigned"
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height= "wrap_content">
+                android:layout_height= "wrap_content"
+                android:id="@+id/table3"
+                android:background="@color/white">
+
 
 
                 <LinearLayout
@@ -26971,7 +26976,9 @@ android:inputType="numberSigned"
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp">
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/table4"
+                    android:background="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -36893,7 +36900,8 @@ android:inputType="numberSigned"
                     android:background="@drawable/border"
                     android:padding="10dp"
                     android:layout_gravity="center"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:id="@+id/indexes">
 
                     <LinearLayout
                         android:layout_width="wrap_content"

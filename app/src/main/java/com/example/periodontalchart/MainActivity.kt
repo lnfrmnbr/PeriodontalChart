@@ -2,9 +2,12 @@ package com.example.periodontalchart
 
 import android.content.res.ColorStateList
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Color
+import android.graphics.pdf.PdfDocument
 import android.os.Bundle
+import android.os.Environment
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -975,12 +978,24 @@ class MainActivity : AppCompatActivity() {
         generateChart(chart7, zondChart7, desnChart7,9f, -16f)
         generateChart(chart8, zondChart8, desnChart8,9f, -16f)
 
-        val myLayout1 = findViewById<LinearLayout>(R.id.top)
-        val myLayout = findViewById<RelativeLayout>(R.id.table1)
+        val topLayout = findViewById<LinearLayout>(R.id.top)
+        val table1Layout = findViewById<RelativeLayout>(R.id.table1)
+        val table2Layout = findViewById<RelativeLayout>(R.id.table2)
+        val table3Layout = findViewById<RelativeLayout>(R.id.table3)
+        val table4Layout = findViewById<RelativeLayout>(R.id.table4)
+        val indexesLayout = findViewById<LinearLayout>(R.id.indexes)
+
         val downloadBut: Button = findViewById(R.id.download)
 
         downloadBut.setOnClickListener {
-            saveBitmap(takeScreenshot(myLayout))
+            saveBitmap(takeScreenshot(topLayout), "top.png")
+            saveBitmap(takeScreenshot(table1Layout), "table1.png")
+            saveBitmap(takeScreenshot(table2Layout), "table2.png")
+            saveBitmap(takeScreenshot(table3Layout), "table3.png")
+            saveBitmap(takeScreenshot(table4Layout), "table4.png")
+            saveBitmap(takeScreenshot(indexesLayout), "indexes.png")
+            convertImagesToPdf()
+
         }
     }
 
@@ -995,8 +1010,8 @@ class MainActivity : AppCompatActivity() {
         return bitmap
     }
 
-    private fun saveBitmap(bitmap: Bitmap) {
-        val filePath = "${externalCacheDir?.absolutePath}/screenshot.png"
+    private fun saveBitmap(bitmap: Bitmap, path: String) {
+        val filePath = "${externalCacheDir?.absolutePath}/"+path
         val file = File(filePath)
 
         try {
@@ -1007,6 +1022,69 @@ class MainActivity : AppCompatActivity() {
             Log.e("DEBUG","Скриншот сохранен в $filePath")
         } catch (e: Exception) {
             e.printStackTrace()
+        }
+    }
+
+    private fun convertImagesToPdf() {
+        // Укажите пути к вашим изображениям PNG
+        val imagePaths = listOf(
+            "${externalCacheDir?.absolutePath}/top.png",
+            "${externalCacheDir?.absolutePath}/table1.png",
+            "${externalCacheDir?.absolutePath}/table2.png",
+            "${externalCacheDir?.absolutePath}/table3.png",
+            "${externalCacheDir?.absolutePath}/table4.png",
+            "${externalCacheDir?.absolutePath}/indexes.png"
+        )
+
+        // Создаем PDF документ
+        val mmpi = 25.4f
+        val dpi = 150
+        val pdfDocument = PdfDocument()
+        var bitmap0 = BitmapFactory.decodeFile(imagePaths[0])
+        var bitmap1 = BitmapFactory.decodeFile(imagePaths[1])
+        var bitmap2 = BitmapFactory.decodeFile(imagePaths[2])
+        var bitmap3 = BitmapFactory.decodeFile(imagePaths[3])
+        var bitmap4 = BitmapFactory.decodeFile(imagePaths[4])
+        var bitmap5 = BitmapFactory.decodeFile(imagePaths[5])
+        //354 106
+
+        if (bitmap0 != null && bitmap1 != null && bitmap2 != null && bitmap3 != null && bitmap4 != null) {
+            bitmap0 = Bitmap.createScaledBitmap(bitmap0, 1200, 162, true)
+            bitmap1 = Bitmap.createScaledBitmap(bitmap1, 1200, 713, true)
+            bitmap2 = Bitmap.createScaledBitmap(bitmap2, 1200, 552, true)
+            bitmap3 = Bitmap.createScaledBitmap(bitmap3, 1200, 538, true)
+            bitmap4 = Bitmap.createScaledBitmap(bitmap4, 1200, 695, true)
+
+            val pageInfo0 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 0).create()
+            val page0 = pdfDocument.startPage(pageInfo0)
+            val canvas = page0.canvas
+            canvas.drawBitmap(bitmap0, 20f, 80f, null)
+            canvas.drawBitmap(bitmap1, 20f, bitmap0.height.toFloat()+140f, null)
+            canvas.drawBitmap(bitmap2, 20f, bitmap0.height.toFloat()+bitmap1.height.toFloat()+140f, null)
+            pdfDocument.finishPage(page0)
+
+            val pageInfo1 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 1).create()
+            val page1 = pdfDocument.startPage(pageInfo1)
+            val canvas1 = page1.canvas
+            canvas1.drawBitmap(bitmap3, 20f, 80f, null)
+            canvas1.drawBitmap(bitmap4, 20f, bitmap3.height.toFloat()+80f, null)
+            pdfDocument.finishPage(page1)
+
+        }
+
+        // Сохраняем PDF файл
+        val pdfFilePath = "${externalCacheDir?.absolutePath}/converted_images.pdf"
+        val file = File(pdfFilePath)
+
+        try {
+            val outputStream = FileOutputStream(file)
+            pdfDocument.writeTo(outputStream)
+            outputStream.close()
+            Log.e("DEBUG","PDF сохранен по пути: $pdfFilePath")
+        } catch (e: Exception) {
+            e.printStackTrace()
+        } finally {
+            pdfDocument.close()
         }
     }
 
