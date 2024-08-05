@@ -36972,6 +36972,81 @@ android:inputType="numberSigned"
                             android:layout_height="wrap_content"
                             android:text="%"/>
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CPITN: "/>
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/border">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:id="@+id/cpitn1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+                                    android:text="0"/>
+
+                                <TextView
+                                    android:id="@+id/cpitn2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+                                    android:background="@drawable/border"
+                                    android:text="0"/>
+
+                                <TextView
+                                    android:id="@+id/cpitn3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+                                    android:text="0"/>
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:id="@+id/cpitn4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+                                    android:text="0"/>
+
+                                <TextView
+                                    android:id="@+id/cpitn5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/border"
+                                    android:padding="3dp"
+                                    android:text="0"/>
+
+                                <TextView
+                                    android:id="@+id/cpitn6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+                                    android:text="0"/>
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
                 </LinearLayout>
 
                 <Button
