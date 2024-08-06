@@ -28,6 +28,7 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import java.io.File
 import java.io.FileOutputStream
+import kotlin.math.max
 
 class MainActivity : AppCompatActivity() {
 
@@ -935,6 +936,11 @@ class MainActivity : AppCompatActivity() {
         const val kamColor = "#696969"
         const val vosColor = "#9ACD32"
         const val karColor = "#a9a9a9"
+
+        val podvsId = intArrayOf(R.id.podv18, R.id.podv17,R.id.podv16,R.id.podv15,R.id.podv14,R.id.podv13,R.id.podv12,R.id.podv11,
+            R.id.podv28,R.id.podv27,R.id.podv26,R.id.podv25, R.id.podv24,R.id.podv23,R.id.podv22,R.id.podv21,
+            R.id.podv38,R.id.podv37,R.id.podv36,R.id.podv35,R.id.podv34,R.id.podv33,R.id.podv32,R.id.podv31,
+            R.id.podv48,R.id.podv47, R.id.podv46,R.id.podv45,R.id.podv44,R.id.podv43,R.id.podv42,R.id.podv41)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -996,6 +1002,14 @@ class MainActivity : AppCompatActivity() {
             convertImagesToPdf()
 
         }
+
+        for (el in podvsId){
+            val podv = findViewById<EditText>(el)
+            podv.doAfterTextChanged{
+                russel()
+            }
+        }
+
     }
 
     fun takeScreenshot(view: View): Bitmap {
@@ -1093,6 +1107,7 @@ class MainActivity : AppCompatActivity() {
             bop()
             api()
             cpitn()
+            russel()
         }
     }
 
@@ -1308,6 +1323,7 @@ class MainActivity : AppCompatActivity() {
             for (el in krId1){
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
+            russel()
         }
 
         findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1315,6 +1331,7 @@ class MainActivity : AppCompatActivity() {
             for (el in krId2){
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
+            russel()
         }
 
         findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1322,6 +1339,7 @@ class MainActivity : AppCompatActivity() {
             for (el in krId3){
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
+            russel()
         }
 
         findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
@@ -1330,6 +1348,7 @@ class MainActivity : AppCompatActivity() {
             for (el in krId4){
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
+            russel()
         }
 
     }
@@ -1616,6 +1635,7 @@ class MainActivity : AppCompatActivity() {
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
                     cpitn()
+                    russel()
                 }
             }
         }
@@ -1638,6 +1658,7 @@ class MainActivity : AppCompatActivity() {
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
                     cpitn()
+                    russel()
                 }
             }
         }
@@ -2663,9 +2684,139 @@ class MainActivity : AppCompatActivity() {
         cpitn6Text.text = cpitnHelper(kr6Section, kam6Section,zond6Section).toString()
 
     }
+
+    private fun getColor(but: Button): Int? {
+        val colorStateListKr = but.backgroundTintList
+        val defaultColorKr = colorStateListKr?.getColorForState(IntArray(0), colorStateListKr.defaultColor)
+        return defaultColorKr
+    }
+
+    private fun russel(){
+        val russelText = findViewById<TextView>(R.id.russel)
+
+        var russel = 0
+
+        val zondId = intArrayOf(R.id.zond18_1,R.id.zond18_2,R.id.zond18_3,R.id.zond17_1,R.id.zond17_2,R.id.zond17_3,R.id.zond16_1,R.id.zond16_2,R.id.zond16_3,R.id.zond15_1,R.id.zond15_2,R.id.zond15_3,
+            R.id.zond14_1,R.id.zond14_2,R.id.zond14_3,R.id.zond13_1,R.id.zond13_2,R.id.zond13_3,R.id.zond12_1,R.id.zond12_2,R.id.zond12_3,R.id.zond11_1,R.id.zond11_2,R.id.zond11_3,
+            R.id.zond28_1,R.id.zond28_2,R.id.zond28_3,R.id.zond27_1,R.id.zond27_2,R.id.zond27_3,R.id.zond26_1,R.id.zond26_2,R.id.zond26_3,R.id.zond25_1,R.id.zond25_2,R.id.zond25_3,
+            R.id.zond24_1,R.id.zond24_2,R.id.zond24_3,R.id.zond23_1,R.id.zond23_2,R.id.zond23_3,R.id.zond22_1,R.id.zond22_2,R.id.zond22_3,R.id.zond21_1,R.id.zond21_2,R.id.zond21_3,
+            R.id.zond38_1,R.id.zond38_2,R.id.zond38_3,R.id.zond37_1,R.id.zond37_2,R.id.zond37_3,R.id.zond36_1,R.id.zond36_2,R.id.zond36_3,R.id.zond35_1,R.id.zond35_2,R.id.zond35_3,
+            R.id.zond34_1,R.id.zond34_2,R.id.zond34_3,R.id.zond33_1,R.id.zond33_2,R.id.zond33_3,R.id.zond32_1,R.id.zond32_2,R.id.zond32_3,R.id.zond31_1,R.id.zond31_2,R.id.zond31_3,
+            R.id.zond48_1,R.id.zond48_2,R.id.zond48_3,R.id.zond47_1,R.id.zond47_2,R.id.zond47_3,R.id.zond46_1,R.id.zond46_2,R.id.zond46_3,R.id.zond45_1,R.id.zond45_2,R.id.zond45_3,
+            R.id.zond44_1,R.id.zond44_2,R.id.zond44_3,R.id.zond43_1,R.id.zond43_2,R.id.zond43_3,R.id.zond42_1,R.id.zond42_2,R.id.zond42_3,R.id.zond41_1,R.id.zond41_2,R.id.zond41_3)
+
+        val zond2Id = intArrayOf(R.id.zond182_1,R.id.zond182_2,R.id.zond182_3,R.id.zond172_1,R.id.zond172_2,R.id.zond172_3,R.id.zond162_1,R.id.zond162_2,R.id.zond162_3,R.id.zond152_1,R.id.zond152_2,R.id.zond152_3,
+            R.id.zond142_1,R.id.zond142_2,R.id.zond142_3,R.id.zond132_1,R.id.zond132_2,R.id.zond132_3,R.id.zond122_1,R.id.zond122_2,R.id.zond122_3,R.id.zond112_1,R.id.zond112_2,R.id.zond112_3,
+            R.id.zond282_1,R.id.zond282_2,R.id.zond282_3,R.id.zond272_1,R.id.zond272_2,R.id.zond272_3,R.id.zond262_1,R.id.zond262_2,R.id.zond262_3,R.id.zond252_1,R.id.zond252_2,R.id.zond252_3,
+            R.id.zond242_1,R.id.zond242_2,R.id.zond242_3,R.id.zond232_1,R.id.zond232_2,R.id.zond232_3,R.id.zond222_1,R.id.zond222_2,R.id.zond222_3,R.id.zond212_1,R.id.zond212_2,R.id.zond212_3,
+            R.id.zond382_1,R.id.zond382_2,R.id.zond382_3,R.id.zond372_1,R.id.zond372_2,R.id.zond372_3,R.id.zond362_1,R.id.zond362_2,R.id.zond362_3,R.id.zond352_1,R.id.zond352_2,R.id.zond352_3,
+            R.id.zond342_1,R.id.zond342_2,R.id.zond342_3,R.id.zond332_1,R.id.zond332_2,R.id.zond332_3,R.id.zond322_1,R.id.zond322_2,R.id.zond322_3,R.id.zond312_1,R.id.zond312_2,R.id.zond312_3,
+            R.id.zond482_1,R.id.zond482_2,R.id.zond482_3,R.id.zond472_1,R.id.zond472_2,R.id.zond472_3,R.id.zond462_1,R.id.zond462_2,R.id.zond462_3,R.id.zond452_1,R.id.zond452_2,R.id.zond452_3,
+            R.id.zond442_1,R.id.zond442_2,R.id.zond442_3,R.id.zond432_1,R.id.zond432_2,R.id.zond432_3,R.id.zond422_1,R.id.zond422_2,R.id.zond422_3,R.id.zond412_1,R.id.zond412_2,R.id.zond412_3)
+
+        val krId = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,
+            R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3,
+            R.id.kr28_1,R.id.kr28_2,R.id.kr28_3,R.id.kr27_1,R.id.kr27_2,R.id.kr27_3,R.id.kr26_1,R.id.kr26_2,R.id.kr26_3,R.id.kr25_1,R.id.kr25_2,R.id.kr25_3,
+            R.id.kr24_1,R.id.kr24_2,R.id.kr24_3,R.id.kr23_1,R.id.kr23_2,R.id.kr23_3,R.id.kr22_1,R.id.kr22_2,R.id.kr22_3,R.id.kr21_1,R.id.kr21_2,R.id.kr21_3,
+            R.id.kr38_1,R.id.kr38_2,R.id.kr38_3,R.id.kr37_1,R.id.kr37_2,R.id.kr37_3,R.id.kr36_1,R.id.kr36_2,R.id.kr36_3,R.id.kr35_1,R.id.kr35_2,R.id.kr35_3,
+            R.id.kr34_1,R.id.kr34_2,R.id.kr34_3,R.id.kr33_1,R.id.kr33_2,R.id.kr33_3,R.id.kr32_1,R.id.kr32_2,R.id.kr32_3,R.id.kr31_1,R.id.kr31_2,R.id.kr31_3,
+            R.id.kr48_1,R.id.kr48_2,R.id.kr48_3,R.id.kr47_1,R.id.kr47_2,R.id.kr47_3,R.id.kr46_1,R.id.kr46_2,R.id.kr46_3,R.id.kr45_1,R.id.kr45_2,R.id.kr45_3,
+            R.id.kr44_1,R.id.kr44_2,R.id.kr44_3,R.id.kr43_1,R.id.kr43_2,R.id.kr43_3,R.id.kr42_1,R.id.kr42_2,R.id.kr42_3,R.id.kr41_1,R.id.kr41_2,R.id.kr41_3)
+
+        val kr2Id = intArrayOf(R.id.kr182_1,R.id.kr182_2,R.id.kr182_3,R.id.kr172_1,R.id.kr172_2,R.id.kr172_3,R.id.kr162_1,R.id.kr162_2,R.id.kr162_3,R.id.kr152_1,R.id.kr152_2,R.id.kr152_3,
+            R.id.kr142_1,R.id.kr142_2,R.id.kr142_3,R.id.kr132_1,R.id.kr132_2,R.id.kr132_3,R.id.kr122_1,R.id.kr122_2,R.id.kr122_3,R.id.kr112_1,R.id.kr112_2,R.id.kr112_3,
+            R.id.kr282_1,R.id.kr282_2,R.id.kr282_3,R.id.kr272_1,R.id.kr272_2,R.id.kr272_3,R.id.kr262_1,R.id.kr262_2,R.id.kr262_3,R.id.kr252_1,R.id.kr252_2,R.id.kr252_3,
+            R.id.kr242_1,R.id.kr242_2,R.id.kr242_3,R.id.kr232_1,R.id.kr232_2,R.id.kr232_3,R.id.kr222_1,R.id.kr222_2,R.id.kr222_3,R.id.kr212_1,R.id.kr212_2,R.id.kr212_3,
+            R.id.kr382_1,R.id.kr382_2,R.id.kr382_3,R.id.kr372_1,R.id.kr372_2,R.id.kr372_3,R.id.kr362_1,R.id.kr362_2,R.id.kr362_3,R.id.kr352_1,R.id.kr352_2,R.id.kr352_3,
+            R.id.kr342_1,R.id.kr342_2,R.id.kr342_3,R.id.kr332_1,R.id.kr332_2,R.id.kr332_3,R.id.kr322_1,R.id.kr322_2,R.id.kr322_3,R.id.kr312_1,R.id.kr312_2,R.id.kr312_3,
+            R.id.kr482_1,R.id.kr482_2,R.id.kr482_3,R.id.kr472_1,R.id.kr472_2,R.id.kr472_3,R.id.kr462_1,R.id.kr462_2,R.id.kr462_3,R.id.kr452_1,R.id.kr452_2,R.id.kr452_3,
+            R.id.kr442_1,R.id.kr442_2,R.id.kr442_3,R.id.kr432_1,R.id.kr432_2,R.id.kr432_3,R.id.kr422_1,R.id.kr422_2,R.id.kr422_3,R.id.kr412_1,R.id.kr412_2,R.id.kr412_3)
+
+        for (i in podvsId.indices){
+            var russelI = 0
+            var podvText = findViewById<EditText>(podvsId[i]).text.toString().trim()
+
+            var zondId1 = findViewById<EditText>(zondId[i*3]).text.toString().trim()
+            var zondId2 = findViewById<EditText>(zondId[i*3+1]).text.toString().trim()
+            var zondId3 = findViewById<EditText>(zondId[i*3+2]).text.toString().trim()
+            var zond2Id1 = findViewById<EditText>(zond2Id[i*3]).text.toString().trim()
+            var zond2Id2 = findViewById<EditText>(zond2Id[i*3+1]).text.toString().trim()
+            var zond2Id3 = findViewById<EditText>(zond2Id[i*3+2]).text.toString().trim()
+
+            var kr = 0
+            var zond = 0
+
+            val ktIdButColor1 = getColor(findViewById<Button>(krId[i*3]))
+            val ktIdButColor2 = getColor(findViewById<Button>(krId[i*3+1]))
+            val ktIdButColor3 = getColor(findViewById<Button>(krId[i*3+2]))
+            val kt2IdButColor1 = getColor(findViewById<Button>(kr2Id[i*3]))
+            val kr2IdButColor2 = getColor(findViewById<Button>(kr2Id[i*3+1]))
+            val kr2IdButColor3 = getColor(findViewById<Button>(kr2Id[i*3+2]))
+
+            if (ktIdButColor1 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+            if (ktIdButColor2 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+            if (ktIdButColor3 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+            if (kt2IdButColor1 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+            if (kr2IdButColor2 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+            if (kr2IdButColor3 != Color.parseColor(but0Color)){
+                kr +=1
+            }
+
+            if (zondId1 == ""){
+                zondId1 = "0"
+            }
+            if (zondId2 == ""){
+                zondId2 = "0"
+            }
+            if (zondId3 == ""){
+                zondId3 = "0"
+            }
+            if (zond2Id1 == ""){
+                zond2Id1 = "0"
+            }
+            if (zond2Id2 == ""){
+                zond2Id2 = "0"
+            }
+            if (zond2Id3 == ""){
+                zond2Id3 = "0"
+            }
+
+            zond = max(max(max(max(max(max(0, zondId1.toInt()),zondId2.toInt()),zondId3.toInt()),zond2Id1.toInt()),zond2Id2.toInt()),zond2Id3.toInt())
+
+            if (podvText == ""){
+                podvText = "0"
+            }
+
+            if (podvText.toInt() == 0 && zond<3 && kr == 2){
+                russelI = 1
+            }
+            if (podvText.toInt() == 0 && zond<3 && kr >=3){
+                russelI = 2
+            }
+            if (podvText.toInt() == 0 && zond >=3 && zond <= 4){
+                russelI = 4
+            }
+            if (podvText.toInt() == 0 && zond>4){
+                russelI = 5
+            }
+            if (podvText.toInt() > 0 && zond>4){
+                russelI = 8
+            }
+            russel += russelI
+        }
+        russelText.text = russel.toString()
+    }
 }
 
-
-//кнопки кровоточивость, налет, камни, гноетечение
-//комментарии
 //ohis и russel
+//exel
