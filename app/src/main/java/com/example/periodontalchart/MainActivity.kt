@@ -1088,7 +1088,7 @@ class MainActivity : AppCompatActivity() {
             bitmap2 = Bitmap.createScaledBitmap(bitmap2, 1200, 552, true)
             bitmap3 = Bitmap.createScaledBitmap(bitmap3, 1200, 538, true)
             bitmap4 = Bitmap.createScaledBitmap(bitmap4, 1200, 695, true)
-            bitmap5 = Bitmap.createScaledBitmap(bitmap5, 1100, 237, true)
+            bitmap5 = Bitmap.createScaledBitmap(bitmap5, w1/2, h1/2, true)
 
             val pageInfo0 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 0).create()
             val page0 = pdfDocument.startPage(pageInfo0)
@@ -1103,7 +1103,7 @@ class MainActivity : AppCompatActivity() {
             val canvas1 = page1.canvas
             canvas1.drawBitmap(bitmap3, 20f, 80f, null)
             canvas1.drawBitmap(bitmap4, 20f, bitmap3.height.toFloat()+80f, null)
-            canvas1.drawBitmap(bitmap5, 35f, bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
+            canvas1.drawBitmap(bitmap5, ((210/mmpi*dpi)/2)-(w1/4), bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
             pdfDocument.finishPage(page1)
 
         }
@@ -2744,6 +2744,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun russel(){
         val russelText = findViewById<TextView>(R.id.russel)
+        val russelInterpr = findViewById<TextView>(R.id.russel_interpr)
 
         var russel = 0
 
@@ -2865,11 +2866,25 @@ class MainActivity : AppCompatActivity() {
             }
             russel += russelI
         }
-        russelText.text = String.format("%.3f", (russel.toDouble()/countExist()).toDouble())
+        val russeld = russel.toDouble()/countExist().toDouble()
+        russelText.text = String.format("%.3f", russeld)
+        if (russeld in 0.1..1.0){
+            russelInterpr.text = "Гингивит"
+        }
+        if (russeld > 1 && russeld < 2){
+            russelInterpr.text = "Начальные деструктивные изменения"
+        }
+        if (russeld in 2.0..4.0){
+            russelInterpr.text = "Выраженные деструктивные изменения"
+        }
+        if (russeld > 4){
+            russelInterpr.text = "Деструктивные изменения в развившейся стадии"
+        }
     }
 
     private fun ohis(){
         val ohisText = findViewById<TextView>(R.id.ohis)
+        val ohisInterpr = findViewById<TextView>(R.id.ohis_interpr)
 
         val otlId = intArrayOf(R.id.otl18_1,R.id.otl18_2,R.id.otl18_3,R.id.otl17_1,R.id.otl17_2,R.id.otl17_3,R.id.otl16_1,R.id.otl16_2,R.id.otl16_3,R.id.otl15_1,R.id.otl15_2,R.id.otl15_3,
             R.id.otl14_1,R.id.otl14_2,R.id.otl14_3,R.id.otl13_1,R.id.otl13_2,R.id.otl13_3,R.id.otl12_1,R.id.otl12_2,R.id.otl12_3,R.id.otl11_1,R.id.otl11_2,R.id.otl11_3,
@@ -2930,6 +2945,19 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-        ohisText.text = String.format("%.3f", (ohis).toDouble()/(6f*countExist()))
+        val ohisd = (ohis).toDouble()/(3f*countExist())
+        if (ohisd < 0.7){
+            ohisInterpr.text = "Хорошая гигиена"
+        }
+        if (ohisd >= 0.7 && ohisd <1.7){
+            ohisInterpr.text = "Удовлетворительная гигиена"
+        }
+        if (ohisd >= 1.7 && ohisd <2.6){
+            ohisInterpr.text = "Неудовлетворительная гигиена"
+        }
+        if (ohisd >=2.6){
+            ohisInterpr.text = "Плохая гигиена"
+        }
+        ohisText.text = String.format("%.3f", ohisd)
     }
 }

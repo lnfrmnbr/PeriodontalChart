@@ -37043,6 +37043,7 @@ android:inputType="numberSigned"
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
                                     android:text="Название индекса"
                                     android:padding="0dp"
                                     android:layout_margin="2dp"/>
@@ -37057,6 +37058,7 @@ android:inputType="numberSigned"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Результат"
+                                    android:layout_gravity="center"
                                     android:padding="0dp"
                                     android:layout_margin="2dp"/>
                             </FrameLayout>
@@ -37069,6 +37071,7 @@ android:inputType="numberSigned"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Интерпретация"
+                                    android:layout_gravity="center"
                                     android:padding="0dp"
                                     android:layout_margin="2dp"/>
                             </FrameLayout>
@@ -37440,7 +37443,7 @@ android:inputType="numberSigned"
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Норма"
+                                    android:text="Хорошая гигиена"
                                     android:id="@+id/ohis_interpr"
                                     android:layout_gravity="center"
                                     android:padding="0dp"
