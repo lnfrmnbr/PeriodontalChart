@@ -27,6 +27,7 @@ import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import java.io.File
+import java.io.FileInputStream
 import java.io.FileOutputStream
 import kotlin.math.max
 
@@ -1000,7 +1001,7 @@ class MainActivity : AppCompatActivity() {
             saveBitmap(takeScreenshot(table4Layout), "table4.png")
             saveBitmap(takeScreenshot(indexesLayout), "indexes.png")
             convertImagesToPdf()
-
+            addDataToExcel()
         }
 
         for (el in podvsId){
@@ -1010,6 +1011,30 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    fun addDataToExcel(){
+        val ohis = findViewById<TextView>(R.id.ohis).text.toString()
+        val kpu = findViewById<TextView>(R.id.kpu).text.toString()
+        val bop = findViewById<TextView>(R.id.bop).text.toString()
+        val cpitn = findViewById<TextView>(R.id.cpitn1).text.toString()+
+                findViewById<TextView>(R.id.cpitn2).text.toString()+
+                findViewById<TextView>(R.id.cpitn3).text.toString()+
+                findViewById<TextView>(R.id.cpitn4).text.toString()+
+                findViewById<TextView>(R.id.cpitn5).text.toString()+
+                findViewById<TextView>(R.id.cpitn6).text.toString()
+        val russel = findViewById<TextView>(R.id.russel).text.toString()
+        val api = findViewById<TextView>(R.id.api).text.toString()
+
+        val familia = findViewById<EditText>(R.id.editTextTextFamilia).text.trim().toString()
+        val name = findViewById<EditText>(R.id.editTextTextName).text.trim().toString()
+        val otchestvo = findViewById<EditText>(R.id.editTextTextOtchestvo).text.trim().toString()
+
+        val str = familia + name + otchestvo + "\t"+kpu+"\t"+bop+"\t"+api+"\t"+cpitn+"\t"+russel+"\t"+ohis
+
+        val filePath = "${externalCacheDir?.absolutePath}/statistics.txt"
+        val file = File(filePath)
+        file.appendText("$str\n")
     }
 
     fun takeScreenshot(view: View): Bitmap {
@@ -1028,7 +1053,6 @@ class MainActivity : AppCompatActivity() {
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
             outputStream.flush()
             outputStream.close()
-            Log.e("DEBUG","Скриншот сохранен в $filePath")
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -1078,15 +1102,18 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val familia = findViewById<EditText>(R.id.editTextTextFamilia).text.trim().toString()
+        val name = findViewById<EditText>(R.id.editTextTextName).text.trim().toString()
+        val otchestvo = findViewById<EditText>(R.id.editTextTextOtchestvo).text.trim().toString()
+
         val dirDoc = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
-        val pdfFilePath = "${dirDoc}/converted_images.pdf"
+        val pdfFilePath = "${dirDoc}/${familia}_${name}_${otchestvo}.pdf"
         val file = File(pdfFilePath)
 
         try {
             val outputStream = FileOutputStream(file)
             pdfDocument.writeTo(outputStream)
             outputStream.close()
-            Log.e("DEBUG","PDF сохранен по пути: $pdfFilePath")
         } catch (e: Exception) {
             e.printStackTrace()
         } finally {

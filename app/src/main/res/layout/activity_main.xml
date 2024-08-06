@@ -37044,7 +37044,7 @@ android:inputType="numberSigned"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="КПУ = "/>
+                            android:text="КПУ: "/>
 
                         <TextView
                             android:id="@+id/kpu"
@@ -37064,7 +37064,7 @@ android:inputType="numberSigned"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="BOP = "/>
+                            android:text="BOP: "/>
 
                         <TextView
                             android:id="@+id/bop"
@@ -37089,7 +37089,7 @@ android:inputType="numberSigned"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="API = "/>
+                            android:text="API: "/>
 
                         <TextView
                             android:id="@+id/api"
@@ -37188,7 +37188,7 @@ android:inputType="numberSigned"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Russel = "/>
+                            android:text="Russel: "/>
 
                         <TextView
                             android:id="@+id/russel"
@@ -37207,7 +37207,7 @@ android:inputType="numberSigned"
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="OHI-S = "/>
+                            android:text="OHI-S: "/>
 
                         <TextView
                             android:id="@+id/ohis"
