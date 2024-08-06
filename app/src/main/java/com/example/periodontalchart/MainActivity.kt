@@ -989,7 +989,7 @@ class MainActivity : AppCompatActivity() {
         val table2Layout = findViewById<RelativeLayout>(R.id.table2)
         val table3Layout = findViewById<RelativeLayout>(R.id.table3)
         val table4Layout = findViewById<RelativeLayout>(R.id.table4)
-        val indexesLayout = findViewById<LinearLayout>(R.id.indexes)
+        val bottomLayout = findViewById<LinearLayout>(R.id.bottom)
 
         val downloadBut: Button = findViewById(R.id.download)
 
@@ -999,7 +999,7 @@ class MainActivity : AppCompatActivity() {
             saveBitmap(takeScreenshot(table2Layout), "table2.png")
             saveBitmap(takeScreenshot(table3Layout), "table3.png")
             saveBitmap(takeScreenshot(table4Layout), "table4.png")
-            saveBitmap(takeScreenshot(indexesLayout), "indexes.png")
+            saveBitmap(takeScreenshot(bottomLayout), "bottom.png")
             convertImagesToPdf()
             addDataToExcel()
         }
@@ -1065,7 +1065,7 @@ class MainActivity : AppCompatActivity() {
             "${externalCacheDir?.absolutePath}/table2.png",
             "${externalCacheDir?.absolutePath}/table3.png",
             "${externalCacheDir?.absolutePath}/table4.png",
-            "${externalCacheDir?.absolutePath}/indexes.png"
+            "${externalCacheDir?.absolutePath}/bottom.png"
         )
         val mmpi = 25.4f
         val dpi = 150
@@ -1076,14 +1076,19 @@ class MainActivity : AppCompatActivity() {
         var bitmap3 = BitmapFactory.decodeFile(imagePaths[3])
         var bitmap4 = BitmapFactory.decodeFile(imagePaths[4])
         var bitmap5 = BitmapFactory.decodeFile(imagePaths[5])
-        //354 106
 
-        if (bitmap0 != null && bitmap1 != null && bitmap2 != null && bitmap3 != null && bitmap4 != null) {
+        val w1 = bitmap5.width
+        val h1 = bitmap5.height
+
+        Log.e("DEBUG", "$w1 $h1")
+
+        if (bitmap0 != null && bitmap1 != null && bitmap2 != null && bitmap3 != null && bitmap4 != null && bitmap5 != null) {
             bitmap0 = Bitmap.createScaledBitmap(bitmap0, 1200, 162, true)
             bitmap1 = Bitmap.createScaledBitmap(bitmap1, 1200, 713, true)
             bitmap2 = Bitmap.createScaledBitmap(bitmap2, 1200, 552, true)
             bitmap3 = Bitmap.createScaledBitmap(bitmap3, 1200, 538, true)
             bitmap4 = Bitmap.createScaledBitmap(bitmap4, 1200, 695, true)
+            bitmap5 = Bitmap.createScaledBitmap(bitmap5, 1100, 237, true)
 
             val pageInfo0 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 0).create()
             val page0 = pdfDocument.startPage(pageInfo0)
@@ -1098,6 +1103,7 @@ class MainActivity : AppCompatActivity() {
             val canvas1 = page1.canvas
             canvas1.drawBitmap(bitmap3, 20f, 80f, null)
             canvas1.drawBitmap(bitmap4, 20f, bitmap3.height.toFloat()+80f, null)
+            canvas1.drawBitmap(bitmap5, 35f, bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
             pdfDocument.finishPage(page1)
 
         }

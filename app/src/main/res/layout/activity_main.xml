@@ -37025,7 +37025,8 @@ android:inputType="numberSigned"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:id="@+id/bottom">
                     <TableLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -37465,7 +37466,7 @@ android:inputType="numberSigned"
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/comments"
-                            android:layout_width="790dp"
+                            android:layout_width="600dp"
                             android:layout_height="195dp"
                             android:gravity="top|left"/>
                     </com.google.android.material.textfield.TextInputLayout>
