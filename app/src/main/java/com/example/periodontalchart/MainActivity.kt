@@ -2899,5 +2899,3 @@ class MainActivity : AppCompatActivity() {
         ohisText.text = String.format("%.3f", (ohis).toDouble()/(6f*countExist()))
     }
 }
-
-//exel
