@@ -1108,6 +1108,7 @@ class MainActivity : AppCompatActivity() {
             api()
             cpitn()
             russel()
+            ohis()
         }
     }
 
@@ -1385,6 +1386,7 @@ class MainActivity : AppCompatActivity() {
                             kamColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.kam2).setOnClickListener{
@@ -1395,6 +1397,7 @@ class MainActivity : AppCompatActivity() {
                             kamColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.kam3).setOnClickListener{
@@ -1405,6 +1408,7 @@ class MainActivity : AppCompatActivity() {
                             kamColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.kam4).setOnClickListener{
@@ -1415,6 +1419,7 @@ class MainActivity : AppCompatActivity() {
                             kamColor
                         )))
             }
+            ohis()
         }
     }
 
@@ -1517,6 +1522,7 @@ class MainActivity : AppCompatActivity() {
                             otlColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.otl2).setOnClickListener{
@@ -1527,6 +1533,7 @@ class MainActivity : AppCompatActivity() {
                             otlColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.otl3).setOnClickListener{
@@ -1537,6 +1544,7 @@ class MainActivity : AppCompatActivity() {
                             otlColor
                         )))
             }
+            ohis()
         }
 
         findViewById<Button>(R.id.otl4).setOnClickListener{
@@ -1547,6 +1555,7 @@ class MainActivity : AppCompatActivity() {
                             otlColor
                         )))
             }
+            ohis()
         }
     }
 
@@ -1919,6 +1928,8 @@ class MainActivity : AppCompatActivity() {
                 bop()
                 api()
                 cpitn()
+                russel()
+                ohis()
             }
         }
 
@@ -2069,6 +2080,8 @@ class MainActivity : AppCompatActivity() {
                 bop()
                 api()
                 cpitn()
+                russel()
+                ohis()
             }
         }
 
@@ -2198,6 +2211,8 @@ class MainActivity : AppCompatActivity() {
                 bop()
                 api()
                 cpitn()
+                russel()
+                ohis()
             }
         }
         for (i in existsId4.indices){
@@ -2325,6 +2340,8 @@ class MainActivity : AppCompatActivity() {
                 bop()
                 api()
                 cpitn()
+                russel()
+                ohis()
             }
         }
 
@@ -2814,9 +2831,73 @@ class MainActivity : AppCompatActivity() {
             }
             russel += russelI
         }
-        russelText.text = russel.toString()
+        russelText.text = String.format("%.3f", (russel.toDouble()/countExist()).toDouble())
+    }
+
+    private fun ohis(){
+        val ohisText = findViewById<TextView>(R.id.ohis)
+
+        val otlId = intArrayOf(R.id.otl18_1,R.id.otl18_2,R.id.otl18_3,R.id.otl17_1,R.id.otl17_2,R.id.otl17_3,R.id.otl16_1,R.id.otl16_2,R.id.otl16_3,R.id.otl15_1,R.id.otl15_2,R.id.otl15_3,
+            R.id.otl14_1,R.id.otl14_2,R.id.otl14_3,R.id.otl13_1,R.id.otl13_2,R.id.otl13_3,R.id.otl12_1,R.id.otl12_2,R.id.otl12_3,R.id.otl11_1,R.id.otl11_2,R.id.otl11_3,
+            R.id.otl28_1,R.id.otl28_2,R.id.otl28_3,R.id.otl27_1,R.id.otl27_2,R.id.otl27_3,R.id.otl26_1,R.id.otl26_2,R.id.otl26_3,R.id.otl25_1,R.id.otl25_2,R.id.otl25_3,
+            R.id.otl24_1,R.id.otl24_2,R.id.otl24_3,R.id.otl23_1,R.id.otl23_2,R.id.otl23_3,R.id.otl22_1,R.id.otl22_2,R.id.otl22_3,R.id.otl21_1,R.id.otl21_2,R.id.otl21_3,
+            R.id.otl38_1,R.id.otl38_2,R.id.otl38_3,R.id.otl37_1,R.id.otl37_2,R.id.otl37_3,R.id.otl36_1,R.id.otl36_2,R.id.otl36_3,R.id.otl35_1,R.id.otl35_2,R.id.otl35_3,
+            R.id.otl34_1,R.id.otl34_2,R.id.otl34_3,R.id.otl33_1,R.id.otl33_2,R.id.otl33_3,R.id.otl32_1,R.id.otl32_2,R.id.otl32_3,R.id.otl31_1,R.id.otl31_2,R.id.otl31_3,
+            R.id.otl48_1,R.id.otl48_2,R.id.otl48_3,R.id.otl47_1,R.id.otl47_2,R.id.otl47_3,R.id.otl46_1,R.id.otl46_2,R.id.otl46_3,R.id.otl45_1,R.id.otl45_2,R.id.otl45_3,
+            R.id.otl44_1,R.id.otl44_2,R.id.otl44_3,R.id.otl43_1,R.id.otl43_2,R.id.otl43_3,R.id.otl42_1,R.id.otl42_2,R.id.otl42_3,R.id.otl41_1,R.id.otl41_2,R.id.otl41_3)
+
+        val otl2Id = intArrayOf(R.id.otl182_1,R.id.otl182_2,R.id.otl182_3,R.id.otl172_1,R.id.otl172_2,R.id.otl172_3,R.id.otl162_1,R.id.otl162_2,R.id.otl162_3,R.id.otl152_1,R.id.otl152_2,R.id.otl152_3,
+            R.id.otl142_1,R.id.otl142_2,R.id.otl142_3,R.id.otl132_1,R.id.otl132_2,R.id.otl132_3,R.id.otl122_1,R.id.otl122_2,R.id.otl122_3,R.id.otl112_1,R.id.otl112_2,R.id.otl112_3,
+            R.id.otl282_1,R.id.otl282_2,R.id.otl282_3,R.id.otl272_1,R.id.otl272_2,R.id.otl272_3,R.id.otl262_1,R.id.otl262_2,R.id.otl262_3,R.id.otl252_1,R.id.otl252_2,R.id.otl252_3,
+            R.id.otl242_1,R.id.otl242_2,R.id.otl242_3,R.id.otl232_1,R.id.otl232_2,R.id.otl232_3,R.id.otl222_1,R.id.otl222_2,R.id.otl222_3,R.id.otl212_1,R.id.otl212_2,R.id.otl212_3,
+            R.id.otl382_1,R.id.otl382_2,R.id.otl382_3,R.id.otl372_1,R.id.otl372_2,R.id.otl372_3,R.id.otl362_1,R.id.otl362_2,R.id.otl362_3,R.id.otl352_1,R.id.otl352_2,R.id.otl352_3,
+            R.id.otl342_1,R.id.otl342_2,R.id.otl342_3,R.id.otl332_1,R.id.otl332_2,R.id.otl332_3,R.id.otl322_1,R.id.otl322_2,R.id.otl322_3,R.id.otl312_1,R.id.otl312_2,R.id.otl312_3,
+            R.id.otl482_1,R.id.otl482_2,R.id.otl482_3,R.id.otl472_1,R.id.otl472_2,R.id.otl472_3,R.id.otl462_1,R.id.otl462_2,R.id.otl462_3,R.id.otl452_1,R.id.otl452_2,R.id.otl452_3,
+            R.id.otl442_1,R.id.otl442_2,R.id.otl442_3,R.id.otl432_1,R.id.otl432_2,R.id.otl432_3,R.id.otl422_1,R.id.otl422_2,R.id.otl422_3,R.id.otl412_1,R.id.otl412_2,R.id.otl412_3)
+
+        val kamId = intArrayOf(R.id.kam18_1,R.id.kam18_2,R.id.kam18_3,R.id.kam17_1,R.id.kam17_2,R.id.kam17_3,R.id.kam16_1,R.id.kam16_2,R.id.kam16_3,R.id.kam15_1,R.id.kam15_2,R.id.kam15_3,
+            R.id.kam14_1,R.id.kam14_2,R.id.kam14_3,R.id.kam13_1,R.id.kam13_2,R.id.kam13_3,R.id.kam12_1,R.id.kam12_2,R.id.kam12_3,R.id.kam11_1,R.id.kam11_2,R.id.kam11_3,
+            R.id.kam28_1,R.id.kam28_2,R.id.kam28_3,R.id.kam27_1,R.id.kam27_2,R.id.kam27_3,R.id.kam26_1,R.id.kam26_2,R.id.kam26_3,R.id.kam25_1,R.id.kam25_2,R.id.kam25_3,
+            R.id.kam24_1,R.id.kam24_2,R.id.kam24_3,R.id.kam23_1,R.id.kam23_2,R.id.kam23_3,R.id.kam22_1,R.id.kam22_2,R.id.kam22_3,R.id.kam21_1,R.id.kam21_2,R.id.kam21_3,
+            R.id.kam38_1,R.id.kam38_2,R.id.kam38_3,R.id.kam37_1,R.id.kam37_2,R.id.kam37_3,R.id.kam36_1,R.id.kam36_2,R.id.kam36_3,R.id.kam35_1,R.id.kam35_2,R.id.kam35_3,
+            R.id.kam34_1,R.id.kam34_2,R.id.kam34_3,R.id.kam33_1,R.id.kam33_2,R.id.kam33_3,R.id.kam32_1,R.id.kam32_2,R.id.kam32_3,R.id.kam31_1,R.id.kam31_2,R.id.kam31_3,
+            R.id.kam48_1,R.id.kam48_2,R.id.kam48_3,R.id.kam47_1,R.id.kam47_2,R.id.kam47_3,R.id.kam46_1,R.id.kam46_2,R.id.kam46_3,R.id.kam45_1,R.id.kam45_2,R.id.kam45_3,
+            R.id.kam44_1,R.id.kam44_2,R.id.kam44_3,R.id.kam43_1,R.id.kam43_2,R.id.kam43_3,R.id.kam42_1,R.id.kam42_2,R.id.kam42_3,R.id.kam41_1,R.id.kam41_2,R.id.kam41_3)
+
+        val kam2Id = intArrayOf(R.id.kam182_1,R.id.kam182_2,R.id.kam182_3,R.id.kam172_1,R.id.kam172_2,R.id.kam172_3,R.id.kam162_1,R.id.kam162_2,R.id.kam162_3,R.id.kam152_1,R.id.kam152_2,R.id.kam152_3,
+            R.id.kam142_1,R.id.kam142_2,R.id.kam142_3,R.id.kam132_1,R.id.kam132_2,R.id.kam132_3,R.id.kam122_1,R.id.kam122_2,R.id.kam122_3,R.id.kam112_1,R.id.kam112_2,R.id.kam112_3,
+            R.id.kam282_1,R.id.kam282_2,R.id.kam282_3,R.id.kam272_1,R.id.kam272_2,R.id.kam272_3,R.id.kam262_1,R.id.kam262_2,R.id.kam262_3,R.id.kam252_1,R.id.kam252_2,R.id.kam252_3,
+            R.id.kam242_1,R.id.kam242_2,R.id.kam242_3,R.id.kam232_1,R.id.kam232_2,R.id.kam232_3,R.id.kam222_1,R.id.kam222_2,R.id.kam222_3,R.id.kam212_1,R.id.kam212_2,R.id.kam212_3,
+            R.id.kam382_1,R.id.kam382_2,R.id.kam382_3,R.id.kam372_1,R.id.kam372_2,R.id.kam372_3,R.id.kam362_1,R.id.kam362_2,R.id.kam362_3,R.id.kam352_1,R.id.kam352_2,R.id.kam352_3,
+            R.id.kam342_1,R.id.kam342_2,R.id.kam342_3,R.id.kam332_1,R.id.kam332_2,R.id.kam332_3,R.id.kam322_1,R.id.kam322_2,R.id.kam322_3,R.id.kam312_1,R.id.kam312_2,R.id.kam312_3,
+            R.id.kam482_1,R.id.kam482_2,R.id.kam482_3,R.id.kam472_1,R.id.kam472_2,R.id.kam472_3,R.id.kam462_1,R.id.kam462_2,R.id.kam462_3,R.id.kam452_1,R.id.kam452_2,R.id.kam452_3,
+            R.id.kam442_1,R.id.kam442_2,R.id.kam442_3,R.id.kam432_1,R.id.kam432_2,R.id.kam432_3,R.id.kam422_1,R.id.kam422_2,R.id.kam422_3,R.id.kam412_1,R.id.kam412_2,R.id.kam412_3)
+
+        var ohis = 0
+
+        for (i in otlId.indices){
+            val otlId1 = getColor(findViewById(otlId[i]))
+            val otl2Id1 = getColor(findViewById(otl2Id[i]))
+
+            val kamId1 = getColor(findViewById(kamId[i]))
+            val kam2Id1 = getColor(findViewById(kam2Id[i]))
+
+            if (otlId1 != Color.parseColor(but0Color)){
+                ohis +=1
+            }
+            if (otl2Id1 != Color.parseColor(but0Color)){
+                ohis +=1
+            }
+            if (kamId1 != Color.parseColor(but0Color)){
+                ohis +=1
+            }
+            if (kam2Id1 != Color.parseColor(but0Color)){
+                ohis +=1
+            }
+
+        }
+        ohisText.text = String.format("%.3f", (ohis).toDouble()/(6f*countExist()))
     }
 }
 
-//ohis и russel
 //exel
