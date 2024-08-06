@@ -1078,7 +1078,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        val pdfFilePath = "${externalCacheDir?.absolutePath}/converted_images.pdf"
+        val dirDoc = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+        val pdfFilePath = "${dirDoc}/converted_images.pdf"
         val file = File(pdfFilePath)
 
         try {
