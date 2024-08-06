@@ -37025,220 +37025,452 @@ android:inputType="numberSigned"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:background="@drawable/border"
-                    android:padding="10dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:id="@+id/indexes"
-                    app:cornerRadius="10dp"
-                    >
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="КПУ: "/>
-
-                        <TextView
-                            android:id="@+id/kpu"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="BOP: "/>
-
-                        <TextView
-                            android:id="@+id/bop"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0.000"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="%"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="API: "/>
-
-                        <TextView
-                            android:id="@+id/api"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0.000"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="%"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="CPITN: "/>
-
-                        <TableLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/border">
-
-                            <TableRow
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:background="@drawable/border">
-
-                                <TextView
-                                    android:id="@+id/cpitn1"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:padding="3dp"
-                                    android:text="0"/>
-
-                                <TextView
-                                    android:id="@+id/cpitn2"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:padding="3dp"
-                                    android:background="@drawable/border"
-                                    android:text="0"/>
-
-                                <TextView
-                                    android:id="@+id/cpitn3"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:padding="3dp"
-                                    android:text="0"/>
-                            </TableRow>
-                            <TableRow
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:background="@drawable/border">
-
-                                <TextView
-                                    android:id="@+id/cpitn4"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:padding="3dp"
-                                    android:text="0"/>
-
-                                <TextView
-                                    android:id="@+id/cpitn5"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:background="@drawable/border"
-                                    android:padding="3dp"
-                                    android:text="0"/>
-
-                                <TextView
-                                    android:id="@+id/cpitn6"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:padding="3dp"
-                                    android:text="0"/>
-                            </TableRow>
-                        </TableLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Russel: "/>
-
-                        <TextView
-                            android:id="@+id/russel"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_margin="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="OHI-S: "/>
-
-                        <TextView
-                            android:id="@+id/ohis"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="0"/>
-                    </LinearLayout>
-                </LinearLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/comments_layout"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-                    app:cornerRadius="0dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:ems="10"
-                    android:hint="Комментарии"
-                    android:inputType="text"
-                    app:boxStrokeColor="@color/black"
-                    app:endIconTint="@color/black"
-                    app:hintTextColor="@color/black"
                     android:layout_gravity="center">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/indexes">
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/comments"
-                        android:layout_width="800dp"
-                        android:layout_height="200dp"
-                        android:gravity="top|left"/>
-                </com.google.android.material.textfield.TextInputLayout>
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Название индекса"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Результат"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Интерпретация"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="КПУ"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/kpu"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:id="@+id/kpu_interpr"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="BOP"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0"
+                                        android:id="@+id/bop"
+                                        android:padding="0dp"
+                                        android:layout_margin="2dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="0dp"
+                                        android:layout_margin="2dp"
+                                        android:text="%"/>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:id="@+id/bop_interpr"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="API"
+                                    android:padding="0dp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="2dp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0"
+                                        android:id="@+id/api"
+                                        android:padding="0dp"
+                                        android:layout_margin="2dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="0dp"
+                                        android:layout_margin="2dp"
+                                        android:text="%"/>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Норма"
+                                    android:id="@+id/api_interpr"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="CPITN"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TableLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/border"
+                                    android:layout_margin="2dp"
+                                    android:layout_gravity="center">
+
+                                    <TableRow
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/border">
+
+                                        <TextView
+                                            android:id="@+id/cpitn1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="3dp"
+                                            android:text="0"/>
+
+                                        <TextView
+                                            android:id="@+id/cpitn2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="3dp"
+                                            android:background="@drawable/border"
+                                            android:text="0"/>
+
+                                        <TextView
+                                            android:id="@+id/cpitn3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="3dp"
+                                            android:text="0"/>
+                                    </TableRow>
+                                    <TableRow
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/border">
+
+                                        <TextView
+                                            android:id="@+id/cpitn4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="3dp"
+                                            android:text="0"/>
+
+                                        <TextView
+                                            android:id="@+id/cpitn5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/border"
+                                            android:padding="3dp"
+                                            android:text="0"/>
+
+                                        <TextView
+                                            android:id="@+id/cpitn6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:padding="3dp"
+                                            android:text="0"/>
+                                    </TableRow>
+                                </TableLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Норма"
+                                    android:id="@+id/cpitn_interpr"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Russel"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:id="@+id/russel"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Норма"
+                                    android:id="@+id/russel_interpr"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+                        <TableRow
+                            android:background="@drawable/border"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="OHI-S"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"
+                                    android:gravity="center"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/border">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/ohis"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Норма"
+                                    android:id="@+id/ohis_interpr"
+                                    android:layout_gravity="center"
+                                    android:padding="0dp"
+                                    android:layout_margin="2dp"/>
+                            </FrameLayout>
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_marginStart="18dp"
+                        android:id="@+id/comments_layout"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Комментарии"
+                        android:inputType="text"
+                        app:boxStrokeColor="@color/black"
+                        app:endIconTint="@color/black"
+                        app:hintTextColor="@color/black"
+                        android:layout_gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/comments"
+                            android:layout_width="790dp"
+                            android:layout_height="195dp"
+                            android:gravity="top|left"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
 
 
                 <Button
@@ -37246,8 +37478,11 @@ android:inputType="numberSigned"
                     android:layout_height="wrap_content"
                     android:id="@+id/download"
                     android:text="Скачать"
+                    android:textSize="25sp"
+                    android:backgroundTint="@color/black"
                     android:layout_gravity="center"
-                    android:layout_marginTop="200dp"/>
+                    android:layout_marginTop="100dp"
+                    android:layout_marginBottom="100dp"/>
 
             </LinearLayout>
 
