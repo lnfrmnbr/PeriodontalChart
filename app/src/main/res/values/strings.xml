@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Periodontal Chart</string>
-    <string name="periodontal_chart">Пародонтальная карта</string>
+    <string name="app_name">SKK</string>
+    <string name="periodontal_chart">Стоматологическая клиническая карта</string>
     <string name="data">Дата</string>
     <string name="familia">Фамилия</string>
     <string name="name">Имя</string>
@@ -19,7 +19,7 @@
     <string name="_11">11</string>
     <string name="_0">0</string>
     <string name="pupe">Пульпит/Периодонтит</string>
-    <string name="plomb">Промба</string>
+    <string name="plomb">Пломба</string>
     <string name="kar">Кариес</string>
     <string name="_5">5</string>
     <string name="_2">2</string>
