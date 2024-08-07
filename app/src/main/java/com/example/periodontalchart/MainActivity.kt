@@ -30,6 +30,7 @@ import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import kotlin.math.max
+import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
@@ -1088,7 +1089,7 @@ class MainActivity : AppCompatActivity() {
             bitmap2 = Bitmap.createScaledBitmap(bitmap2, 1200, 552, true)
             bitmap3 = Bitmap.createScaledBitmap(bitmap3, 1200, 538, true)
             bitmap4 = Bitmap.createScaledBitmap(bitmap4, 1200, 695, true)
-            bitmap5 = Bitmap.createScaledBitmap(bitmap5, w1/2, h1/2, true)
+            bitmap5 = Bitmap.createScaledBitmap(bitmap5, 1150, round(h1*1150.0/w1).toInt(), true)
 
             val pageInfo0 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 0).create()
             val page0 = pdfDocument.startPage(pageInfo0)
@@ -1103,7 +1104,7 @@ class MainActivity : AppCompatActivity() {
             val canvas1 = page1.canvas
             canvas1.drawBitmap(bitmap3, 20f, 80f, null)
             canvas1.drawBitmap(bitmap4, 20f, bitmap3.height.toFloat()+80f, null)
-            canvas1.drawBitmap(bitmap5, ((210/mmpi*dpi)/2)-(w1/4), bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
+            canvas1.drawBitmap(bitmap5, (210/mmpi*dpi)/2-575, bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
             pdfDocument.finishPage(page1)
 
         }
@@ -1137,18 +1138,71 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
+        }
+    }
+
+    private fun changeColorButtonPlomb(button: Button, color0: String, color1: String){
+        button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+        button.setOnClickListener {
+            val colorStateList = button.backgroundTintList
+            val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+            if (defaultColor == Color.parseColor(color0)) {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color1)))
+            } else {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+            }
             kpu()
+        }
+    }
+
+    private fun changeColorButtonKr(button: Button, color0: String, color1: String){
+        button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+        button.setOnClickListener {
+            val colorStateList = button.backgroundTintList
+            val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+            if (defaultColor == Color.parseColor(color0)) {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color1)))
+            } else {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+            }
             bop()
-            api()
-            cpitn()
             russel()
+        }
+    }
+
+    private fun changeColorButtonKam(button: Button, color0: String, color1: String){
+        button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+        button.setOnClickListener {
+            val colorStateList = button.backgroundTintList
+            val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+            if (defaultColor == Color.parseColor(color0)) {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color1)))
+            } else {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+            }
+            cpitn()
+            ohis()
+        }
+    }
+
+    private fun changeColorButtonOtl(button: Button, color0: String, color1: String){
+        button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+        button.setOnClickListener {
+            val colorStateList = button.backgroundTintList
+            val defaultColor = colorStateList?.getColorForState(IntArray(0), colorStateList.defaultColor)
+            if (defaultColor == Color.parseColor(color0)) {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color1)))
+            } else {
+                button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
+            }
+            api()
             ohis()
         }
     }
 
     private fun settingsForPlombs(){
         for(el in plombsId){
-            changeColorButton(findViewById(el), but0Color, plombColor)
+            changeColorButtonPlomb(findViewById(el), but0Color, plombColor)
         }
     }
 
@@ -1339,7 +1393,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun settingsForKr(){
         for(el in krId){
-            changeColorButton(findViewById(el), but0Color, krColor)
+            changeColorButtonKr(findViewById(el), but0Color, krColor)
         }
         val krId1 = intArrayOf(R.id.kr18_1,R.id.kr18_2,R.id.kr18_3,R.id.kr17_1,R.id.kr17_2,R.id.kr17_3,R.id.kr16_1,R.id.kr16_2,R.id.kr16_3,R.id.kr15_1,R.id.kr15_2,R.id.kr15_3,R.id.kr14_1,R.id.kr14_2,R.id.kr14_3,R.id.kr13_1,R.id.kr13_2,R.id.kr13_3,R.id.kr12_1,R.id.kr12_2,R.id.kr12_3,R.id.kr11_1,R.id.kr11_2,R.id.kr11_3,
             R.id.kr28_1,R.id.kr28_2,R.id.kr28_3,R.id.kr27_1,R.id.kr27_2,R.id.kr27_3,R.id.kr26_1,R.id.kr26_2,R.id.kr26_3,R.id.kr25_1,R.id.kr25_2,R.id.kr25_3,R.id.kr24_1,R.id.kr24_2,R.id.kr24_3,R.id.kr23_1,R.id.kr23_2,R.id.kr23_3,R.id.kr22_1,R.id.kr22_2,R.id.kr22_3,R.id.kr21_1,R.id.kr21_2,R.id.kr21_3)
@@ -1359,6 +1413,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
             russel()
+            bop()
         }
 
         findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1367,6 +1422,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
             russel()
+            bop()
         }
 
         findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1375,6 +1431,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
             russel()
+            bop()
         }
 
         findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
@@ -1384,13 +1441,14 @@ class MainActivity : AppCompatActivity() {
                 findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
             }
             russel()
+            bop()
         }
 
     }
 
     private fun settingsForKam(){
         for(el in kamId){
-            changeColorButton(findViewById(el), but0Color, kamColor)
+            changeColorButtonKam(findViewById(el), but0Color, kamColor)
         }
         val kamId1 = intArrayOf(R.id.kam18_1,R.id.kam18_2,R.id.kam18_3,R.id.kam17_1,R.id.kam17_2,R.id.kam17_3,R.id.kam16_1,R.id.kam16_2,R.id.kam16_3,R.id.kam15_1,R.id.kam15_2,R.id.kam15_3,R.id.kam14_1,R.id.kam14_2,R.id.kam14_3,R.id.kam13_1,R.id.kam13_2,R.id.kam13_3,R.id.kam12_1,R.id.kam12_2,R.id.kam12_3,R.id.kam11_1,R.id.kam11_2,R.id.kam11_3,
             R.id.kam28_1,R.id.kam28_2,R.id.kam28_3,R.id.kam27_1,R.id.kam27_2,R.id.kam27_3,R.id.kam26_1,R.id.kam26_2,R.id.kam26_3,R.id.kam25_1,R.id.kam25_2,R.id.kam25_3,R.id.kam24_1,R.id.kam24_2,R.id.kam24_3,R.id.kam23_1,R.id.kam23_2,R.id.kam23_3,R.id.kam22_1,R.id.kam22_2,R.id.kam22_3,R.id.kam21_1,R.id.kam21_2,R.id.kam21_3)
@@ -1421,6 +1479,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            cpitn()
         }
 
         findViewById<Button>(R.id.kam2).setOnClickListener{
@@ -1432,6 +1491,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            cpitn()
         }
 
         findViewById<Button>(R.id.kam3).setOnClickListener{
@@ -1443,6 +1503,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            cpitn()
         }
 
         findViewById<Button>(R.id.kam4).setOnClickListener{
@@ -1454,6 +1515,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            cpitn()
         }
     }
 
@@ -1526,7 +1588,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun settingsForOtl(){
         for(el in otlId){
-            changeColorButton(findViewById(el), but0Color, otlColor)
+            changeColorButtonOtl(findViewById(el), but0Color, otlColor)
         }
         val otlId1 = intArrayOf(R.id.otl18_1,R.id.otl18_2,R.id.otl18_3,R.id.otl17_1,R.id.otl17_2,R.id.otl17_3,R.id.otl16_1,R.id.otl16_2,R.id.otl16_3,R.id.otl15_1,R.id.otl15_2,R.id.otl15_3,R.id.otl14_1,R.id.otl14_2,R.id.otl14_3,R.id.otl13_1,R.id.otl13_2,R.id.otl13_3,R.id.otl12_1,R.id.otl12_2,R.id.otl12_3,R.id.otl11_1,R.id.otl11_2,R.id.otl11_3,
             R.id.otl28_1,R.id.otl28_2,R.id.otl28_3,R.id.otl27_1,R.id.otl27_2,R.id.otl27_3,R.id.otl26_1,R.id.otl26_2,R.id.otl26_3,R.id.otl25_1,R.id.otl25_2,R.id.otl25_3,R.id.otl24_1,R.id.otl24_2,R.id.otl24_3,R.id.otl23_1,R.id.otl23_2,R.id.otl23_3,R.id.otl22_1,R.id.otl22_2,R.id.otl22_3,R.id.otl21_1,R.id.otl21_2,R.id.otl21_3)
@@ -1557,6 +1619,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            api()
         }
 
         findViewById<Button>(R.id.otl2).setOnClickListener{
@@ -1568,6 +1631,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            api()
         }
 
         findViewById<Button>(R.id.otl3).setOnClickListener{
@@ -1579,6 +1643,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            api()
         }
 
         findViewById<Button>(R.id.otl4).setOnClickListener{
@@ -1590,6 +1655,7 @@ class MainActivity : AppCompatActivity() {
                         )))
             }
             ohis()
+            api()
         }
     }
 
@@ -2420,6 +2486,21 @@ class MainActivity : AppCompatActivity() {
         kpuHelper(existsId4, plombsId4, karsId4, kars2Id4)
 
         kpuText.text = kpu.toString()
+
+        val kpuInterpr = findViewById<TextView>(R.id.kpu_interpr)
+
+
+        val kpuRes =  (kpu.toFloat()/32f)*100
+        if(kpuRes <=30){
+            kpuInterpr.text = "Низкая степень тяжести кариозного процесса"
+        }
+        if(kpuRes>30 && kpuRes<=80){
+            kpuInterpr.text = "Средняя степень тяжести кариозного процесса"
+        }
+        if (kpuRes > 80){
+            kpuInterpr.text = "Высокая степень тяжести кариозного процесса"
+        }
+
     }
 
     private fun countExist(): Int {
@@ -2458,6 +2539,7 @@ class MainActivity : AppCompatActivity() {
 
         val bop = (krCounter/numOfSurfaces)*100f
 
+
         bopText.text = String.format("%.3f", bop.toDouble())
     }
 
@@ -2491,9 +2573,24 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val bop = (otlCounter/numOfSurfaces)*100f
+        val api = (otlCounter/numOfSurfaces)*100f
 
-        apiText.text = String.format("%.3f", bop.toDouble())
+        val bopInterpr = findViewById<TextView>(R.id.api_interpr)
+
+        if (api<25){
+            bopInterpr.text = "Оптимальный уровень гигиены"
+        }
+        if (api >= 25 && api<40 ){
+            bopInterpr.text = "Удовлетворительный уровень гигиены"
+        }
+        if (api >= 40 && api<70 ){
+            bopInterpr.text = "Недовлетворительный уровень гигиены"
+        }
+        if (api>=70 ){
+            bopInterpr.text = "Недопустимый уровень гигиены"
+        }
+
+        apiText.text = String.format("%.3f", api.toDouble())
     }
 
     private fun cpitn(){
@@ -2734,6 +2831,27 @@ class MainActivity : AppCompatActivity() {
         cpitn5Text.text = cpitnHelper(kr5Section, kam5Section,zond5Section).toString()
         cpitn6Text.text = cpitnHelper(kr6Section, kam6Section,zond6Section).toString()
 
+        val cpitnRes = max(max(max(max(max(cpitn1Text.text.toString().toInt(),
+                cpitn2Text.text.toString().toInt()),
+                cpitn3Text.text.toString().toInt()),
+                cpitn4Text.text.toString().toInt()),
+                cpitn5Text.text.toString().toInt()),
+                cpitn6Text.text.toString().toInt())
+        val cpitnInterpr = findViewById<TextView>(R.id.cpitn_interpr)
+
+        if (cpitnRes == 0){
+            cpitnInterpr.text="Лечение не требуется"
+        }
+        if (cpitnRes == 1){
+            cpitnInterpr.text="Необходимость удаления зубного камня"
+        }
+        if (cpitnRes == 2 || cpitnRes == 3){
+            cpitnInterpr.text="Необходимость профессиональной гигиены"
+        }
+        if (cpitnRes == 4){
+            cpitnInterpr.text="Необходимость комплексного лечения"
+        }
+
     }
 
     private fun getColor(but: Button): Int? {
@@ -2868,6 +2986,9 @@ class MainActivity : AppCompatActivity() {
         }
         val russeld = russel.toDouble()/countExist().toDouble()
         russelText.text = String.format("%.3f", russeld)
+        if (russeld < 0.1){
+            russelInterpr.text = "Норма"
+        }
         if (russeld in 0.1..1.0){
             russelInterpr.text = "Гингивит"
         }
