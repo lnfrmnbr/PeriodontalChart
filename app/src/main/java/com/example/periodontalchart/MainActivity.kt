@@ -2539,6 +2539,20 @@ class MainActivity : AppCompatActivity() {
 
         val bop = (krCounter/numOfSurfaces)*100f
 
+        val bopInterpr = findViewById<TextView>(R.id.bop_interpr)
+
+        if (bop < 10){
+            bopInterpr.text = "Норма"
+        }
+        if (bop >= 10 && bop < 30){
+            bopInterpr.text = "Начальная степень гингивита"
+        }
+        if (bop >= 30 && bop < 50){
+            bopInterpr.text = "Средняя степень гингивита"
+        }
+        if (bop >= 50){
+            bopInterpr.text = "Тяжелая степень гингивита"
+        }
 
         bopText.text = String.format("%.3f", bop.toDouble())
     }

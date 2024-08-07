@@ -37180,7 +37180,7 @@ android:inputType="numberSigned"
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="0"
+                                    android:text="Норма"
                                     android:id="@+id/bop_interpr"
                                     android:layout_gravity="center"
                                     android:padding="0dp"
@@ -37470,6 +37470,7 @@ android:inputType="numberSigned"
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/comments"
                             android:layout_width="560dp"
+                            android:inputType="textCapSentences"
                             android:layout_height="195dp"
                             android:gravity="top|left"/>
                     </com.google.android.material.textfield.TextInputLayout>
@@ -37486,7 +37487,7 @@ android:inputType="numberSigned"
                     android:backgroundTint="@color/black"
                     android:layout_gravity="center"
                     android:layout_marginTop="100dp"
-                    android:layout_marginBottom="100dp"/>
+                    android:layout_marginBottom="300dp"/>
 
             </LinearLayout>
 
