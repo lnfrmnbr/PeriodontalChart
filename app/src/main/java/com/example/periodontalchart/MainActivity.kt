@@ -9,6 +9,7 @@ import android.graphics.Color
 import android.graphics.pdf.PdfDocument
 import android.os.Bundle
 import android.os.Environment
+import android.provider.MediaStore
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -19,12 +20,13 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.ScrollView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.doAfterTextChanged
-//import com.example.periodontalchart.databinding.ActivityMainBinding
+import com.example.periodontalchart.databinding.ActivityMainBinding
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
@@ -36,7 +38,7 @@ import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
-    //private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     companion object {
         val IMAGE_REQUEST_CODE = 1_000;
@@ -960,8 +962,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        //binding = ActivityMainBinding.inflate(layoutInflater)
-        //setContentView(binding.root)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         settingsForPlombs()
         settingsForKr()
@@ -1021,26 +1023,69 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        //val addBut = findViewById<Button>(R.id.addImg)
-        //addBut.setOnClickListener{
-        //    addImage()
-        //}
+        val addBut = findViewById<Button>(R.id.addImg)
+        addBut.setOnClickListener{
+            addImage()
+        }
 
     }
 
-    //private fun addImage() {
-     //   val intent = Intent(Intent.ACTION_PICK)
-     //   intent.type = "image/*"
-     //   startActivityForResult(intent, IMAGE_REQUEST_CODE)
-    //}
+    private fun addImage() {
+        val intent = Intent(Intent.ACTION_PICK)
+        intent.type = "image/*"
+        startActivityForResult(intent, IMAGE_REQUEST_CODE)
+    }
 
-    //override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-     //   super.onActivityResult(requestCode, resultCode, data)
-     //   if (requestCode == IMAGE_REQUEST_CODE && resultCode == RESULT_OK) {
-     //       val imageView = findViewById<ImageView>(R.id.img1)
-      //      imageView.setImageURI(data?.data)
-     //   }
-    //}
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == IMAGE_REQUEST_CODE && resultCode == RESULT_OK) {
+            fun setImgTo(imageView: ImageView){
+                val imageUri = data?.data
+                val originalBitmap = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
+                val scaledBitmap = Bitmap.createScaledBitmap(originalBitmap,
+                    800,
+                    800*(originalBitmap.height)/(originalBitmap.width),
+                    true)
+                imageView.setImageBitmap(scaledBitmap)
+            }
+
+            val imageView1 = findViewById<ImageView>(R.id.img1)
+            val imageView2 = findViewById<ImageView>(R.id.img2)
+            val imageView3 = findViewById<ImageView>(R.id.img3)
+            val imageView4 = findViewById<ImageView>(R.id.img4)
+            val imageView5 = findViewById<ImageView>(R.id.img5)
+            val imageView6 = findViewById<ImageView>(R.id.img6)
+            if (imageView1.contentDescription == "0"){
+                setImgTo(imageView1)
+                imageView1.contentDescription = "1"
+            }
+            else if (imageView2.contentDescription == "0"){
+                setImgTo(imageView2)
+                imageView2.contentDescription = "1"
+            }
+            else if (imageView3.contentDescription == "0"){
+                setImgTo(imageView3)
+                imageView3.contentDescription = "1"
+            }
+            else if (imageView4.contentDescription == "0"){
+                setImgTo(imageView4)
+                imageView4.contentDescription = "1"
+            }
+            else if (imageView5.contentDescription == "0"){
+                setImgTo(imageView5)
+                imageView5.contentDescription = "1"
+            }
+            else if (imageView6.contentDescription == "0"){
+                setImgTo(imageView6)
+                imageView6.contentDescription = "1"
+            }
+            else{
+                val text = "6 фото уже добавлено"
+                val duration = Toast.LENGTH_SHORT
+                Toast.makeText(applicationContext, text, duration).show()
+            }
+        }
+    }
 
     fun addDataToExcel(){
         val ohis = findViewById<TextView>(R.id.ohis).text.toString()
