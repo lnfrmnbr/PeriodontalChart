@@ -1,0 +1,782 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/vos4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Гноетечение"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        app:cornerRadius="0dp"
+        android:minHeight="15dp"
+        android:minWidth="50dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos482_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos482_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos482_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos472_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos472_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos472_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos462_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos462_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos462_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos452_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos452_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos452_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos442_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos442_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos442_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos432_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos432_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos432_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos422_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos422_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos422_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos412_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos412_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos412_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos312_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos312_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos312_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos322_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos322_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos322_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos332_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos332_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos332_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos342_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos342_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos342_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos352_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos352_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos352_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos362_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos362_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos362_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos372_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos372_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos372_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vos382_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos382_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/vos382_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+</TableRow>

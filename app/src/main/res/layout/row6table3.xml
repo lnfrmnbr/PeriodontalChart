@@ -1,0 +1,1862 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/kar"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar48_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar48_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar48_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar48_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar48_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar48_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar47_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar47_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar47_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar47_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar47_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar47_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar46_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar46_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar46_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar46_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar46_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar46_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar45_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar45_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar45_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar45_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar45_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar45_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar44_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar44_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar44_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar44_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar44_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar44_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar43_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar43_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar43_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar43_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar43_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar43_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar42_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar42_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar42_41"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="#DCDCDC"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/kar42_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar42_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar42_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar41_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar41_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar41_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar41_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar41_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar41_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar31_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar31_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar31_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar31_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar31_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar31_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar32_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar32_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar32_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar32_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar32_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar32_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar33_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar33_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar33_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar33_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar33_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar33_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar34_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar34_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar34_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar34_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar34_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar34_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar35_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar35_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar35_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar35_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar35_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar35_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar36_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar36_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar36_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar36_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar36_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar36_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar37_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar37_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar37_21"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="#DCDCDC"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/kar37_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar37_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar37_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="15dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar38_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar38_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="15dp"
+                android:padding="0dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar38_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar38_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kar38_61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+            <Button
+                android:id="@+id/kar38_62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:padding="0dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:backgroundTint="#DCDCDC"
+                android:layout_margin="2dp"
+                app:cornerRadius="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TableRow>

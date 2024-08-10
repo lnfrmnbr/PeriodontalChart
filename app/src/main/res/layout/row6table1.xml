@@ -1,0 +1,320 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fifthRow"
+    android:background="@drawable/border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/plomb"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:layout_gravity="center"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:layout_gravity="center"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:layout_gravity="center"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:layout_gravity="center"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/plomb27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/plomb28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+</TableRow>

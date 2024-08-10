@@ -1,0 +1,782 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/kr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кровоточивость"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        app:cornerRadius="0dp"
+        android:minHeight="15dp"
+        android:minWidth="50dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr482_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr482_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr482_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr472_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr472_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr472_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr462_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr462_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr462_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr452_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr452_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr452_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr442_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr442_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr442_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr432_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr432_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr432_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr422_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr422_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr422_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr412_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr412_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr412_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr312_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr312_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr312_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr322_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr322_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr322_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr332_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr332_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr332_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr342_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr342_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr342_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr352_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr352_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr352_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr362_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr362_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr362_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr372_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr372_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr372_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/kr382_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr382_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/kr382_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="10dp"
+            android:minHeight="15dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+
+    </LinearLayout>
+
+
+</TableRow>

@@ -1,0 +1,334 @@
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/forthRow"
+    android:background="@drawable/border"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="Пульпит/" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="периодонтит" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe14"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe13"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe12"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe11"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe25"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe26"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/pupe27"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/pupe28"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:minWidth="40dp"
+            android:minHeight="25dp"
+            android:padding="0dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#DCDCDC"
+            android:layout_margin="2dp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+</TableRow>

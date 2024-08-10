@@ -1,0 +1,115 @@
+<RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/table4"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <include layout="@layout/row1table4"/>
+                            <include layout="@layout/row2table4"/>
+                            <include layout="@layout/row3table4"/>
+                            <include layout="@layout/row4table4"/>
+                            <include layout="@layout/row5table4"/>
+                            <include layout="@layout/row7table4"/>
+                            <include layout="@layout/row8table4"/>
+                            <include layout="@layout/row9table4"/>
+                            <include layout="@layout/row10table4"/>
+                            <include layout="@layout/row11table4"/>
+                            <include layout="@layout/row12table4"/>
+                            <include layout="@layout/row13table4"/>
+                            <include layout="@layout/row14table4"/>
+                            <include layout="@layout/row15table4"/>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart7"
+                        android:layout_width="528dp"
+                        android:layout_height="222dp"
+                        android:layout_marginStart="112dp"
+                        android:layout_marginTop="-7dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/chart8"
+                        android:layout_width="530dp"
+                        android:layout_height="222dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="-3dp"
+                        android:layout_marginTop="-7dp">
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                    <ImageView
+                        android:id="@+id/fi482"
+                        android:layout_marginStart="148dp"
+                        android:layout_marginTop="105dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi472"
+                        android:layout_marginStart="238dp"
+                        android:layout_marginTop="105dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi462"
+                        android:layout_marginStart="325dp"
+                        android:layout_marginTop="100dp"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi382"
+                        android:layout_marginTop="105dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi372"
+                        android:layout_marginTop="105dp"
+                        android:layout_marginEnd="120dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <ImageView
+                        android:id="@+id/fi362"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginEnd="210dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/null17"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+                </RelativeLayout>
+

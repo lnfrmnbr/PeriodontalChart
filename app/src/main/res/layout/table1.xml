@@ -1,0 +1,114 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/table1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/row1table1"/>
+                <include layout="@layout/row2table1"/>
+                <include layout="@layout/row3table1"/>
+                <include layout="@layout/row4table1"/>
+                <include layout="@layout/row5table1"/>
+                <include layout="@layout/row6table1"/>
+                <include layout="@layout/row7table1"/>
+                <include layout="@layout/row8table1"/>
+                <include layout="@layout/row9table1"/>
+                <include layout="@layout/row10table1"/>
+                <include layout="@layout/row11table1"/>
+                <include layout="@layout/row12table1"/>
+                <include layout="@layout/row13table1"/>
+                <include layout="@layout/row14table1"/>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart1"
+            android:layout_width="525dp"
+            android:layout_height="232dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="447dp">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart2"
+            android:layout_width="525dp"
+            android:layout_height="232dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="447dp">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <ImageView
+            android:id="@+id/fi18"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="560dp"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+
+        <ImageView
+            android:id="@+id/fi17"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="560dp"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+
+        <ImageView
+            android:id="@+id/fi16"
+            android:layout_marginStart="303dp"
+            android:layout_marginTop="557dp"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+
+        <ImageView
+            android:id="@+id/fi28"
+            android:layout_marginTop="560dp"
+            android:layout_marginEnd="35dp"
+            android:layout_alignParentEnd="true"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+
+        <ImageView
+            android:id="@+id/fi27"
+            android:layout_marginTop="560dp"
+            android:layout_marginEnd="105dp"
+            android:layout_alignParentEnd="true"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+
+        <ImageView
+            android:id="@+id/fi26"
+            android:layout_marginTop="557dp"
+            android:layout_marginEnd="180dp"
+            android:layout_alignParentEnd="true"
+            android:padding="0dp"
+            app:srcCompat="@drawable/null17"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+    </RelativeLayout>

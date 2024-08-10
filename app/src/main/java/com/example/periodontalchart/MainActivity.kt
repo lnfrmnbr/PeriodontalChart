@@ -1,5 +1,6 @@
 package com.example.periodontalchart
 
+import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -23,6 +24,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.doAfterTextChanged
+//import com.example.periodontalchart.databinding.ActivityMainBinding
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
@@ -34,7 +36,10 @@ import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
 
+    //private lateinit var binding: ActivityMainBinding
+
     companion object {
+        val IMAGE_REQUEST_CODE = 1_000;
         var zondChart1 = mutableListOf(
             Entry(0.3f, 0f),
             Entry(0.95f, 0f),
@@ -938,7 +943,7 @@ class MainActivity : AppCompatActivity() {
         const val peColor = "#555555"
         const val kamColor = "#696969"
         const val vosColor = "#9ACD32"
-        const val karColor = "#a9a9a9"
+        const val karColor = "#a9a9a9"//416 312
 
         val podvsId = intArrayOf(R.id.podv18, R.id.podv17,R.id.podv16,R.id.podv15,R.id.podv14,R.id.podv13,R.id.podv12,R.id.podv11,
             R.id.podv28,R.id.podv27,R.id.podv26,R.id.podv25, R.id.podv24,R.id.podv23,R.id.podv22,R.id.podv21,
@@ -955,6 +960,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        //binding = ActivityMainBinding.inflate(layoutInflater)
+        //setContentView(binding.root)
+
         settingsForPlombs()
         settingsForKr()
         settingsForOtl()
@@ -1013,7 +1021,26 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        //val addBut = findViewById<Button>(R.id.addImg)
+        //addBut.setOnClickListener{
+        //    addImage()
+        //}
+
     }
+
+    //private fun addImage() {
+     //   val intent = Intent(Intent.ACTION_PICK)
+     //   intent.type = "image/*"
+     //   startActivityForResult(intent, IMAGE_REQUEST_CODE)
+    //}
+
+    //override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+     //   super.onActivityResult(requestCode, resultCode, data)
+     //   if (requestCode == IMAGE_REQUEST_CODE && resultCode == RESULT_OK) {
+     //       val imageView = findViewById<ImageView>(R.id.img1)
+      //      imageView.setImageURI(data?.data)
+     //   }
+    //}
 
     fun addDataToExcel(){
         val ohis = findViewById<TextView>(R.id.ohis).text.toString()
