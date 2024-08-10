@@ -37470,7 +37470,7 @@ android:inputType="numberSigned"
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/comments"
                             android:layout_width="560dp"
-                            android:inputType="textCapSentences"
+                            android:inputType="textCapSentences|textMultiLine"
                             android:layout_height="195dp"
                             android:gravity="top|left"/>
                     </com.google.android.material.textfield.TextInputLayout>

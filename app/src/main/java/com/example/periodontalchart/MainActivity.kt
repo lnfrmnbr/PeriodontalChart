@@ -929,6 +929,7 @@ class MainActivity : AppCompatActivity() {
         val pupesId4 = intArrayOf(R.id.pupe48,R.id.pupe47, R.id.pupe46,R.id.pupe45,R.id.pupe44,R.id.pupe43,R.id.pupe42,R.id.pupe41)
 
         const val but0Color = "#DCDCDC"
+        const val but1Color = "#DCDCDD"
         const val plombColor = "#20b2aa"
         const val krColor = "#CD5C5C"
         const val otlColor = "#FFD700"
@@ -1409,8 +1410,18 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.kr1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.kr1).setOnClickListener{
-            for (el in krId1){
-                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            val color = getColor(findViewById(R.id.kr1))
+            if (color == Color.parseColor(but0Color)) {
+                    findViewById<Button>(R.id.kr1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                    for (el in krId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+                    }
+            }
+            else{
+                findViewById<Button>(R.id.kr1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in krId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
             russel()
             bop()
@@ -1418,8 +1429,18 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.kr2).setOnClickListener{
-            for (el in krId2){
-                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            val color = getColor(findViewById(R.id.kr2))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in krId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in krId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
             russel()
             bop()
@@ -1427,8 +1448,18 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.kr3).setOnClickListener{
-            for (el in krId3){
-                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            val color = getColor(findViewById(R.id.kr3))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in krId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in krId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
             russel()
             bop()
@@ -1437,8 +1468,18 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
             but0Color)))
         findViewById<Button>(R.id.kr4).setOnClickListener{
-            for (el in krId4){
-                findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+            val color = getColor(findViewById(R.id.kr4))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in krId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(krColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in krId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
             russel()
             bop()
@@ -1462,60 +1503,81 @@ class MainActivity : AppCompatActivity() {
         val kamId4 = intArrayOf(R.id.kam382_1,R.id.kam382_2,R.id.kam382_3,R.id.kam372_1,R.id.kam372_2,R.id.kam372_3,R.id.kam362_1,R.id.kam362_2,R.id.kam362_3,R.id.kam352_1,R.id.kam352_2,R.id.kam352_3,R.id.kam342_1,R.id.kam342_2,R.id.kam342_3,R.id.kam332_1,R.id.kam332_2,R.id.kam332_3,R.id.kam322_1,R.id.kam322_2,R.id.kam322_3,R.id.kam312_1,
             R.id.kam312_2,R.id.kam312_3,R.id.kam482_1,R.id.kam482_2,R.id.kam482_3,R.id.kam472_1,R.id.kam472_2,R.id.kam472_3,R.id.kam462_1,R.id.kam462_2,R.id.kam462_3,R.id.kam452_1,R.id.kam452_2,R.id.kam452_3,R.id.kam442_1,R.id.kam442_2,R.id.kam442_3,R.id.kam432_1,R.id.kam432_2,R.id.kam432_3,R.id.kam422_1,R.id.kam422_2,R.id.kam422_3,R.id.kam412_1,R.id.kam412_2,R.id.kam412_3)
 
-        findViewById<Button>(R.id.kam1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
+        findViewById<Button>(R.id.kam1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kam1).setOnClickListener{
+            val color = getColor(findViewById(R.id.kam1))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kam1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in kamId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(kamColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kam1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in kamId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            cpitn()
+            ohis()
+        }
+
+        findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kam2).setOnClickListener{
+            val color = getColor(findViewById(R.id.kam2))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in kamId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(kamColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in kamId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            cpitn()
+            ohis()
+        }
+
+        findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.kam3).setOnClickListener{
+            val color = getColor(findViewById(R.id.kam3))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in kamId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(kamColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in kamId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            cpitn()
+            ohis()
+        }
+
         findViewById<Button>(R.id.kam4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
             but0Color)))
-        findViewById<Button>(R.id.kam1).setOnClickListener{
-            for (el in kamId1){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            kamColor
-                        )))
-            }
-            ohis()
-            cpitn()
-        }
-
-        findViewById<Button>(R.id.kam2).setOnClickListener{
-            for (el in kamId2){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            kamColor
-                        )))
-            }
-            ohis()
-            cpitn()
-        }
-
-        findViewById<Button>(R.id.kam3).setOnClickListener{
-            for (el in kamId3){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            kamColor
-                        )))
-            }
-            ohis()
-            cpitn()
-        }
-
         findViewById<Button>(R.id.kam4).setOnClickListener{
-            for (el in kamId4){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            kamColor
-                        )))
+            val color = getColor(findViewById(R.id.kam4))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.kam4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in kamId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(kamColor)))
+                }
             }
-            ohis()
+            else{
+                findViewById<Button>(R.id.kam4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in kamId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
             cpitn()
+            ohis()
         }
     }
 
@@ -1524,14 +1586,6 @@ class MainActivity : AppCompatActivity() {
         for(el in vosId){
             changeColorButton(findViewById(el), but0Color, vosColor)
         }
-        findViewById<Button>(R.id.vos1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.vos2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.vos3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.vos4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
 
         val vosId1 = intArrayOf(R.id.vos18_1,R.id.vos18_2,R.id.vos18_3,R.id.vos17_1,R.id.vos17_2,R.id.vos17_3,R.id.vos16_1,R.id.vos16_2,R.id.vos16_3,R.id.vos15_1,R.id.vos15_2,R.id.vos15_3,R.id.vos14_1,R.id.vos14_2,R.id.vos14_3,R.id.vos13_1,R.id.vos13_2,R.id.vos13_3,R.id.vos12_1,R.id.vos12_2,R.id.vos12_3,R.id.vos11_1,R.id.vos11_2,R.id.vos11_3,
             R.id.vos28_1,R.id.vos28_2,R.id.vos28_3,R.id.vos27_1,R.id.vos27_2,R.id.vos27_3,R.id.vos26_1,R.id.vos26_2,R.id.vos26_3,R.id.vos25_1,R.id.vos25_2,R.id.vos25_3,R.id.vos24_1,R.id.vos24_2,R.id.vos24_3,R.id.vos23_1,R.id.vos23_2,R.id.vos23_3,R.id.vos22_1,R.id.vos22_2,R.id.vos22_3,R.id.vos21_1,R.id.vos21_2,R.id.vos21_3)
@@ -1545,43 +1599,72 @@ class MainActivity : AppCompatActivity() {
         val vosId4 = intArrayOf(R.id.vos382_1,R.id.vos382_2,R.id.vos382_3,R.id.vos372_1,R.id.vos372_2,R.id.vos372_3,R.id.vos362_1,R.id.vos362_2,R.id.vos362_3,R.id.vos352_1,R.id.vos352_2,R.id.vos352_3,R.id.vos342_1,R.id.vos342_2,R.id.vos342_3,R.id.vos332_1,R.id.vos332_2,R.id.vos332_3,R.id.vos322_1,R.id.vos322_2,R.id.vos322_3,R.id.vos312_1,
             R.id.vos312_2,R.id.vos312_3,R.id.vos482_1,R.id.vos482_2,R.id.vos482_3,R.id.vos472_1,R.id.vos472_2,R.id.vos472_3,R.id.vos462_1,R.id.vos462_2,R.id.vos462_3,R.id.vos452_1,R.id.vos452_2,R.id.vos452_3,R.id.vos442_1,R.id.vos442_2,R.id.vos442_3,R.id.vos432_1,R.id.vos432_2,R.id.vos432_3,R.id.vos422_1,R.id.vos422_2,R.id.vos422_3,R.id.vos412_1,R.id.vos412_2,R.id.vos412_3)
 
+        findViewById<Button>(R.id.vos1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.vos1).setOnClickListener{
-            for (el in vosId1){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            vosColor
-                        )))
+            val color = getColor(findViewById(R.id.vos1))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.vos1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in vosId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.vos1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in vosId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
         }
 
+        findViewById<Button>(R.id.vos2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.vos2).setOnClickListener{
-            for (el in vosId2){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            vosColor
-                        )))
+            val color = getColor(findViewById(R.id.vos2))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.vos2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in vosId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.vos2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in vosId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
         }
 
+        findViewById<Button>(R.id.vos3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
         findViewById<Button>(R.id.vos3).setOnClickListener{
-            for (el in vosId3){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            vosColor
-                        )))
+            val color = getColor(findViewById(R.id.vos3))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.vos3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in vosId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.vos3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in vosId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
         }
 
+        findViewById<Button>(R.id.vos4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
+            but0Color)))
         findViewById<Button>(R.id.vos4).setOnClickListener{
-            for (el in vosId4){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            vosColor
-                        )))
+            val color = getColor(findViewById(R.id.vos4))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.vos4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in vosId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(vosColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.vos4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in vosId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
             }
         }
     }
@@ -1602,60 +1685,81 @@ class MainActivity : AppCompatActivity() {
         val otlId4 = intArrayOf(R.id.otl382_1,R.id.otl382_2,R.id.otl382_3,R.id.otl372_1,R.id.otl372_2,R.id.otl372_3,R.id.otl362_1,R.id.otl362_2,R.id.otl362_3,R.id.otl352_1,R.id.otl352_2,R.id.otl352_3,R.id.otl342_1,R.id.otl342_2,R.id.otl342_3,R.id.otl332_1,R.id.otl332_2,R.id.otl332_3,R.id.otl322_1,R.id.otl322_2,R.id.otl322_3,R.id.otl312_1,
             R.id.otl312_2,R.id.otl312_3,R.id.otl482_1,R.id.otl482_2,R.id.otl482_3,R.id.otl472_1,R.id.otl472_2,R.id.otl472_3,R.id.otl462_1,R.id.otl462_2,R.id.otl462_3,R.id.otl452_1,R.id.otl452_2,R.id.otl452_3,R.id.otl442_1,R.id.otl442_2,R.id.otl442_3,R.id.otl432_1,R.id.otl432_2,R.id.otl432_3,R.id.otl422_1,R.id.otl422_2,R.id.otl422_3,R.id.otl412_1,R.id.otl412_2,R.id.otl412_3)
 
-        findViewById<Button>(R.id.otl1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
-        findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
-            but0Color)))
+        findViewById<Button>(R.id.otl1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.otl1).setOnClickListener{
+            val color = getColor(findViewById(R.id.otl1))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.otl1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in otlId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(otlColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.otl1).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in otlId1) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            api()
+            ohis()
+        }
+
+        findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.otl2).setOnClickListener{
+            val color = getColor(findViewById(R.id.otl2))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in otlId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(otlColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in otlId2) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            api()
+            ohis()
+        }
+
+        findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+        findViewById<Button>(R.id.otl3).setOnClickListener{
+            val color = getColor(findViewById(R.id.otl3))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in otlId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(otlColor)))
+                }
+            }
+            else{
+                findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in otlId3) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
+            api()
+            ohis()
+        }
+
         findViewById<Button>(R.id.otl4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
             but0Color)))
-        findViewById<Button>(R.id.otl1).setOnClickListener{
-            for (el in otlId1){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            otlColor
-                        )))
-            }
-            ohis()
-            api()
-        }
-
-        findViewById<Button>(R.id.otl2).setOnClickListener{
-            for (el in otlId2){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            otlColor
-                        )))
-            }
-            ohis()
-            api()
-        }
-
-        findViewById<Button>(R.id.otl3).setOnClickListener{
-            for (el in otlId3){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            otlColor
-                        )))
-            }
-            ohis()
-            api()
-        }
-
         findViewById<Button>(R.id.otl4).setOnClickListener{
-            for (el in otlId4){
-                findViewById<Button>(el).setBackgroundTintList(
-                    ColorStateList.valueOf(
-                        Color.parseColor(
-                            otlColor
-                        )))
+            val color = getColor(findViewById(R.id.otl4))
+            if (color == Color.parseColor(but0Color)) {
+                findViewById<Button>(R.id.otl4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but1Color)))
+                for (el in otlId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(otlColor)))
+                }
             }
-            ohis()
+            else{
+                findViewById<Button>(R.id.otl4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                for (el in otlId4) {
+                    findViewById<Button>(el).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                }
+            }
             api()
+            ohis()
         }
     }
 
@@ -2526,7 +2630,7 @@ class MainActivity : AppCompatActivity() {
 
         var krCounter = 0f
 
-        val numOfSurfaces = countExist()*3
+        val numOfSurfaces = countExist()*6
 
         for (el in krId){
             val krBut = findViewById<Button>(el)
@@ -2576,7 +2680,7 @@ class MainActivity : AppCompatActivity() {
 
         var otlCounter = 0f
 
-        val numOfSurfaces = countExist()*2
+        val numOfSurfaces = countExist()*4
 
         for (el in otlIdApi){
             val krBut = findViewById<Button>(el)
