@@ -42,7 +42,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -58,7 +58,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -74,7 +74,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -97,7 +97,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -113,7 +113,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -129,7 +129,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -153,7 +153,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -169,7 +169,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -185,7 +185,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -208,7 +208,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -224,7 +224,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -240,7 +240,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -264,7 +264,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -280,7 +280,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -296,7 +296,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -319,7 +319,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -335,7 +335,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -351,7 +351,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -375,7 +375,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -391,7 +391,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -408,7 +408,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -431,7 +431,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -447,7 +447,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -463,7 +463,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -487,7 +487,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -503,7 +503,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -519,7 +519,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -542,7 +542,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -558,7 +558,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -574,7 +574,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -598,7 +598,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -614,7 +614,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -630,7 +630,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -653,7 +653,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -669,7 +669,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -685,7 +685,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -709,7 +709,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -725,7 +725,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -741,7 +741,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -764,7 +764,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -780,7 +780,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -796,7 +796,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -820,7 +820,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -836,7 +836,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -853,7 +853,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -876,7 +876,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -892,7 +892,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
@@ -908,7 +908,7 @@
             android:padding="0dp"
             android:layout_marginLeft="-3dp"
             android:layout_marginRight="-3dp"
-            android:inputType="numberSigned"
+            android:inputType="number"
             android:textColor="@color/black"
             android:gravity="center"
             android:hint="@string/_0"/>
