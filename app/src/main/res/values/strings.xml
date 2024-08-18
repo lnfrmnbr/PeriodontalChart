@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SKK</string>
+    <string name="app_name">Periodontal Chart</string>
     <string name="periodontal_chart">Стоматологическая клиническая карта</string>
     <string name="data">Дата</string>
     <string name="familia">Фамилия</string>
