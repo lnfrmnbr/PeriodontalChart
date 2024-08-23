@@ -20,7 +20,8 @@
                 android:textSize="40sp"
                 android:textStyle="bold"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="@font/fira_sans"/>
+                android:fontFamily="@font/fira_sans"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewData"
@@ -28,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/data"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
 
             <EditText
@@ -37,7 +39,8 @@
                 android:layout_height="wrap_content"
                 android:ems="6"
                 android:inputType="date"
-                android:fontFamily="@font/fira_sans"/>
+                android:fontFamily="@font/fira_sans"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 
@@ -53,7 +56,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/familia"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/editTextTextFamilia"
@@ -62,7 +66,8 @@
                 android:ems="8"
                 android:inputType="textCapSentences"
                 android:fontFamily="@font/fira_sans"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewName"
@@ -70,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/name"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/editTextTextName"
@@ -79,7 +85,8 @@
                 android:ems="7"
                 android:inputType="textCapSentences"
                 android:fontFamily="@font/fira_sans"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewOtchestvo"
@@ -87,7 +94,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/otchestvo"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/editTextTextOtchestvo"
@@ -96,7 +104,8 @@
                 android:ems="8"
                 android:inputType="textCapSentences"
                 android:fontFamily="@font/fira_sans"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewBirthData"
@@ -104,7 +113,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/birth_data"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
 
             <EditText
@@ -113,7 +123,8 @@
                 android:layout_height="wrap_content"
                 android:ems="6"
                 android:inputType="date"
-                android:fontFamily="@font/fira_sans"/>
+                android:fontFamily="@font/fira_sans"
+                android:textColor="@color/black"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -128,7 +139,8 @@
                 android:textSize="22sp"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/first_see"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
             <CheckBox
                 android:id="@+id/checkBoxControl"
@@ -137,7 +149,8 @@
                 android:textSize="22sp"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/control_see"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textViewDoctor"
@@ -145,7 +158,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fira_sans"
                 android:text="@string/doctor"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
 
             <EditText
                 android:id="@+id/editTextTextDoctor"
@@ -154,7 +168,8 @@
                 android:ems="8"
                 android:inputType="text"
                 android:fontFamily="@font/fira_sans"
-                android:layout_marginEnd="20dp"/>
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 </LinearLayout>

@@ -14,6 +14,7 @@
         android:padding="0dp"
         app:cornerRadius="0dp"
         android:minHeight="15dp"
+        android:textSize="8sp"
         android:minWidth="50dp"
         android:textColor="@color/black"
         android:gravity="center"/>

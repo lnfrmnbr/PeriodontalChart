@@ -16,12 +16,16 @@
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:gravity="center"
-            android:text="Глубина" />
+            android:text="Глубина"
+            android:textColor="@color/black"
+            android:textSize="8sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:gravity="center"
-            android:text="зондирования" />
+            android:text="зондирования"
+            android:textColor="@color/black"
+            android:textSize="8sp"/>
 
     </LinearLayout>
 

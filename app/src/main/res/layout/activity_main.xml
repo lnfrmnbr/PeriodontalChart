@@ -18,130 +18,138 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="10dp">
-
-                <include layout="@layout/top"/>
-
-                <include layout="@layout/table1"/>
-
-                <include layout="@layout/table2"/>
-
-                <include layout="@layout/table3"/>
-
-                <include layout="@layout/table4"/>
-
-                <include layout="@layout/bottom"/>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:id="@+id/imgs">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center"
-                        android:layout_marginTop="10dp">
-                        <ImageView
-                            android:id="@+id/img1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"
-                            android:contentDescription="0"/>
-                        <ImageView
-                            android:id="@+id/img2"
-                            android:contentDescription="0"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"/>
+                    android:layout_marginTop="10dp">
 
-                    </LinearLayout>
+                    <include layout="@layout/top"/>
+
+                    <include layout="@layout/table1"/>
+
+                    <include layout="@layout/table2"/>
+
+                    <include layout="@layout/table3"/>
+
+                    <include layout="@layout/table4"/>
+
+                    <include layout="@layout/bottom"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center"
-                        android:layout_marginTop="10dp">
-                        <ImageView
-                            android:id="@+id/img3"
-                            android:contentDescription="0"
-                            android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/imgs">
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"/>
-                        <ImageView
-                            android:id="@+id/img4"
-                            android:contentDescription="0"
-                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp">
+                            <ImageView
+                                android:id="@+id/img1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"
+                                android:contentDescription="0"/>
+                            <ImageView
+                                android:id="@+id/img2"
+                                android:contentDescription="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"/>
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp">
+                            <ImageView
+                                android:id="@+id/img3"
+                                android:contentDescription="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"/>
+                            <ImageView
+                                android:id="@+id/img4"
+                                android:contentDescription="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp">
+                            <ImageView
+                                android:id="@+id/img5"
+                                android:contentDescription="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"/>
+                            <ImageView
+                                android:id="@+id/img6"
+                                android:contentDescription="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/empty_image"
+                                android:layout_margin="10dp"/>
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:gravity="center"
-                        android:layout_marginTop="10dp">
-                        <ImageView
-                            android:id="@+id/img5"
-                            android:contentDescription="0"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"/>
-                        <ImageView
-                            android:id="@+id/img6"
-                            android:contentDescription="0"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/empty_image"
-                            android:layout_margin="10dp"/>
+                        android:layout_marginTop="100dp"
+                        android:layout_marginBottom="300dp"
+                        android:layout_gravity="center"
+                        android:gravity="center">
 
-                    </LinearLayout>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/addImg"
+                            android:text="+"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:backgroundTint="@color/black"
+                            android:layout_marginEnd="10dp"
+                            />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/download"
+                            android:text="Скачать"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:backgroundTint="@color/black"
+                            android:layout_marginEnd="10dp"/>
+                </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="100dp"
-                    android:layout_marginBottom="300dp"
-                    android:layout_gravity="center"
-                    android:gravity="center">
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/addImg"
-                        android:text="+"
-                        android:textSize="25sp"
-                        android:backgroundTint="@color/black"
-                        android:layout_marginEnd="10dp"
-                        />
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/download"
-                        android:text="Скачать"
-                        android:textSize="25sp"
-                        android:backgroundTint="@color/black"
-                        android:layout_marginEnd="10dp"/>
-            </LinearLayout>
-
-            </LinearLayout>
+            </HorizontalScrollView>
 
 
         </ScrollView>

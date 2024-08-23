@@ -16,13 +16,17 @@
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:gravity="center"
-            android:text="Пульпит/" />
+            android:text="Пульпит/"
+            android:textColor="@color/black"
+            android:textSize="8sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:gravity="center"
-            android:text="периодонтит" />
+            android:text="периодонтит"
+            android:textColor="@color/black"
+            android:textSize="8sp"/>
 
 
     </LinearLayout>

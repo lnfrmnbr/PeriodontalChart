@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="10dp">
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -34,7 +35,7 @@
         android:id="@+id/chart5"
         android:layout_width="528dp"
         android:layout_height="222dp"
-        android:layout_marginStart="117dp"
+        android:layout_marginStart="42dp"
         android:layout_marginTop="290dp">
 
         </com.github.mikephil.charting.charts.LineChart>
@@ -44,14 +45,14 @@
         android:layout_width="528dp"
         android:layout_height="222dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="-2dp"
+        android:layout_marginEnd="-12dp"
         android:layout_marginTop="290dp">
 
         </com.github.mikephil.charting.charts.LineChart>
 
         <ImageView
         android:id="@+id/fi48"
-        android:layout_marginStart="155dp"
+        android:layout_marginStart="85dp"
         android:layout_marginTop="385dp"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"
@@ -60,7 +61,7 @@
 
         <ImageView
         android:id="@+id/fi47"
-        android:layout_marginStart="245dp"
+        android:layout_marginStart="175dp"
         android:layout_marginTop="385dp"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"
@@ -69,7 +70,7 @@
 
         <ImageView
         android:id="@+id/fi46"
-        android:layout_marginStart="320dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="395dp"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"
@@ -79,7 +80,7 @@
         <ImageView
         android:id="@+id/fi38"
         android:layout_marginTop="385dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginEnd="25dp"
         android:layout_alignParentEnd="true"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"
@@ -89,7 +90,7 @@
         <ImageView
         android:id="@+id/fi37"
         android:layout_marginTop="385dp"
-        android:layout_marginEnd="125dp"
+        android:layout_marginEnd="115dp"
         android:layout_alignParentEnd="true"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"
@@ -99,7 +100,7 @@
         <ImageView
         android:id="@+id/fi36"
         android:layout_marginTop="395dp"
-        android:layout_marginEnd="200dp"
+        android:layout_marginEnd="190dp"
         android:layout_alignParentEnd="true"
         android:padding="0dp"
         app:srcCompat="@drawable/null17"

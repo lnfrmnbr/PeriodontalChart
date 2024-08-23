@@ -24,6 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Название индекса"
+                    android:textColor="@color/black"
                     android:padding="0dp"
                     android:layout_margin="2dp"/>
             </FrameLayout>
@@ -38,6 +39,7 @@
                     android:layout_height="wrap_content"
                     android:text="Результат"
                     android:layout_gravity="center"
+                    android:textColor="@color/black"
                     android:padding="0dp"
                     android:layout_margin="2dp"/>
             </FrameLayout>
@@ -50,6 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Интерпретация"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:padding="0dp"
                     android:layout_margin="2dp"/>
@@ -69,6 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="КПУ"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:padding="0dp"
                     android:layout_margin="2dp"
@@ -84,6 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:id="@+id/kpu"
                     android:padding="0dp"
@@ -101,6 +106,7 @@
                     android:text="Низкая степень тяжести кариозного процесса"
                     android:id="@+id/kpu_interpr"
                     android:padding="0dp"
+                    android:textColor="@color/black"
                     android:layout_margin="2dp"/>
             </FrameLayout>
 
@@ -120,6 +126,7 @@
                     android:layout_gravity="center"
                     android:text="BOP"
                     android:padding="0dp"
+                    android:textColor="@color/black"
                     android:layout_margin="2dp"
                     android:gravity="center"/>
             </FrameLayout>
@@ -138,6 +145,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
+                        android:textColor="@color/black"
                         android:id="@+id/bop"
                         android:padding="0dp"
                         android:layout_margin="2dp"/>
@@ -146,6 +154,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="0dp"
+                        android:textColor="@color/black"
                         android:layout_margin="2dp"
                         android:text="%"/>
                 </LinearLayout>
@@ -160,6 +169,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Норма"
+                    android:textColor="@color/black"
                     android:id="@+id/bop_interpr"
                     android:layout_gravity="center"
                     android:padding="0dp"
@@ -181,6 +191,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="API"
+                    android:textColor="@color/black"
                     android:padding="0dp"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
@@ -201,6 +212,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
+                        android:textColor="@color/black"
                         android:id="@+id/api"
                         android:padding="0dp"
                         android:layout_margin="2dp"/>
@@ -210,6 +222,7 @@
                         android:layout_height="wrap_content"
                         android:padding="0dp"
                         android:layout_margin="2dp"
+                        android:textColor="@color/black"
                         android:text="%"/>
                 </LinearLayout>
 
@@ -226,6 +239,7 @@
                     android:id="@+id/api_interpr"
                     android:layout_gravity="center"
                     android:padding="0dp"
+                    android:textColor="@color/black"
                     android:layout_margin="2dp"/>
             </FrameLayout>
 
@@ -243,6 +257,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CPITN"
+                    android:textColor="@color/black"
                     android:padding="0dp"
                     android:layout_margin="2dp"
                     android:layout_gravity="center"
@@ -271,6 +286,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="3dp"
+                            android:textColor="@color/black"
                             android:text="0"/>
 
                         <TextView
@@ -279,6 +295,7 @@
                             android:layout_height="wrap_content"
                             android:padding="3dp"
                             android:background="@drawable/border"
+                            android:textColor="@color/black"
                             android:text="0"/>
 
                         <TextView
@@ -286,6 +303,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="3dp"
+                            android:textColor="@color/black"
                             android:text="0"/>
                     </TableRow>
                     <TableRow
@@ -298,6 +316,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="3dp"
+                            android:textColor="@color/black"
                             android:text="0"/>
 
                         <TextView
@@ -306,6 +325,7 @@
                             android:layout_height="wrap_content"
                             android:background="@drawable/border"
                             android:padding="3dp"
+                            android:textColor="@color/black"
                             android:text="0"/>
 
                         <TextView
@@ -313,6 +333,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="3dp"
+                            android:textColor="@color/black"
                             android:text="0"/>
                     </TableRow>
                 </TableLayout>
@@ -326,6 +347,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Лечение не требуется"
+                    android:textColor="@color/black"
                     android:id="@+id/cpitn_interpr"
                     android:layout_gravity="center"
                     android:padding="0dp"
@@ -347,6 +369,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Russel"
+                    android:textColor="@color/black"
                     android:padding="0dp"
                     android:layout_margin="2dp"
                     android:gravity="center"/>
@@ -361,6 +384,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textColor="@color/black"
                     android:id="@+id/russel"
                     android:layout_gravity="center"
                     android:padding="0dp"
@@ -375,6 +399,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Норма"
+                    android:textColor="@color/black"
                     android:id="@+id/russel_interpr"
                     android:layout_gravity="center"
                     android:padding="0dp"
@@ -394,6 +419,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="OHI-S"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:padding="0dp"
                     android:layout_margin="2dp"
@@ -409,6 +435,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:id="@+id/ohis"
                     android:padding="0dp"
@@ -423,6 +450,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Хорошая гигиена"
+                    android:textColor="@color/black"
                     android:id="@+id/ohis_interpr"
                     android:layout_gravity="center"
                     android:padding="0dp"
@@ -440,6 +468,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Комментарии"
+        android:textColor="@color/black"
         android:inputType="text"
         app:boxStrokeColor="@color/black"
         app:endIconTint="@color/black"
@@ -451,6 +480,7 @@
             android:layout_width="560dp"
             android:inputType="textCapSentences|textMultiLine"
             android:layout_height="195dp"
+            android:textColor="@color/black"
             android:gravity="top|left"/>
     </com.google.android.material.textfield.TextInputLayout>
 

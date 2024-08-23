@@ -9,7 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:text="@string/kar"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="8sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

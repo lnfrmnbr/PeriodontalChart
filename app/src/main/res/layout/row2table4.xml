@@ -9,7 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/desn_krai"/>
+        android:text="@string/desn_krai"
+        android:textColor="@color/black"
+        android:textSize="8sp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"

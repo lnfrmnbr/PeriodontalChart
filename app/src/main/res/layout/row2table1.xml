@@ -10,7 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Подвижность"/>
+        android:text="Подвижность"
+        android:textColor="@color/black"
+        android:textSize="8sp"/>
 
     <FrameLayout
         android:layout_width="wrap_content"
