@@ -20,6 +20,11 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            isJniDebuggable = false
+            isRenderscriptDebuggable = false
+            renderscriptOptimLevel = 3
+            isDebuggable = false
+            versionNameSuffix = "1.0-beta"
         }
     }
     compileOptions {
