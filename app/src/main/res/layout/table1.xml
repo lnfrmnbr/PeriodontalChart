@@ -3,14 +3,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        android:gravity="center_horizontal"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/table1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
+            android:orientation="vertical"
+            android:gravity="center|center_horizontal"
             android:layout_marginTop="10dp">
 
             <TableLayout
@@ -30,31 +31,16 @@
                 <include layout="@layout/row11table1"/>
                 <include layout="@layout/row12table1"/>
                 <include layout="@layout/row13table1"/>
-                <include layout="@layout/row14table1"/>
 
             </TableLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <include layout="@layout/row14table1"/>
+            </LinearLayout>
+
         </LinearLayout>
-
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart1"
-            android:layout_width="525dp"
-            android:layout_height="232dp"
-            android:layout_marginStart="45dp"
-            android:layout_marginTop="447dp">
-
-        </com.github.mikephil.charting.charts.LineChart>
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart2"
-            android:layout_width="525dp"
-            android:layout_height="232dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="-10dp"
-            android:layout_marginTop="447dp">
-
-        </com.github.mikephil.charting.charts.LineChart>
 
         <ImageView
             android:id="@+id/fi18"

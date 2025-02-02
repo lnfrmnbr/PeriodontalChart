@@ -19,6 +19,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv48"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv47"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,6 +61,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv46"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,6 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv45"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,6 +103,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv44"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,6 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv43"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,6 +145,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv42"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -158,6 +165,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv41"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -179,6 +187,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -198,6 +207,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -219,6 +229,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv33"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -238,6 +249,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -259,6 +271,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv35"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -278,6 +291,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv36"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -299,6 +313,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv37"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -318,6 +333,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/podv38"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

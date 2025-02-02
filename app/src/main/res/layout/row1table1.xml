@@ -11,7 +11,7 @@
         android:layout_height="match_parent" />
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="66dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -32,7 +32,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="70dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist17"
@@ -51,7 +51,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -72,7 +72,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="54dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist15"
@@ -91,7 +91,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="55dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -112,7 +112,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="54dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist13"
@@ -131,7 +131,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="48dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -152,7 +152,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="69dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist11"
@@ -171,7 +171,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="69dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -192,7 +192,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="48dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist22"
@@ -211,7 +211,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="54dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -232,7 +232,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="55dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist24"
@@ -251,7 +251,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="54dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -272,7 +272,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist26"
@@ -291,7 +291,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -312,7 +312,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="66dp"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/exist28"

@@ -36,6 +36,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond48_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,6 +53,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond48_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,6 +70,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond48_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,6 +94,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond47_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -107,6 +111,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond47_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,6 +128,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond47_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -147,6 +153,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond46_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,6 +170,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond46_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -179,6 +187,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond46_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -202,6 +211,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond45_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -218,6 +228,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond45_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -234,6 +245,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond45_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -258,6 +270,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond44_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -274,6 +287,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond44_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -290,6 +304,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond44_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -313,6 +328,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond43_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -329,6 +345,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond43_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -345,6 +362,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond43_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -369,6 +387,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond42_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -385,6 +404,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond42_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -402,6 +422,7 @@
 
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond42_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -425,6 +446,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond41_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -441,6 +463,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond41_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -457,6 +480,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond41_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -481,6 +505,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond31_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -497,6 +522,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond31_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -513,6 +539,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond31_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -536,6 +563,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond32_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -552,6 +580,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond32_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -568,6 +597,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond32_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -592,6 +622,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond33_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -608,6 +639,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond33_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -624,6 +656,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond33_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -647,6 +680,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond34_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -663,6 +697,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond34_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -679,6 +714,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond34_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -703,6 +739,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond35_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -719,6 +756,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond35_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -735,6 +773,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond35_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -758,6 +797,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond36_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -774,6 +814,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond36_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -790,6 +831,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond36_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -814,6 +856,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond37_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -830,6 +873,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond37_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -847,6 +891,7 @@
 
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond37_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -870,6 +915,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond38_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -886,6 +932,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond38_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -902,6 +949,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/zond38_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -1048,18 +1048,31 @@ class MainActivity : AppCompatActivity() {
             imageView6.visibility = View.VISIBLE
         }
 
-        for (el in podvsId){
-            val podv = findViewById<EditText>(el)
-            podv.doAfterTextChanged{
-                russel()
-            }
-        }
+//        for (el in podvsId){
+//            val podv = findViewById<EditText>(el)
+//            podv.doAfterTextChanged{
+//                russel()
+//            }
+//        }
 
         val addBut = findViewById<Button>(R.id.addImg)
         addBut.setOnClickListener{
             addImage()
         }
 
+        val updateBut = findViewById<Button>(R.id.updateIndexes)
+        updateBut.setOnClickListener{
+            calcIndexes()
+        }
+    }
+
+    private fun calcIndexes() {
+        kpu()
+        bop()
+        api()
+        cpitn()
+        russel()
+        ohis()
     }
 
     private fun addImage() {
@@ -1259,7 +1272,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
-            kpu()
+            //kpu()
         }
     }
 
@@ -1273,8 +1286,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
-            bop()
-            russel()
+            //bop()
+            //russel()
         }
     }
 
@@ -1288,8 +1301,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
-            cpitn()
-            ohis()
+            //cpitn()
+            //ohis()
         }
     }
 
@@ -1303,8 +1316,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 button.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(color0)))
             }
-            api()
-            ohis()
+            //api()
+            //ohis()
         }
     }
 
@@ -1436,7 +1449,7 @@ class MainActivity : AppCompatActivity() {
                         }
 
                     }
-                    kpu()
+                    //kpu()
                 }
             }
         }
@@ -1544,8 +1557,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            russel()
-            bop()
+            //russel()
+            //bop()
         }
 
         findViewById<Button>(R.id.kr2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1571,8 +1584,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            russel()
-            bop()
+            //russel()
+            //bop()
         }
 
         findViewById<Button>(R.id.kr3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1598,8 +1611,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            russel()
-            bop()
+            //russel()
+            //bop()
         }
 
         findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
@@ -1626,8 +1639,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            russel()
-            bop()
+            //russel()
+            //bop()
         }
 
     }
@@ -1676,8 +1689,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            cpitn()
-            ohis()
+            //cpitn()
+            //ohis()
         }
 
         findViewById<Button>(R.id.kam2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1703,8 +1716,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            cpitn()
-            ohis()
+            //cpitn()
+            //ohis()
         }
 
         findViewById<Button>(R.id.kam3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1731,8 +1744,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            cpitn()
-            ohis()
+            //cpitn()
+            //ohis()
         }
 
         findViewById<Button>(R.id.kam4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
@@ -1761,8 +1774,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            cpitn()
-            ohis()
+            //cpitn()
+            //ohis()
         }
     }
 
@@ -1900,8 +1913,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            api()
-            ohis()
+            //api()
+            //ohis()
         }
 
         findViewById<Button>(R.id.otl2).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1927,8 +1940,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            api()
-            ohis()
+            //api()
+            //ohis()
         }
 
         findViewById<Button>(R.id.otl3).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
@@ -1954,8 +1967,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            api()
-            ohis()
+            //api()
+            //ohis()
         }
 
         findViewById<Button>(R.id.otl4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(
@@ -1982,8 +1995,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            api()
-            ohis()
+            //api()
+            //ohis()
         }
     }
 
@@ -2039,7 +2052,7 @@ class MainActivity : AppCompatActivity() {
                     karBut.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                     karImg.visibility = View.GONE
                 }
-                kpu()
+                //kpu()
             }
         }
     }
@@ -2071,8 +2084,8 @@ class MainActivity : AppCompatActivity() {
                         zondChart[i].y = (textDesn.toFloat()-textZond.toFloat())*sign
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
-                    cpitn()
-                    russel()
+                    //cpitn()
+                    //russel()
                 }
             }
         }
@@ -2094,8 +2107,8 @@ class MainActivity : AppCompatActivity() {
                         zondChart[i].y = (textDesn.toFloat()-textZond.toFloat())*sign
                         generateChart(chart, zondChart, desnChart, max, min)
                     }
-                    cpitn()
-                    russel()
+                    //cpitn()
+                    //russel()
                 }
             }
         }
@@ -2161,6 +2174,8 @@ class MainActivity : AppCompatActivity() {
         chart.getAxisRight().setDrawGridLines(false)
         chart.getAxisRight().setDrawLabels(false)
         chart.getAxisRight().setDrawAxisLine(false)
+
+        chart.minOffset = 0f
     }
 
     private fun settingsForExist(chart1: com.github.mikephil.charting.charts.LineChart,
@@ -2352,12 +2367,12 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id1[k]).visibility = View.VISIBLE
                     }
                 }
-                kpu()
-                bop()
-                api()
-                cpitn()
-                russel()
-                ohis()
+                //kpu()
+                //bop()
+                //api()
+                //cpitn()
+                //russel()
+                //ohis()
             }
         }
 
@@ -2504,12 +2519,12 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id2[k]).visibility = View.VISIBLE
                     }
                 }
-                kpu()
-                bop()
-                api()
-                cpitn()
-                russel()
-                ohis()
+                //kpu()
+                //bop()
+                //api()
+                //cpitn()
+                //russel()
+                //ohis()
             }
         }
 
@@ -2635,12 +2650,12 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id3[k]).visibility = View.VISIBLE
                     }
                 }
-                kpu()
-                bop()
-                api()
-                cpitn()
-                russel()
-                ohis()
+                //kpu()
+                //bop()
+                //api()
+                //cpitn()
+                //russel()
+                //ohis()
             }
         }
         for (i in existsId4.indices){
@@ -2764,12 +2779,12 @@ class MainActivity : AppCompatActivity() {
                         findViewById<Button>(vos2Id4[k]).visibility = View.VISIBLE
                     }
                 }
-                kpu()
-                bop()
-                api()
-                cpitn()
-                russel()
-                ohis()
+                //kpu()
+                //bop()
+                //api()
+                //cpitn()
+                //russel()
+                //ohis()
             }
         }
 

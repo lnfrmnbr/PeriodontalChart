@@ -21,6 +21,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn48_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,6 +38,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn48_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,6 +55,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn48_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,6 +79,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn47_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,6 +96,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn47_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -108,6 +113,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn47_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -132,6 +138,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn46_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -148,6 +155,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn46_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,6 +172,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn46_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -187,6 +196,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn45_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -203,6 +213,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn45_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -219,6 +230,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn45_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -243,6 +255,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn44_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -259,6 +272,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn44_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -275,6 +289,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn44_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -298,6 +313,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn43_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -314,6 +330,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn43_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -330,6 +347,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn43_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -354,6 +372,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn42_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -370,6 +389,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn42_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -386,6 +406,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn42_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -409,6 +430,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn41_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -425,6 +447,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn41_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -441,6 +464,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn41_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -465,6 +489,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn31_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -481,6 +506,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn31_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -497,6 +523,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn31_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -520,6 +547,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn32_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -536,6 +564,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn32_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -552,6 +581,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn32_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -576,6 +606,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn33_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -592,6 +623,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn33_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -608,6 +640,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn33_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -631,6 +664,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn34_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -647,6 +681,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn34_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -663,6 +698,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn34_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -687,6 +723,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn35_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -703,6 +740,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn35_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -719,6 +757,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn35_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -742,6 +781,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn36_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -758,6 +798,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn36_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -774,6 +815,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn36_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -798,6 +840,7 @@
         android:background="@drawable/border">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn37_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -814,6 +857,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn37_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -830,6 +874,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn37_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -853,6 +898,7 @@
         android:gravity="center">
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn38_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -869,6 +915,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn38_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -885,6 +932,7 @@
             android:hint="@string/_0"/>
 
         <EditText
+            android:imeOptions="flagNoExtractUi"
             android:id="@+id/desn38_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
