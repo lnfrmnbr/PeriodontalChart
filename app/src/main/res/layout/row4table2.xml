@@ -14,7 +14,7 @@
         android:textSize="8sp"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="63dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
         android:orientation="horizontal"
@@ -50,7 +50,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="72dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
@@ -85,7 +85,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
         android:orientation="horizontal"
@@ -121,14 +121,14 @@
     </LinearLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content">
 
 
     </FrameLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border"
         android:orientation="horizontal"
@@ -164,13 +164,13 @@
     </LinearLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content">
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="56dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -181,12 +181,12 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="60dp"
         android:layout_height="wrap_content">
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
         <TextView
@@ -197,13 +197,13 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="56dp"
         android:layout_height="wrap_content">
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -214,7 +214,7 @@
     </FrameLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
@@ -249,7 +249,7 @@
     </LinearLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="53dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
         <TextView
@@ -259,7 +259,7 @@
     </FrameLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
@@ -294,7 +294,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="72dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
@@ -330,7 +330,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="63dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">

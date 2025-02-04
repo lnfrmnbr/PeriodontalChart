@@ -1218,14 +1218,14 @@
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/chart1"
                 android:layout_width="496dp"
-                android:layout_height="match_parent">
+                android:layout_height="200dp">
 
             </com.github.mikephil.charting.charts.LineChart>
 
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/chart2"
                 android:layout_width="496dp"
-                android:layout_height="match_parent">
+                android:layout_height="200dp">
             </com.github.mikephil.charting.charts.LineChart>
 
 
