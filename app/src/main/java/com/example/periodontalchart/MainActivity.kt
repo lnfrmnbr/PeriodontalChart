@@ -1083,6 +1083,26 @@ class MainActivity : AppCompatActivity() {
             params.width = width
             titleTable1.layoutParams = params
         }
+
+        val kr2 = findViewById<Button>(R.id.kr2)
+        val titleTable2 = findViewById<TextView>(R.id.title_table2)
+
+        kr2.post {
+            val width = kr2.width
+            val params = kr2.layoutParams
+            params.width = width
+            titleTable2.layoutParams = params
+        }
+
+        val kr4 = findViewById<Button>(R.id.kr4)
+        val titleTable4 = findViewById<TextView>(R.id.title_table4)
+
+        kr1.post {
+            val width = kr4.width
+            val params = kr4.layoutParams
+            params.width = width
+            titleTable4.layoutParams = params
+        }
     }
 
     private fun calcIndexes() {
@@ -1254,7 +1274,7 @@ class MainActivity : AppCompatActivity() {
         val otchestvo = findViewById<EditText>(R.id.editTextTextOtchestvo).text.trim().toString()
 
         val dirDoc = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
-        val pdfFilePath = "${dirDoc}/${familia}_${name}_${otchestvo}.pdf"
+        val pdfFilePath = "${externalCacheDir?.absolutePath}/${familia}_${name}_${otchestvo}.pdf"
         val file = File(pdfFilePath)
 
         try {

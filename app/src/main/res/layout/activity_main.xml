@@ -63,9 +63,11 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/empty_image"
                                 android:layout_margin="10dp"
+                                android:visibility="gone"
                                 android:contentDescription="0"/>
                             <ImageView
                                 android:id="@+id/img2"
+                                android:visibility="gone"
                                 android:contentDescription="0"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -83,12 +85,14 @@
                             <ImageView
                                 android:id="@+id/img3"
                                 android:contentDescription="0"
+                                android:visibility="gone"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/empty_image"
                                 android:layout_margin="10dp"/>
                             <ImageView
                                 android:id="@+id/img4"
+                                android:visibility="gone"
                                 android:contentDescription="0"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -106,6 +110,7 @@
                             <ImageView
                                 android:id="@+id/img5"
                                 android:contentDescription="0"
+                                android:visibility="gone"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/empty_image"
@@ -113,6 +118,7 @@
                             <ImageView
                                 android:id="@+id/img6"
                                 android:contentDescription="0"
+                                android:visibility="gone"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/empty_image"

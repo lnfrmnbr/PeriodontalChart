@@ -1242,8 +1242,8 @@
             android:id="@+id/fi47"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:layout_marginStart="175dp"
-            android:layout_marginTop="85dp"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="89dp"
             android:padding="0dp"
             app:srcCompat="@drawable/null17" />
 
@@ -1251,8 +1251,8 @@
             android:id="@+id/fi46"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:layout_marginStart="250dp"
-            android:layout_marginTop="95dp"
+            android:layout_marginStart="193dp"
+            android:layout_marginTop="98dp"
             android:padding="0dp"
             app:srcCompat="@drawable/null17" />
 
@@ -1260,8 +1260,8 @@
             android:id="@+id/fi38"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:layout_marginTop="85dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginStart="950dp"
             android:padding="0dp"
             app:srcCompat="@drawable/null17" />
 
@@ -1269,8 +1269,8 @@
             android:id="@+id/fi37"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:layout_marginTop="85dp"
-            android:layout_marginEnd="115dp"
+            android:layout_marginTop="89dp"
+            android:layout_marginStart="860dp"
             android:padding="0dp"
             app:srcCompat="@drawable/null17" />
 
@@ -1278,8 +1278,8 @@
             android:id="@+id/fi36"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:layout_marginTop="95dp"
-            android:layout_marginEnd="190dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginStart="785dp"
             android:padding="0dp"
             app:srcCompat="@drawable/null17" />
 

@@ -1,6 +1,5 @@
 <RelativeLayout
                     xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
@@ -10,14 +9,20 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center">
+                        android:orientation="vertical"
+                        android:gravity="center|center_horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal">
+                            <include layout="@layout/row1table4"/>
+                        </LinearLayout>
 
                         <TableLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
 
-                            <include layout="@layout/row1table4"/>
                             <include layout="@layout/row2table4"/>
                             <include layout="@layout/row3table4"/>
                             <include layout="@layout/row4table4"/>
@@ -36,80 +41,5 @@
 
                     </LinearLayout>
 
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:id="@+id/chart7"
-                        android:layout_width="528dp"
-                        android:layout_height="222dp"
-                        android:layout_marginStart="47dp"
-                        android:layout_marginTop="-7dp">
-
-                    </com.github.mikephil.charting.charts.LineChart>
-
-                    <com.github.mikephil.charting.charts.LineChart
-                        android:id="@+id/chart8"
-                        android:layout_width="530dp"
-                        android:layout_height="222dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginEnd="-20dp"
-                        android:layout_marginTop="-7dp">
-
-                    </com.github.mikephil.charting.charts.LineChart>
-
-                    <ImageView
-                        android:id="@+id/fi482"
-                        android:layout_marginStart="83dp"
-                        android:layout_marginTop="105dp"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
-
-                    <ImageView
-                        android:id="@+id/fi472"
-                        android:layout_marginStart="173dp"
-                        android:layout_marginTop="105dp"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
-
-                    <ImageView
-                        android:id="@+id/fi462"
-                        android:layout_marginStart="260dp"
-                        android:layout_marginTop="100dp"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
-
-                    <ImageView
-                        android:id="@+id/fi382"
-                        android:layout_marginTop="105dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_alignParentEnd="true"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
-
-                    <ImageView
-                        android:id="@+id/fi372"
-                        android:layout_marginTop="105dp"
-                        android:layout_marginEnd="110dp"
-                        android:layout_alignParentEnd="true"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
-
-                    <ImageView
-                        android:id="@+id/fi362"
-                        android:layout_marginTop="100dp"
-                        android:layout_marginEnd="200dp"
-                        android:layout_alignParentEnd="true"
-                        android:padding="0dp"
-                        app:srcCompat="@drawable/null17"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"/>
                 </RelativeLayout>
 

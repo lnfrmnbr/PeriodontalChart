@@ -14,13 +14,13 @@
         android:textSize="8sp"/>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="84dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
         <ImageButton
             android:id="@+id/furk48"
-            android:layout_width="84dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
@@ -34,11 +34,11 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content">
         <ImageButton
             android:id="@+id/furk47"
-            android:layout_width="80dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
@@ -52,13 +52,13 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="86dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
         <ImageButton
             android:id="@+id/furk46"
-            android:layout_width="86dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
