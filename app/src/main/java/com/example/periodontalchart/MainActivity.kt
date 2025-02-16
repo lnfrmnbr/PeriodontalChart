@@ -1064,6 +1064,25 @@ class MainActivity : AppCompatActivity() {
         updateBut.setOnClickListener{
             calcIndexes()
         }
+        val kr3 = findViewById<Button>(R.id.kr3)
+        val titleTable3 = findViewById<TextView>(R.id.title_table3)
+
+        kr3.post {
+            val width = kr3.width
+            val params = kr3.layoutParams
+            params.width = width
+            titleTable3.layoutParams = params
+        }
+
+        val kr1 = findViewById<Button>(R.id.kr1)
+        val titleTable1 = findViewById<TextView>(R.id.title_table1)
+
+        kr1.post {
+            val width = kr1.width
+            val params = kr1.layoutParams
+            params.width = width
+            titleTable1.layoutParams = params
+        }
     }
 
     private fun calcIndexes() {
@@ -2174,6 +2193,8 @@ class MainActivity : AppCompatActivity() {
         chart.getAxisRight().setDrawGridLines(false)
         chart.getAxisRight().setDrawLabels(false)
         chart.getAxisRight().setDrawAxisLine(false)
+
+        chart.setDragEnabled(false)
 
         chart.minOffset = 0f
     }

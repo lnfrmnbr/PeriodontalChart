@@ -20,7 +20,7 @@
 
         <ImageButton
             android:id="@+id/furk48"
-            android:layout_width="wrap_content"
+            android:layout_width="84dp"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content">
         <ImageButton
             android:id="@+id/furk47"
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
@@ -58,7 +58,7 @@
 
         <ImageButton
             android:id="@+id/furk46"
-            android:layout_width="wrap_content"
+            android:layout_width="86dp"
             android:layout_height="wrap_content"
             android:textSize="11sp"
             android:minWidth="40dp"
@@ -72,14 +72,14 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="55dp"
         android:layout_height="wrap_content">
 
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="52dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -91,13 +91,13 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="51dp"
         android:layout_height="wrap_content">
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -108,30 +108,12 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="44dp"
         android:layout_height="wrap_content">
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/border">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_margin="2dp"/>
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="44dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -143,13 +125,13 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="45dp"
         android:layout_height="wrap_content">
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="51dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -161,7 +143,25 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="2dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="86dp"
         android:layout_height="wrap_content">
         <ImageButton
             android:id="@+id/furk36"
@@ -179,7 +179,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:background="@drawable/border">
 
@@ -199,7 +199,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="84dp"
         android:layout_height="wrap_content">
 
         <ImageButton
