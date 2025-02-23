@@ -1007,45 +1007,29 @@ class MainActivity : AppCompatActivity() {
         val downloadBut: Button = findViewById(R.id.download)
 
         downloadBut.setOnClickListener {
+            calcIndexes()
+            downloadBut.isEnabled = false
             val imageView1 = findViewById<ImageView>(R.id.img1)
             val imageView2 = findViewById<ImageView>(R.id.img2)
             val imageView3 = findViewById<ImageView>(R.id.img3)
             val imageView4 = findViewById<ImageView>(R.id.img4)
             val imageView5 = findViewById<ImageView>(R.id.img5)
             val imageView6 = findViewById<ImageView>(R.id.img6)
-            if (imageView1.contentDescription == "0") {
-                imageView1.visibility = View.INVISIBLE
-            }
-            if (imageView2.contentDescription == "0") {
-                imageView2.visibility = View.INVISIBLE
-            }
-            if (imageView3.contentDescription == "0") {
-                imageView3.visibility = View.INVISIBLE
-            }
-            if (imageView4.contentDescription == "0") {
-                imageView4.visibility = View.INVISIBLE
-            }
-            if (imageView5.contentDescription == "0") {
-                imageView5.visibility = View.INVISIBLE
-            }
-            if (imageView6.contentDescription == "0") {
-                imageView6.visibility = View.INVISIBLE
-            }
+            var imgFlag = true
             saveBitmap(takeScreenshot(topLayout), "top.png")
             saveBitmap(takeScreenshot(table1Layout), "table1.png")
             saveBitmap(takeScreenshot(table2Layout), "table2.png")
             saveBitmap(takeScreenshot(table3Layout), "table3.png")
             saveBitmap(takeScreenshot(table4Layout), "table4.png")
             saveBitmap(takeScreenshot(bottomLayout), "bottom.png")
-            saveBitmap(takeScreenshot(imgsLayout), "imgs.png")
-            convertImagesToPdf()
+            if (imageView1.contentDescription == "0" && imageView2.contentDescription == "0" && imageView3.contentDescription == "0" && imageView4.contentDescription == "0" && imageView5.contentDescription == "0" && imageView6.contentDescription == "0") {
+                imgFlag = false
+            } else {
+                saveBitmap(takeScreenshot(imgsLayout), "imgs.png")
+            }
+            convertImagesToPdf(imgFlag)
             addDataToExcel()
-            imageView1.visibility = View.VISIBLE
-            imageView2.visibility = View.VISIBLE
-            imageView3.visibility = View.VISIBLE
-            imageView4.visibility = View.VISIBLE
-            imageView5.visibility = View.VISIBLE
-            imageView6.visibility = View.VISIBLE
+            downloadBut.isEnabled = true
         }
 
 //        for (el in podvsId){
@@ -1060,7 +1044,7 @@ class MainActivity : AppCompatActivity() {
             addImage()
         }
 
-        val updateBut = findViewById<Button>(R.id.updateIndexes)
+        val updateBut = findViewById<ImageButton>(R.id.updateIndexes)
         updateBut.setOnClickListener{
             calcIndexes()
         }
@@ -1142,26 +1126,35 @@ class MainActivity : AppCompatActivity() {
             if (imageView1.contentDescription == "0"){
                 setImgTo(imageView1)
                 imageView1.contentDescription = "1"
+                imageView1.visibility = View.VISIBLE
+                imageView2.visibility = View.INVISIBLE
             }
             else if (imageView2.contentDescription == "0"){
                 setImgTo(imageView2)
                 imageView2.contentDescription = "1"
+                imageView2.visibility = View.VISIBLE
             }
             else if (imageView3.contentDescription == "0"){
                 setImgTo(imageView3)
                 imageView3.contentDescription = "1"
+                imageView3.visibility = View.VISIBLE
+                imageView4.visibility = View.INVISIBLE
             }
             else if (imageView4.contentDescription == "0"){
                 setImgTo(imageView4)
                 imageView4.contentDescription = "1"
+                imageView4.visibility = View.VISIBLE
             }
             else if (imageView5.contentDescription == "0"){
                 setImgTo(imageView5)
                 imageView5.contentDescription = "1"
+                imageView5.visibility = View.VISIBLE
+                imageView6.visibility = View.INVISIBLE
             }
             else if (imageView6.contentDescription == "0"){
                 setImgTo(imageView6)
                 imageView6.contentDescription = "1"
+                imageView6.visibility = View.VISIBLE
             }
             else{
                 val text = "6 фото уже добавлено"
@@ -1216,7 +1209,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun convertImagesToPdf() {
+    private fun convertImagesToPdf(imgFlag : Boolean) {
         val imagePaths = listOf(
             "${externalCacheDir?.absolutePath}/top.png",
             "${externalCacheDir?.absolutePath}/table1.png",
@@ -1237,7 +1230,7 @@ class MainActivity : AppCompatActivity() {
         var bitmap5 = BitmapFactory.decodeFile(imagePaths[5])
         var bitmap6 = BitmapFactory.decodeFile(imagePaths[6])
 
-        if (bitmap0 != null && bitmap1 != null && bitmap2 != null && bitmap3 != null && bitmap4 != null && bitmap5 != null) {
+        if (bitmap0 != null && bitmap1 != null && bitmap2 != null && bitmap3 != null && bitmap4 != null && bitmap5 != null && bitmap6 != null) {
             bitmap0 = Bitmap.createScaledBitmap(bitmap0, 1200, 162, true)
             bitmap1 = Bitmap.createScaledBitmap(bitmap1, 1200, 713, true)
             bitmap2 = Bitmap.createScaledBitmap(bitmap2, 1200, 552, true)
@@ -1262,11 +1255,13 @@ class MainActivity : AppCompatActivity() {
             canvas1.drawBitmap(bitmap5, (210/mmpi*dpi)/2-575, bitmap3.height.toFloat()+bitmap4.height.toFloat()+100f, null)
             pdfDocument.finishPage(page1)
 
-            val pageInfo2 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 1).create()
-            val page2 = pdfDocument.startPage(pageInfo2)
-            val canvas2 = page2.canvas
-            canvas2.drawBitmap(bitmap6, (210/mmpi*dpi)/2-575, 80f, null)
-            pdfDocument.finishPage(page2)
+            if (imgFlag){
+                val pageInfo2 = PdfDocument.PageInfo.Builder((210/mmpi*dpi).toInt(), (297/mmpi*dpi).toInt(), 1).create()
+                val page2 = pdfDocument.startPage(pageInfo2)
+                val canvas2 = page2.canvas
+                canvas2.drawBitmap(bitmap6, (210/mmpi*dpi)/2-575, 80f, null)
+                pdfDocument.finishPage(page2)
+            }
         }
 
         val familia = findViewById<EditText>(R.id.editTextTextFamilia).text.trim().toString()
@@ -1274,7 +1269,8 @@ class MainActivity : AppCompatActivity() {
         val otchestvo = findViewById<EditText>(R.id.editTextTextOtchestvo).text.trim().toString()
 
         val dirDoc = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
-        val pdfFilePath = "${externalCacheDir?.absolutePath}/${familia}_${name}_${otchestvo}.pdf"
+        //${externalCacheDir?.absolutePath}
+        val pdfFilePath = "${dirDoc}/${familia}_${name}_${otchestvo}.pdf"
         val file = File(pdfFilePath)
 
         try {
@@ -1286,6 +1282,10 @@ class MainActivity : AppCompatActivity() {
         } finally {
             pdfDocument.close()
         }
+
+        val text = "Файл успешно загружен в $pdfFilePath"
+        val duration = Toast.LENGTH_LONG
+        Toast.makeText(applicationContext, text, duration).show()
     }
 
     private fun changeColorButton(button: Button, color0: String, color1: String){
@@ -1672,9 +1672,9 @@ class MainActivity : AppCompatActivity() {
                 findViewById<Button>(R.id.kr4).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                 for (i in existsId34.indices) {
                     if (getColor(findViewById(existsId34[i])) ==  Color.parseColor(but0Color)){
-                        findViewById<Button>(krId3[i*3]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
-                        findViewById<Button>(krId3[i*3+1]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
-                        findViewById<Button>(krId3[i*3+2]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(krId4[i*3]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(krId4[i*3+1]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
+                        findViewById<Button>(krId4[i*3+2]).setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(but0Color)))
                     }
                 }
             }

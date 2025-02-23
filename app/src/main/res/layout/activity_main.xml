@@ -44,6 +44,14 @@
 
                     <include layout="@layout/table4"/>
 
+                    <ImageButton
+                        android:id="@+id/updateIndexes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/black"
+                        android:src="@drawable/refresh"
+                        android:layout_gravity="left"/>
+
                     <include layout="@layout/bottom"/>
 
                     <LinearLayout
@@ -132,8 +140,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginTop="100dp"
-                        android:layout_marginBottom="300dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="50dp"
                         android:layout_gravity="center"
                         android:gravity="center">
 
@@ -141,9 +149,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/addImg"
-                            android:text="+"
-                            android:textColor="@color/white"
-                            android:textSize="25sp"
+                            android:text="@string/add_img"
+                            android:textSize="18sp"
+                            android:drawableLeft="@drawable/addimg"
                             android:backgroundTint="@color/black"
                             android:layout_marginEnd="10dp"
                             />
@@ -151,20 +159,11 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/updateIndexes"
-                            android:text="Обновить индексы"
-                            android:textColor="@color/white"
-                            android:textSize="25sp"
-                            android:backgroundTint="@color/black"
-                            android:layout_marginEnd="10dp"/>
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:id="@+id/download"
+                            android:drawableLeft="@drawable/download"
                             android:text="Скачать"
+                            android:textSize="18sp"
                             android:textColor="@color/white"
-                            android:textSize="25sp"
                             android:backgroundTint="@color/black"
                             android:layout_marginEnd="10dp"/>
                 </LinearLayout>
