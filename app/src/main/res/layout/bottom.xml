@@ -9,7 +9,8 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/indexes">
+        android:id="@+id/indexes"
+        android:layout_marginStart="10dp">
 
         <TableRow
             android:background="@drawable/border"
@@ -462,6 +463,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_marginStart="18dp"
+        android:layout_marginEnd="10dp"
         android:id="@+id/comments_layout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="wrap_content"

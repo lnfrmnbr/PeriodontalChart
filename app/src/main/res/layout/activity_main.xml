@@ -50,6 +50,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/black"
                         android:src="@drawable/refresh"
+                        android:layout_marginStart="10dp"
                         android:layout_gravity="left"/>
 
                     <include layout="@layout/bottom"/>
@@ -153,6 +154,7 @@
                             android:textSize="18sp"
                             android:drawableLeft="@drawable/addimg"
                             android:backgroundTint="@color/black"
+                            android:textColor="@color/white"
                             android:layout_marginEnd="10dp"
                             />
 
